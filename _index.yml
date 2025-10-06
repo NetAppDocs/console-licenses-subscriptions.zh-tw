@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: 許可證和訂閱文檔
+  summary: 在NetApp控制台中管理和監控您的授權和訂閱。
+  keywords: netapp console, bluexp, documentation, licenses, subscriptions
+  lead: 在NetApp控制台中管理和監控您的授權和訂閱。
+  tiles:
+  - title: 開始
+    links:
+    - title: 了解許可證和訂閱
+      url: concept-digital-wallet.html
+  - title: 管理您的許可證
+    links:
+    - title: 管理Cloud Volumes ONTAP 的基於容量的許可證
+      url: task-manage-capacity-licenses.html
+    - title: 管理NetApp資料服務的許可證
+      url: task-manage-data-services-licenses.html
+  - title: 管理您的訂閱
+    links:
+    - title: 管理市場訂閱和合約
+      url: task-manage-subscriptions.html
+    - title: 管理Keystone訂閱
+      url: task-manage-keystone.html
+  - title: 部落格和社區
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP博客
+      url: https://bluexp.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://bluexp.netapp.com/events

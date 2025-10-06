@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task-manage-data-services-licenses.html 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery 
+summary: '管理您直接從NetApp (BYOL) 購買的用於NetApp資料服務的授權。您可以查看已使用的許可證容量、剩餘的可用容量，並且如果達到容量限製或到期日期，您將看到通知。' 
+---
+= 管理NetApp資料服務的許可證
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以管理直接從NetApp (BYOL) 購買的許可證，以用於NetApp資料服務，包括Cloud Volumes ONTAP。您可以查看已使用的許可證容量、剩餘的可用容量，並且當達到容量限製或到期日期時您會看到通知。
+
+
+NOTE: *直接許可*頁面列出了所有許可證。如果您想要特定資料服務的許可證詳細信息，請使用*概覽*儀表板上的資料服務圖塊。link:task-homepage.html#overview-page["詳細了解概覽儀表板"] 。
+
+此頁面上的說明提供了適用於每項服務的資訊。有關這些服務許可的更多具體信息，請參閱以下頁面：
+
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["設定BlueXP backup and recovery的許可"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定BlueXP disaster recovery的許可"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定BlueXP ransomware protection的許可"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["設定BlueXP tiering許可"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["設定Cloud Volumes ONTAP許可"^]
+
+
+
+
+== 取得許可證文件
+
+<stdin> 中未解析的指令 - include::_include/task-obtain-license.adoc[]
+
+
+
+== 新增許可證
+
+<stdin> 中未解析的指令 - include::_include/task-add-license.adoc[]
+
+
+
+== 更新許可證
+
+<stdin> 中未解析的指令 - include::_include/task-update-license.adoc[]
+
+
+
+== 查看許可證狀態
+
+<stdin> 中未解析的指令 - include::_include/task-view-license-status.adoc[]

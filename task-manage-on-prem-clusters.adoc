@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
+summary: 查看每個本地ONTAP集群的合約詳細資訊。如果您尚未在控制台中發現集群，您也可以發現它們。 
+---
+= 管理本地ONTAP 的許可證
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以在控制台中查看每個本地ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以發現它們。
+
+.開始之前
+控制台顯示您作為系統發現的本機 ONTAP 叢集或與您新增至控制台的NetApp支援網站帳戶關聯的本機ONTAP叢集的詳細資訊。
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["了解如何發現本地ONTAP集群"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["了解如何管理與您的控制台組織或帳戶關聯的 NSS 憑證"^]
+
+
+
+
+== 查看集群資訊和合約詳情
+
+查看本地ONTAP叢集的硬體和軟體合約的狀態，以便在合約到期之前進行續約。
+
+.步驟
+. 從NetApp控制台選單中，選擇 *治理 > 授權和訂閱*。
+. 選擇 *On-Premises ONTAP*。
++
+軟體合約和硬體合約的到期日會出現在每個集群的行上。
+
++
+如果系統提示您先輸入NetApp支援網站 (NSS) 帳戶憑證，請選擇 *新增 NSS 帳戶*。新增帳戶後，將顯示與該 NSS 帳戶關聯的群集。
+
+. 如果合約接近到期日或已經到期，您可以選擇控制台右下角的聊天圖示來申請延長合約。
+. 要查看更多詳細信息，請選擇image:button_down_caret.png["向下插入符號圖標"]擴展集群資訊。
+
+
+
+
+== 發現集群
+
+如果您尚未發現本機ONTAP叢集作為系統，則可以從控制台進行發現。發現之後，集群即可作為一個系統使用，以便您對其進行管理。
+
+.開始之前
+您應該了解您的發現和管理選項（使用控制台代理的發現或不使用代理的直接發現）以及發現要求。
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["了解發現選項和要求"^] 。
+
+.步驟
+. 從NetApp控制台選單中，選擇 *治理 > 授權和訂閱*。
+. 選擇 *On-Premises ONTAP*。
++
+您的ONTAP叢集將顯示其是否已在控制台中被發現的狀態。
+
++
+如果系統提示您先輸入NetApp支援網站 (NSS) 帳戶憑證，請選擇 *新增 NSS 帳戶*。新增帳戶後，將顯示與該 NSS 帳戶關聯的群集。
+
+. 為您想要透過控制台管理的叢集選擇「*發現*」。
+. 在「發現ONTAP集群」頁面上，輸入管理員使用者帳戶的密碼並選擇「發現」。
+
+
+
+NOTE: 叢集管理 IP 位址會根據您的NetApp支援網站帳戶中的資訊填入。
+
+.結果
+控制台發現叢集並將其作為系統新增至系統頁面。在「On-Premises ONTAP」頁面中，叢集的狀態變成「*已發現*」。請注意，系統名稱是叢集的名稱。
+
+現在您可以開始管理叢集。
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["了解如何管理使用控制台代理發現的集群"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["了解如何管理直接發現的集群"^]
+

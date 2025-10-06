@@ -1,0 +1,227 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
+summary: 了解NetApp控制台許可證和訂閱的新功能。 
+---
+= 什麼是新的
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解NetApp控制台許可證和訂閱的新功能。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+
+
+
+== 2025年3月10日
+
+
+
+=== 可以刪除訂閱
+
+如果您已取消訂閱，現在可以從數位錢包中刪除訂閱。
+
+
+
+=== 查看 Marketplace 訂閱的已消耗容量
+
+查看 PAYGO 訂閱時，您現在可以查看訂閱的已消耗容量。
+
+
+
+== 2025年2月10日
+
+BlueXP digital wallet經過重新設計，易於使用，現在提供額外的訂閱和授權管理。
+
+
+
+=== 新的概覽儀表板
+
+數位錢包主頁具有更新的NetApp許可證和 Marketplace 訂閱儀表板，可深入了解特定服務、許可證類型和所需的操作。
+
+
+
+=== 配置憑證訂閱
+
+BlueXP digital wallet現在允許您配置對提供者憑證的訂閱。通常，您會在首次訂閱 Marketplace 訂閱或年度合約時執行此操作。以前，只能在「憑證」頁面上變更訂閱的憑證。
+
+
+
+=== 將訂閱與組織關聯
+
+現在您可以直接從數位錢包更新與訂閱關聯的組織。
+
+
+
+=== 管理 Cloud Volume ONTAP許可證
+
+現在您可以透過主頁或「直接許可證」標籤管理Cloud Volumes ONTAP許可證。使用“市場訂閱”選項卡查看您的訂閱資訊。
+
+
+
+== 2024年3月5日
+
+
+
+=== BlueXP disaster recovery
+
+BlueXP digital wallet現在讓您能夠管理BlueXP disaster recovery的許可證。您可以新增許可證、更新許可證以及查看有關許可證容量的詳細資訊。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["了解如何管理BlueXP資料服務的許可證"]
+
+
+
+== 2023年7月30日
+
+
+
+=== 使用情況報告增強功能
+
+Cloud Volumes ONTAP使用情況報告現已有幾項改進：
+
+* TiB 單位現在包含在列名中。
+* 現在包含一個用於序號的新_node(s)_欄位。
+* 儲存虛擬機器使用情況報告下現在包含一個新的「工作負載類型」欄位。
+* 工作環境名稱現在包含在儲存虛擬機器和磁碟區使用情況報告中。
+* 卷類型_file_現在標記為_Primary (Read/Write)_。
+* 磁碟區類型 _secondary_ 現在標記為 _Secondary (DP)_。
+
+
+有關使用情況報告的更多信息，請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用情況報告"]。
+
+
+
+== 2023年5月7日
+
+
+
+=== Google Cloud 私人優惠
+
+BlueXP digital wallet現在可以識別與私人優惠相關的 Google Cloud Marketplace 訂閱，並顯示訂閱的結束日期和期限。此增強功能使您能夠驗證您是否已成功接受私人優惠並驗證其條款。
+
+
+
+=== 充電使用情況明細
+
+現在，您可以了解訂閱基於容量的授權時需要支付的費用。您可以從BlueXP digital wallet下載以下類型的使用情況報告。使用情況報告提供您的訂閱的容量詳細信息，並告訴您如何為Cloud Volumes ONTAP訂閱中的資源付費。可下載的報告可以輕鬆地與他人分享。
+
+* Cloud Volumes ONTAP軟體包使用情況
+* 進階用法
+* 儲存虛擬機器使用情況
+* 卷使用情況
+
+
+有關使用情況報告的更多信息，請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用情況報告"]。
+
+
+
+== 2023年4月3日
+
+
+
+=== 電子郵件通知
+
+BlueXP digital wallet現在支援電子郵件通知。
+
+如果您配置了通知設置，當您的 BYOL 授權即將到期（「警告」通知）或已到期（「錯誤」通知）時，您會收到電子郵件通知。
+
+https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["了解如何設定電子郵件通知"^]
+
+
+
+=== 市場訂閱的授權容量
+
+當查看Cloud Volumes ONTAP 的基於容量的許可時， BlueXP digital wallet現在會顯示您透過市場私人優惠購買的許可容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["了解如何查看帳戶中已消耗的容量"] 。
+
+
+
+== 2022年11月6日
+
+
+
+=== 訂閱和年度合約
+
+現在您可以從BlueXP digital wallet查看和管理BlueXP的 PAYGO 訂閱和年度合約。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["了解如何管理您的訂閱"] 。
+
+
+
+== 2022年9月18日
+
+
+
+=== 優化的 I/O 和 WORM 容量
+
+BlueXP digital wallet現在顯示優化 I/O 許可包的摘要以及您帳戶中Cloud Volumes ONTAP系統的預先配置 WORM 容量。
+
+這些詳細資訊可以幫助您更了解收費方式以及是否需要購買額外的容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["了解如何查看帳戶中已消耗的容量"] 。
+
+
+
+== 2022年7月31日
+
+
+
+=== 更改充電方式
+
+現在您可以變更使用基於容量的許可的Cloud Volumes ONTAP系統的收費方法。例如，如果您使用 Essentials 套件部署了Cloud Volumes ONTAP系統，則可以在業務需求變更時將其變更為 Professional 套件。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["了解如何更改充電方式"] 。
+
+
+
+== 2022年7月3日
+
+
+
+=== 已消耗容量
+
+現在向您顯示您的帳戶中消耗的總容量以及許可證包消耗的容量。這可以幫助您了解收費方式以及是否需要購買額外的容量。
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["顯示基於容量的許可證頁面的螢幕截圖。該頁面概述了您帳戶中已消耗的容量，然後按許可包細分了已消耗的容量。"]
+
+
+
+== 2022年2月27日
+
+
+
+=== 本地ONTAP集群的許可證
+
+現在您可以查看本地ONTAP叢集的清單及其硬體和服務合約到期日期。還提供了有關集群的更多詳細資訊。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["了解如何管理本機ONTAP叢集的許可證"] 。
+
+
+
+== 2022年1月2日
+
+
+
+=== 授權條款自動更新
+
+如果您更改任何許可證的容量或期限，則許可證條款現在會自動在中更新。您不需要自己手動更新許可證。
+
+自動許可證更新適用於所有類型的Cloud Volumes ONTAP許可證以及所有資料服務許可證。

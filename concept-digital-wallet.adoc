@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concept-digital-wallet.html 
+keywords: license, licensing, licenses, subscriptions, 
+summary: 透過授權和訂閱，您可以管理和監控NetApp控制台授權、 NetApp市場訂閱和NetApp Keystone。 
+---
+= 了解許可證和訂閱
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以在 NetApp 控制台中管理和監控從NetApp購買的授權 (BYOL)、 NetApp資料服務 (包括Cloud Volumes ONTAP ) 的市場訂閱以及NetApp NetApp Keystone訂閱。
+
+
+
+== 許可證和訂閱如何在控制台中顯示
+
+當您的控制台帳戶也與NetApp支援網站 (NSS) 帳戶關聯時，授權和訂閱資訊會自動顯示在控制台中。如果您的控制台帳戶未與 NSS 帳戶關聯，則需要手動新增許可證。手動新增許可證時，使用情況、容量和其他詳細資訊不會自動更新。
+
+
+NOTE: 您需要部署控制台代理程式來查看訂閱資訊。也需要代理來查看Cloud Volumes ONTAP 的節點許可證。
+
+
+
+=== 自動許可證發現
+
+控制台會自動查詢NetApp許可服務以取得與您的NetApp支援網站帳戶相關的授權詳細資訊。查詢成功後，控制台會自動新增許可證。
+
+
+
+=== 手動新增許可證
+
+如果控制台無法自動新增許可證，則需要手動新增。當您的控制台帳戶未與您的NetApp支援網站帳戶關聯時，就會發生這種情況。
+
+從NetApp銷售代表處購買許可證後， NetApp會向您發送一封電子郵件，其中包含序號和許可詳細資訊。使用該序號在控制台中新增或更新許可證。
+
+https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["了解如何將您的NetApp支援網站帳戶新增至控制台憑證"^] 。
+
+
+
+== 支援的服務
+
+您可以在控制台中管理以下服務的授權和訂閱：
+
+* https://docs.netapp.com/us-en/console-backup-recovery/index.html["備份和復原"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["災難復原"^]（限 BYOL）
+* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["勒索軟體抵禦能力"^]
+* https://docs.netapp.com/us-en/console-tiering/index.html["雲端分層"^]
+

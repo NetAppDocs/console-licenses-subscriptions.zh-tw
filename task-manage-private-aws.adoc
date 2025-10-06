@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-aws.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
+summary: 管理您的通用和超大規模特定、端到端私人優惠流程以及適用於 AWS、Azure 和 Google Cloud 的NetApp智慧服務接受和啟用指南。 
+---
+= 接受並配置NetApp控制台的 AWS Marketplace 專屬優惠
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 AWS 主控台中接受NetApp主機的 Marketplace 私人優惠，並在控制台中設定 AWS 憑證。
+
+.開始之前
+* 與NetApp銷售人員合作創建私人優惠並取得啟動連結。
+* 確保您擁有所需的 AWS Marketplace 權限：
++
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html["查看並訂閱專屬優惠"]
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html["買家權限驗證"]
+
+
+
+
+
+
+== 在 AWS 主控台中接受私人優惠
+
+需要在控制台中完成訂閱分配才能啟動購買並套用折扣價格。
+
+[NOTE]
+====
+您必須完成所有步驟才能啟動您的私人優惠。跳過步驟可能會導致計費錯誤。多次接受並啟動該優惠將導致雙重收費。
+
+====
+.步驟
+. 點擊NetApp銷售團隊提供的私人優惠啟動連結。該連結應類似於以下內容：
+`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+ If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
++
+** 使用 AWS 託管策略：*AWSMarketplaceRead-only*、*AWSMarketplaceManageSubscriptions* 或 *AWSMarketplaceFullAccess*
+** 使用自訂 IAM 策略： `aws-marketplace:ListPrivateListings`和 `aws-marketplace:ViewSubscriptions`
+
+
+. 您將被重定向到 AWS Marketplace 來查看專屬優惠。
++
+[NOTE]
+====
+私人報價是在公開清單的基礎上建立的。使用「*優惠選擇*」下拉式選單在公開優惠和私人優惠之間切換。
+
+====
+. 查看私人優惠詳情並確認其符合您的協議。如果不正確，請不要接受。聯絡您的NetApp客戶團隊。
++
+[NOTE]
+====
+私人優惠有兩種類型：
+
+** *按需使用*
++
+*** 定價訊息
+*** 法律條款
+
+
+** *合約*
++
+*** 持續時間和日期
+*** 續訂設定
+*** 合約選項
+*** 合約總價
+
+
+
+
+對於合約報價，請輸入約定的單位數。對於Cloud Volumes ONTAP，請確保在訂閱之前選擇正確的授權。
+
+====
+. 若要接受私人優惠，請執行以下操作：
++
+.. 如需隨選使用，請點選*訂閱*。
+.. 對於合約要約，請輸入每項服務的單位數，然後按一下*建立合約*。
+
+
+. 接受後，橫幅會確認訂閱並提供註冊說明。
+. 點擊“設定您的帳戶”。這將重定向到NetApp控制台來配置訂閱。
++
+[NOTE]
+====
+如果您接受了報價但未完成註冊，請返回產品頁面。對於合約列表，按一下「查看購買選項」以顯示報價，然後選擇「設定您的帳戶」。
+
+====
+. Sign in https://console.netapp.com[]使用您的控制台帳戶。
+. 登入後，導航至 https://console.netapp.com/licenses/overview[]。系統將提示您：
++
+.. 輸入 Marketplace 訂閱的「顯示名稱」。
+.. 選擇具有訂閱存取權限的控制台*帳戶*。
+.. [可選] 啟用「替換現有訂閱」以覆蓋一個帳戶的現有訂閱。
++
+[NOTE]
+====
+*** 替換僅適用於一個控制台帳戶。
+*** 若要將多個帳戶與相同訂閱關聯，請手動設定其他帳戶。
+*** 如果憑證從未與訂閱關聯，請按下一節所述手動關聯它們。
+
+
+====
+
+
+. 按一下“*關聯*”，然後按一下“*完成*”。
+
+
+[IMPORTANT]
+====
+必須在控制台中完成訂閱分配才能享受折扣價格。
+
+====
+
+
+== 使用 AWS 憑證配置訂閱
+
+. 在控制台中，前往*治理>許可證和訂閱*並選擇*市場訂閱*選項卡。
+. 找到之前建立的訂閱。展開該行以確認它與您的控制台帳戶相關聯。
++
+[NOTE]
+====
+由於 AWS Marketplace 的限制，一些私人優惠的詳細資訊不會在 AWS 主控台之外公開。如果欄位顯示 `N/A`，直接在AWS控制台中查看資訊。
+
+====
+. 點擊訂閱旁邊的三點選單並選擇*配置*。
+. 選擇適當的*AWS 帳戶憑證*並點選*配置*。
+
+
+[NOTE]
+====
+這些憑證的市場費用是使用市場訂閱來計費的。對於年度合同，成本將計入合約使用情況。
+
+====
+[IMPORTANT]
+====
+對控制台帳戶中要與訂閱關聯的每個 AWS 憑證重複步驟 1-4。
+
+* 對於其他控制台組織中的憑證，請使用「*組織*」下拉式功能表並重複這些步驟。
+* 對於其他代理程式中的憑證，請使用*代理*下拉式功能表並重複這些步驟。
+
+
+====

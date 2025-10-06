@@ -1,0 +1,23 @@
+= Google Cloud 私人優惠
+:allow-uri-read: 
+
+
+
+
+=== Google Cloud 私人優惠
+
+BlueXP digital wallet現在可以識別與私人優惠相關的 Google Cloud Marketplace 訂閱，並顯示訂閱的結束日期和期限。此增強功能使您能夠驗證您是否已成功接受私人優惠並驗證其條款。
+
+
+
+=== 充電使用情況明細
+
+現在，您可以了解訂閱基於容量的授權時需要支付的費用。您可以從BlueXP digital wallet下載以下類型的使用情況報告。使用情況報告提供您的訂閱的容量詳細信息，並告訴您如何為Cloud Volumes ONTAP訂閱中的資源付費。可下載的報告可以輕鬆地與他人分享。
+
+* Cloud Volumes ONTAP軟體包使用情況
+* 進階用法
+* 儲存虛擬機器使用情況
+* 卷使用情況
+
+
+有關使用情況報告的更多信息，請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用情況報告"]。

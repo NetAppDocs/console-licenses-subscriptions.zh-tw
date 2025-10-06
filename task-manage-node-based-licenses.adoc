@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: task-manage-node-based-licenses.html 
+keywords: license, licensing, install, updating license, system license, add system license, adding a system license, byol license, add byol license, update byol license, nlf, license generator, digital wallet, bluexp digital wallet 
+summary: 在控制台中管理基於節點的許可證，以確保每個Cloud Volumes ONTAP系統都具有所需容量的有效許可證。 
+---
+= 管理基於節點的許可證
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: https://docs.netapp.com/us-en/console-cloud-volumes-ontap/media/
+
+
+[role="lead"]
+<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-node-licenses.adoc [lines=15..-1]
