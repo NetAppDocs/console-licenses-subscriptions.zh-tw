@@ -238,29 +238,16 @@
   <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">使用操作選單來解決問題。</block>
   <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">從控制台管理基於容量的許可證，以確保您的NetApp帳戶具有足夠的容量用於您的Cloud Volumes ONTAP系統。</block>
   <block id="43c4357f2e2861af46d95bae9c7873e1" category="doc">管理基於容量的 Cloud Volume ONTAP許可證</block>
-  <block id="64d268e55b4a4a64f9b6a5b3e2307dc9" category="paragraph">&lt;stdin&gt; 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-capacity-licenses.adoc [lines=15..-1]</block>
   <block id="99368e41fe86f03ceb9c0b049772ef29" category="summary">管理您直接從NetApp (BYOL) 購買的用於NetApp資料服務的授權。您可以查看已使用的許可證容量、剩餘的可用容量，並且如果達到容量限製或到期日期，您將看到通知。</block>
   <block id="0b8de14fb3434085b0be4b2778f365e0" category="doc">管理NetApp資料服務的許可證</block>
   <block id="655a48b4a07bad11b97ddb1f7de8b150" category="paragraph">您可以管理直接從NetApp (BYOL) 購買的許可證，以用於NetApp資料服務，包括Cloud Volumes ONTAP。您可以查看已使用的許可證容量、剩餘的可用容量，並且當達到容量限製或到期日期時您會看到通知。</block>
   <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link-macro">詳細了解概覽儀表板</block>
   <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">*直接許可*頁面列出了所有許可證。如果您想要特定資料服務的許可證詳細信息，請使用*概覽*儀表板上的資料服務圖塊。<block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> 。</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">此頁面上的說明提供了適用於每項服務的資訊。有關這些服務許可的更多具體信息，請參閱以下頁面：</block>
-  <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">設定BlueXP backup and recovery的許可</block>
-  <block id="1235a43e1eea97fb8f38dd34a2bc5d47" category="list-text"><block ref="1235a43e1eea97fb8f38dd34a2bc5d47" category="inline-link-rx"></block></block>
-  <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="inline-link">設定BlueXP disaster recovery的許可</block>
-  <block id="ef7f2c35c52aa249a13384e6b07d0785" category="list-text"><block ref="ef7f2c35c52aa249a13384e6b07d0785" category="inline-link-rx"></block></block>
-  <block id="f8caca15ab9e55b2643391493d5c81c7" category="inline-link">設定BlueXP ransomware protection的許可</block>
-  <block id="11fcd042a23eb699950bdd9edd2568bb" category="list-text"><block ref="11fcd042a23eb699950bdd9edd2568bb" category="inline-link-rx"></block></block>
-  <block id="8202299929ccdfe388049a03c2c36d60" category="inline-link">設定BlueXP tiering許可</block>
-  <block id="417c925b54c33cc7099af481238f8dde" category="list-text"><block ref="417c925b54c33cc7099af481238f8dde" category="inline-link-rx"></block></block>
   <block id="353c347239342af7353680135c05995b" category="inline-link">設定Cloud Volumes ONTAP許可</block>
-  <block id="a44e51eede13b57e35e18c372d5ef72e" category="list-text"><block ref="a44e51eede13b57e35e18c372d5ef72e" category="inline-link-rx"></block></block>
   <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">取得許可證文件</block>
-  <block id="23969c584949bb7a0308c50f20d01f72" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/task-obtain-license.adoc[]</block>
   <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="section-title">新增許可證</block>
-  <block id="0bd05ced5ae67f1280564ec29a3131ad" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/task-add-license.adoc[]</block>
   <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">更新許可證</block>
-  <block id="a73fbb11f6ff7c12451012af7013d660" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/task-update-license.adoc[]</block>
   <block id="6d6c2071320d39aedc7f752f83e093e6" category="section-title">查看許可證狀態</block>
   <block id="6e79c672327d05321fb0d16a797aca70" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/task-view-license-status.adoc[]</block>
   <block id="a58a19877ed0bf7f9b6d06fdd8387763" category="summary">透過啟用與Cloud Volumes ONTAP一起使用的訂閱並要求更改訂閱服務等級的承諾容量，在NetApp控制台中管理您的Keystone訂閱。請求服務等級的額外容量可為Cloud Volumes ONTAP系統提供更多儲存空間。</block>
@@ -297,7 +284,6 @@
   <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">該訂閱已與您的控制台組織或帳戶取消鏈接，並且在創建Cloud Volumes ONTAP工作環境時不再可供選擇。</block>
   <block id="84d46f62b819e413ba1572fee9e31acc" category="summary">在控制台中管理基於節點的許可證，以確保每個Cloud Volumes ONTAP系統都具有所需容量的有效許可證。</block>
   <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">管理基於節點的許可證</block>
-  <block id="3683624ad5eefd713aa1649ae805eb49" category="paragraph">&lt;stdin&gt; 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-node-licenses.adoc [lines=15..-1]</block>
   <block id="8d90649cbc48862e96a3f1f139e803fa" category="summary">查看每個本地ONTAP集群的合約詳細資訊。如果您尚未在控制台中發現集群，您也可以發現它們。</block>
   <block id="7b157739a85d3d5c67c903118518835e" category="doc">管理本地ONTAP 的許可證</block>
   <block id="712aeceaab91f33fd5739a8bbd6738fd" category="paragraph">您可以在控制台中查看每個本地ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以發現它們。</block>
@@ -698,8 +684,6 @@
   <block id="e74b98af0a0d10cc27c402c02fac1fda" category="sidebar">管理市場訂閱和合約</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格和社區</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">發行說明</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什麼是新的</block>
   <block id="0ff3fcd44035e3f54a2216140f6b51ae" category="sidebar">了解詳情</block>
@@ -716,4 +700,187 @@
   <block id="7088a1a0a9ded3e2d3db863329dd5edd" category="sidebar">管理 Google Cloud 專屬優惠</block>
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">管理 Marketplace 訂閱</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
+  <block id="2eb14dc3edd9fb392b8095df85f2f222" category="paragraph">從NetApp控制台管理基於容量的許可證，以確保您的NetApp帳戶具有足夠的容量用於您的Cloud Volumes ONTAP系統。</block>
+  <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">_基於容量的許可證_使您能夠按 TiB 容量支付Cloud Volumes ONTAP 的費用。</block>
+  <block id="96a603641f48a14047d20b26a1cfeefa" category="paragraph">您可以從NetApp控制台管理基於容量的Cloud Volumes ONTAP許可證。</block>
+  <block id="d3c2fb9e07de60e097ad32d8e9ad56eb" category="admonition">雖然控制台中管理的產品和服務的實際使用情況和計量始終以 GiB 和 TiB 計算，但 GB/GiB 和 TB/TiB 這兩個術語可互換使用。這反映在雲端市場清單、報價、清單描述和其他支援文件中</block>
+  <block id="8caaaa4afae93c31b741be21eed669cc" category="inline-link">了解有關Cloud Volumes ONTAP許可證的更多信息</block>
+  <block id="25e7b507c919c21847b291c84a88ba36" category="paragraph"><block ref="73e1a6a2075a5d292111b694a644abf3" category="inline-link-rx"></block> 。</block>
+  <block id="a5e948b3ddd458b93125330e6dde9f94" category="section-title">如何將許可證新增至NetApp控制台</block>
+  <block id="792eeb7f686f2ad37b664f6478d40bed" category="paragraph">從NetApp銷售代表處購買許可證後， NetApp將向您發送一封電子郵件，其中包含序號和其他許可詳細資訊。</block>
+  <block id="8948f0f0bc878d55b118339a79ece349" category="paragraph">同時，控制台會自動查詢 NetApp 的授權服務，以取得與您的NetApp支援網站帳戶相關的授權的詳細資訊。如果沒有錯誤，它會添加許可證。</block>
+  <block id="ad0be4bc913a8026a3f5e42fc7656d23" category="inline-link">了解如何將購買的許可證新增至您的帳戶</block>
+  <block id="4db74114ac6514de873c5bc9b5b30cf1" category="paragraph">如果控制台無法新增許可證，則需要手動新增它們。例如，如果控制台代理安裝在沒有網路存取的位置，則您需要自行新增許可證。<block ref="21379db3c6d74c3a5d2d6d121cdcf537" category="inline-link-rx"></block> 。</block>
+  <block id="03021ab228ad1d1c921bbf536e2913a4" category="section-title">查看您帳戶中已消耗的容量</block>
+  <block id="61233c99902f0b66422b062168ba63a5" category="paragraph">控制台顯示您帳戶中消耗的總容量以及按許可包消耗的容量。這可以幫助您了解收費方式以及是否需要購買額外的容量。</block>
+  <block id="f6d5cd6d364915d1012d5e7d29aa3d78" category="list-text">從左側導覽窗格中，選擇*管理&gt;授權和訂閱*。</block>
+  <block id="a495aa39c60dc5d48d7bb146e6f7265a" category="list-text">在「概覽」標籤上， Cloud Volumes ONTAP圖塊顯示為您的帳戶配置的目前容量。</block>
+  <block id="85ac3ef33729a6408e85a09c9b5ebc4f" category="inline-image-macro">width=300 顯示您的Cloud Volumes ONTAP許可證和訂閱的容量摘要的螢幕截圖。</block>
+  <block id="ef94465b68195bb5523f36cf2d8ea3bd" category="paragraph"><block ref="ef94465b68195bb5523f36cf2d8ea3bd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b989e51822e011c35b6e3fc2f6e007cf" category="list-text">_直接許可證_是您的NetApp帳戶中所有Cloud Volumes ONTAP系統的總配置容量。收費基於每個磁碟區的配置大小，而不考慮磁碟區內的本機、已使用、儲存或有效空間。</block>
+  <block id="80495a5c91b6e7cae60c8c5c750734bc" category="list-text">_年度合約_是您從NetApp購買的總授權容量（自帶授權 (BYOL) 或市場合約）。</block>
+  <block id="18ef4a3a3844dea97bcae43ccdf60b1e" category="list-text">_PAYGO_ 是使用雲端市場訂閱的總配置容量。只有當消耗的容量高於授權容量或控制台中沒有可用的 BYOL 授權時，才使用 PAYGO 收費。</block>
+  <block id="d02d58b5b8770f720f9d912913a80f1a" category="list-text">選擇「檢視」以查看每個許可證包所消耗的容量。</block>
+  <block id="a4f95858d82d890dcc9a5123e1f315e6" category="list-text">選擇「*許可證*」標籤查看您購買的每個包許可證的詳細資訊。</block>
+  <block id="d30bc4bd5cee7ac23a1df54311d1f4b3" category="inline-link">了解 Essentials 套餐的收費</block>
+  <block id="b2678f2b003e23f7f5f3a7cd8451a26b" category="paragraph">為了更了解 Essentials 套件所顯示的容量，您應該熟悉充電的工作原理。<block ref="8d04d0643798fbb69d5260f477ea213c" category="inline-link-rx"></block> 。</block>
+  <block id="452cf2122664eef3e8c620ec413c8d43" category="list-text">選擇「*訂閱*」標籤來查看按許可證消費模式消耗的容量。此選項卡包括 PAYGO 和年度合約許可證。</block>
+  <block id="a6fd7fff8d44ac917f29be623cc64da2" category="paragraph">您只會看到與您目前正在查看的組織相關的訂閱。</block>
+  <block id="24456dcfa7781b6f3a972b5f11ed0d88" category="list-text">當您查看有關訂閱的資訊時，您可以與表格中的詳細資訊進行互動。展開一行可以查看更多詳細資訊。</block>
+  <block id="2eab7ff26639a8d2e45cece515ff781f" category="list-text">選擇<block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block>選擇表中顯示的列。請注意，「期限」和「自動續訂」欄預設不會出現。自動續約列僅顯示 Azure 合約的續約資訊。</block>
+  <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">查看包裹詳情</block>
+  <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">您可以透過在Cloud Volumes ONTAP頁面上切換到傳統模式來查看每個套件使用的容量的詳細資訊。</block>
+  <block id="4a95292c803539c8cf72591c54db0644" category="list-text">選擇「檢視」以查看每個授權包的配置容量。</block>
+  <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">選擇*切換到進階視圖*。</block>
+  <block id="3df898a44cd4e747f0651fff3683bca8" category="inline-image-macro">切換到進階視圖按鈕的螢幕截圖</block>
+  <block id="4247aeb98dbe93036110943452fb15a7" category="paragraph"><block ref="4247aeb98dbe93036110943452fb15a7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">查看您想要查看的包裹的詳細資訊。</block>
+  <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">切換到標準視圖按鈕的螢幕截圖</block>
+  <block id="322ba871ee257d334ca304536b56b324" category="paragraph"><block ref="322ba871ee257d334ca304536b56b324" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">改變充電方式</block>
+  <block id="3a320310638e1b673183daababec1ba0" category="paragraph">基於容量的許可以_包_的形式提供。建立Cloud Volumes ONTAP系統時，您可以根據業務需求從多個授權包中進行選擇。如果您在建立系統後需求發生變化，您可以隨時更改套餐。例如，您可以從 Essentials 套件變更為 Professional 套件。</block>
+  <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">了解有關基於容量的許可包的更多信息</block>
+  <block id="6b5c2460f150173d3723de8a857a4d33" category="paragraph"><block ref="179c8a3ed717f2c4de3149f0e9edf685" category="inline-link-rx"></block> 。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">關於此任務</block>
+  <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">更改收費方式不會影響您是透過從NetApp (BYOL) 購買的授權或透過雲端提供者的市場即用即付 (PAYGO) 訂閱進行收費。</block>
+  <block id="ac2e949b0b6c58b83082083327f0fd77" category="paragraph">控制台總是會先嘗試根據許可證收費。如果沒有許可證，則會根據市場訂閱收費。您不必將 BYOL 訂閱轉換為市場訂閱，反之亦然。</block>
+  <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="list-text">如果您擁有來自雲端提供者市場的私人優惠或合同，則更改為合同中未包含的收費方式將導致對 BYOL（如果您從NetApp購買了許可證）或 PAYGO 收費。</block>
+  <block id="2daabc6822724771970f17e8ae6a4cee" category="list-text">選擇“*概覽*”標籤。</block>
+  <block id="5b37c7034b369fcc6d9b931180eef46f" category="list-text">在Cloud Volumes ONTAP圖塊上，選擇 *檢視*。</block>
+  <block id="13bb1907bdca20408e78b483332beab6" category="inline-image-macro">切換到舊版視圖按鈕的螢幕截圖</block>
+  <block id="07d6c0208f77e132c7e96286497713f8" category="paragraph"><block ref="07d6c0208f77e132c7e96286497713f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e4bc6fa91df5edc0eafb52c324b38f3" category="list-text">向下捲動到*基於容量的許可證*表並選擇*更改收費方式*。</block>
+  <block id="7c32cfa3b543a8f69513e758629bc263" category="inline-image-macro">控制台中Cloud Volumes ONTAP頁面的螢幕截圖，其中「更改收費方式」按鈕位於表格上方。</block>
+  <block id="7c3ea09c5ec07ba244bc674f632d4c79" category="paragraph"><block ref="7c3ea09c5ec07ba244bc674f632d4c79" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e6e33712a923fd615674fad11214317f" category="list-text">在*變更收費方式*彈出視窗中，選擇Cloud Volumes ONTAP系統，選擇新的收費方式，然後確認您了解變更套餐類型將影響服務費用。</block>
+  <block id="c2a404ae45ebabafb7f3598bcd8a1a18" category="list-text">選擇*更改充電方式*。</block>
+  <block id="85be1733025dd0b3e190d956ed6e380c" category="paragraph">您可以從控制台下載四份使用量報告。這些使用情況報告提供您的訂閱的容量詳細信息，並告訴您如何為Cloud Volumes ONTAP訂閱中的資源付費。可下載的報告會擷取某個時間點的數據，並且可以輕鬆地與他人分享。</block>
+  <block id="fe1db4ddb29c070770259869ba7aa5bb" category="inline-image-macro">螢幕截圖顯示了基於Cloud Volumes ONTAP容量的許可證頁面，並突出顯示了使用情況報告按鈕。</block>
+  <block id="61b0c512c4663de969f8c21e23e50f0e" category="paragraph"><block ref="61b0c512c4663de969f8c21e23e50f0e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d11dcbec58d47bd13de1dcccfbd640ff" category="paragraph">以下報告可供下載。顯示的容量值以 TiB 為單位。</block>
+  <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">*進階用法*：此報告包含以下資訊：</block>
+  <block id="c596c9291f76a11af1aefc235c262de6" category="list-text">總消耗容量</block>
+  <block id="8dd7541d6c4e83402d88448119068a02" category="list-text">預先承諾的總容量</block>
+  <block id="b01a146aed01aa8af61e034befc116ce" category="list-text">BYOL 總容量</block>
+  <block id="109323142d354af9ccc7eb636b1dcbce" category="list-text">市場合約總容量</block>
+  <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">PAYGO 總容量</block>
+  <block id="219fa750a13ad456df1d25524d9f6ad9" category="list-text">* Cloud Volumes ONTAP軟體包使用情況*：此報告包含每個軟體包的以下資訊：</block>
+  <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">*儲存虛擬機器使用情況*：此報告顯示收費容量在Cloud Volumes ONTAP系統和儲存虛擬機器 (SVM) 之間的分配。此資訊僅在報告中提供。它包含以下資訊：</block>
+  <block id="16f96639acdb5e88fcbe97e6d8720ba6" category="list-text">系統 ID 和名稱（顯示為 UUID）</block>
+  <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">雲端</block>
+  <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">NetApp帳號 ID</block>
+  <block id="3c4e32d95f12c00d16a76057a7af18f6" category="list-text">系統配置</block>
+  <block id="203c4205822c007d08ecafe163b02ea2" category="list-text">SVM 名稱</block>
+  <block id="b567847dd629376ac84ed4958fd61687" category="list-text">預配置容量</block>
+  <block id="a09b8df9fd0007770b0a8c10f9a17d81" category="list-text">充電容量匯總</block>
+  <block id="671095c17b0e9e0deda06cff2fa103e6" category="list-text">市集計費條款</block>
+  <block id="d38764d5edf26bd9b744840cd2ea3c17" category="list-text">Cloud Volumes ONTAP軟體套件或功能</block>
+  <block id="a016fcdfd1d7159ffd537d78d4b68f74" category="list-text">收費 SaaS 市集訂閱名稱</block>
+  <block id="fe6ac599d13d94a0ee0800482bec7e41" category="list-text">收費 SaaS 市集訂閱 ID</block>
+  <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">工作負載類型</block>
+  <block id="2d0394437aca88cac134fb1bce72e08f" category="list-text">*磁碟區使用情況*：此報表顯示Cloud Volumes ONTAP系統中如何依磁碟區細分收費容量。控制台中的任何螢幕上均不顯示此資訊。它包括以下資訊：</block>
+  <block id="3edb9123c69629ec86469d96d3feb0aa" category="list-text">SVN 名稱</block>
+  <block id="cccc95b62282240886ee975a3f122adb" category="list-text">卷 ID</block>
+  <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="list-text">卷類型</block>
+  <block id="3756f66a273f440893f16ee968ce3450" category="list-text">卷配置容量</block>
+  <block id="8b3da2ed858ee5c956acde26c9ef7dd0" category="admonition">FlexClone磁碟區不包含在此報表中，因為這些類型的磁碟區不會產生費用。</block>
+  <block id="b2b74732b80350970fadfac4db3ba17e" category="list-text">在*概覽*標籤上，從Cloud Volumes ONTAP圖塊中選擇*檢視*。</block>
+  <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">選擇*使用情況報告*。</block>
+  <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">使用情況報告下載。</block>
+  <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">開啟下載的檔案以存取報告。</block>
+  <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">設定NetApp Backup and Recovery 的許可</block>
+  <block id="7c2a90c11b23f49e26dfb6d98b2f294a" category="list-text"><block ref="7c2a90c11b23f49e26dfb6d98b2f294a" category="inline-link-rx"></block></block>
+  <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">設定NetApp災難復原許可</block>
+  <block id="b548e91c76ffa0a847b7391d807382b7" category="list-text"><block ref="b548e91c76ffa0a847b7391d807382b7" category="inline-link-rx"></block></block>
+  <block id="8c4e51cf0af97fc084c32c7697ac400c" category="inline-link">設定NetApp勒索軟體復原能力的許可</block>
+  <block id="0756aa27fe61dae2fde62385bb00a616" category="list-text"><block ref="0756aa27fe61dae2fde62385bb00a616" category="inline-link-rx"></block></block>
+  <block id="d4cdf3ad28a947017bac9a28090b4755" category="inline-link">設定NetApp Cloud Tiering 許可</block>
+  <block id="83f337ebda6ebd9464706f5c1c9630d5" category="list-text"><block ref="83f337ebda6ebd9464706f5c1c9630d5" category="inline-link-rx"></block></block>
+  <block id="db5f4e2c0efdad7e19e2179ef05db67e" category="list-text"><block ref="db5f4e2c0efdad7e19e2179ef05db67e" category="inline-link-rx"></block></block>
+  <block id="63e5ea33dc9b9a10458ac73abae91075" category="paragraph">在NetApp控制台中管理基於節點的許可證，以確保每個Cloud Volumes ONTAP系統都具有所需容量的有效許可證。</block>
+  <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_基於節點的許可證_是上一代許可證模型（不適用於新客戶）：</block>
+  <block id="0d4e36aae457a1001b3373de2fd510f1" category="list-text">從NetApp購買自帶授權 (BYOL)</block>
+  <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">從雲端供應商的市場購買按小時付費 (PAYGO) 訂閱</block>
+  <block id="3501754bb69f70ed8f72d23562bab97c" category="paragraph">您可以從NetApp控制台管理基於節點的Cloud Volumes ONTAP許可證。</block>
+  <block id="9426b05d2fc423b761e34f9d75b4066d" category="section-title">管理 PAYGO 許可證</block>
+  <block id="fcd2026c30c1b902d032e35337e8888c" category="paragraph">透過許可證和訂閱選單，您可以查看有關每個 PAYGO Cloud Volumes ONTAP系統的詳細信息，包括序號和 PAYGO 許可證類型。</block>
+  <block id="343c7ed77049523f4d99e8d4c436a330" category="list-text">從下拉式選單中選擇*基於節點的授權*。</block>
+  <block id="87089bacab591352ad6ad6579e34d93e" category="list-text">點擊*PAYGO*。</block>
+  <block id="82be8e06ac169a3de0fce42cd01f5760" category="list-text">在表格中查看有關每個 PAYGO 許可證的詳細資訊。</block>
+  <block id="bbfa86a1d5f6c6f85f7a434a983b34e1" category="inline-image-macro">螢幕截圖顯示了許可證和訂閱頁面中含有三個 paygo 許可證的表格。每行顯示名稱、系統類型、序號、套件以及管理許可證的連結。</block>
+  <block id="cf03ba6c2dea0eb29457f99fdcd69b82" category="paragraph"><block ref="cf03ba6c2dea0eb29457f99fdcd69b82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a45c9786e45613660f519d740b30671a" category="list-text">如果需要，請按一下*管理 PAYGO 授權*來變更 PAYGO 授權或變更執行個體類型。</block>
+  <block id="00b61e8d20d055a6505bd5bc88e18aeb" category="section-title">管理 BYOL 許可證</block>
+  <block id="33375e3f722897194d509130054856dd" category="paragraph">透過新增和刪除系統許可證和額外容量許可證來管理您直接從NetApp購買的許可證。</block>
+  <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="inline-link">Cloud Volumes ONTAP的 BYOL 授權可用性受限</block>
+  <block id="ceb2294714463ec73c3bb76a991ef103" category="admonition">已限制 BYOL 授權的購買、延期和續約。有關更多信息，請參閱<block ref="73dc1b5468c2405a47da63a28335f079" category="inline-link-rx"></block> 。</block>
+  <block id="4742f5b0c38f7c105542ecb15a214212" category="section-title">新增未分配的許可證</block>
+  <block id="d0052e7943aa77623453a3374803765d" category="paragraph">將基於節點的許可證新增至控制台，以便您在建立新的Cloud Volumes ONTAP系統時可以選擇該許可證。控制台將這些許可證標識為_未分配_。</block>
+  <block id="9827486f8d28067db0a9918ee807f05e" category="list-text">按一下“*未分配*”。</block>
+  <block id="7fa863d81a4b4f5f46596207ce29dc50" category="list-text">按一下「新增未指派的許可證」。</block>
+  <block id="851df848340ac5c43d036a7c8ab531e8" category="list-text">輸入許可證的序號或上傳許可證文件。</block>
+  <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">如果您還沒有許可證文件，請參閱下面的部分。</block>
+  <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">按一下「新增許可證」。</block>
+  <block id="684d5df2e069e529d4a4c518d654dc44" category="paragraph">控制台新增許可證。在您將許可證與新的Cloud Volumes ONTAP系統關聯之前，該許可證將被標識為未指派。此後，許可證將移至*許可證和訂閱*中的*BYOL*選項卡。</block>
+  <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">交換未分配的基於節點的許可證</block>
+  <block id="76a67f9205ca80ce535686592126df9d" category="paragraph">如果您有未指派的基於節點的Cloud Volumes ONTAP許可證且尚未使用，則可以將其轉換為NetApp備份和恢復許可證、 NetApp資料分類許可證或NetApp Cloud Tiering 許可證來交換該許可證。</block>
+  <block id="82330159ba1b86113008185841af38f9" category="paragraph">交換許可證將撤銷Cloud Volumes ONTAP許可證並為該服務建立等值美元的許可證：</block>
+  <block id="488b3f4a79a8819dabc209f2405c7ba7" category="list-text">Cloud Volumes ONTAP HA 對的授權轉換為 51 TiB 直接許可證</block>
+  <block id="d8961eb56e3c50e0da29ec362dcb385a" category="list-text">Cloud Volumes ONTAP單節點授權轉換為 32 TiB 直接許可證</block>
+  <block id="89f1c05b91f27a0ccc4736c51deee49f" category="paragraph">轉換後的許可證的到期日與Cloud Volumes ONTAP許可證相同。</block>
+  <block id="e0225acc5a75bb0346dd94ed24206c81" category="inline-link-macro">查看如何交換基於節點的許可證的演練。</block>
+  <block id="d82de0388f091aa9d43371708eb95310" category="paragraph"><block ref="b4c22b5293d3ee433dee9c4b3632dbee" category="inline-link-macro-rx"></block></block>
+  <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">按一下「*交換許可證*」。</block>
+  <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">未指派許可證頁面上顯示的 Exchange 許可證選項的螢幕截圖。</block>
+  <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b2bcb667f1a3e2cd665dce56fa38946c" category="list-text">選擇您想要交換許可證的服務。</block>
+  <block id="d54ac11d311c4a7a85e11a557ee305e3" category="list-text">如果出現提示，請為 HA 對選擇一個額外的許可證。</block>
+  <block id="1e4109afcb540c886b450b6944b83567" category="list-text">閱讀法律同意並點擊*同意*。</block>
+  <block id="f56693ead48da8f8372b53a387f22165" category="paragraph">控制台將未指派的許可證轉換為您選擇的服務。您可以在「資料服務許可證」標籤中查看新的許可證。</block>
+  <block id="bed8ee00b54ae810def15122c80a9dba" category="section-title">取得系統許可證文件</block>
+  <block id="022919ed552faad7f4de98d1abe88fc1" category="paragraph">在大多數情況下，控制台可以使用您的NetApp支援網站帳戶自動取得您的授權文件。但如果不能，那麼您將需要手動上傳許可證文件。如果您沒有許可證文件，您可以從 netapp.com 取得。</block>
+  <block id="eeb818d6636d7675fb1108e834a0fed1" category="inline-link">NetApp許可證文件產生器</block>
+  <block id="3eff90cc077e6c35c01b4fa2ce08352e" category="list-text">前往<block ref="d4604fbd185a778fcb9e2d4bce6d880d" category="inline-link-rx"></block>並使用您的NetApp支援網站憑證登入。</block>
+  <block id="fd714c8e7c7967952f8eefe7a8c25c48" category="list-text">輸入您的密碼，選擇您的產品，輸入序號，確認您已閱讀並接受隱私權政策，然後按一下*提交*。</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">*例子*</block>
+  <block id="7260bbc39295ef94e60be19b73affac6" category="inline-image-macro">螢幕截圖：顯示包含可用產品線的NetApp許可證產生器網頁範例。</block>
+  <block id="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="paragraph"><block ref="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="74fd2dac6a51b8a94f6612bae65dcbdf" category="list-text">選擇您是否希望透過電子郵件或直接下載接收 serialnumber.NLF JSON 檔案。</block>
+  <block id="58f676020d30c00d4b3fb18fc835e7ca" category="section-title">更新系統許可證</block>
+  <block id="b0f33031496e38b99d72e702000365e8" category="paragraph">當您透過聯絡NetApp代表續訂 BYOL 訂閱時，控制台會自動從NetApp取得新授權並將其安裝在Cloud Volumes ONTAP系統上。如果控制台無法透過安全的網路連線存取許可證文件，您可以自行取得該文件，然後手動上傳該文件。</block>
+  <block id="eda4b0f5ee71694deda064c01799f329" category="list-text">在 *BYOL* 標籤中，展開Cloud Volumes ONTAP系統的詳細資訊。</block>
+  <block id="d91a847294f18b5d31d438a059c2532d" category="list-text">點擊系統許可證旁邊的操作選單，然後選擇*更新許可證*。</block>
+  <block id="98022931ad96bfc8db710666a48e0416" category="list-text">上傳許可證文件（如果您有 HA 對，則上傳多個文件）。</block>
+  <block id="1c523ff18e24f3b5d4d5fa45c4410b01" category="list-text">按一下「更新許可證」。</block>
+  <block id="825a0cb9a8312e85f3aa745487c0dbe9" category="paragraph">控制台更新Cloud Volumes ONTAP系統上的許可證。</block>
+  <block id="2c2e7695734e076306fc8ba50ca70c1b" category="section-title">管理額外容量許可證</block>
+  <block id="d452bdec5cf94a61fe23690b513f4a71" category="paragraph">您可以為Cloud Volumes ONTAP BYOL 系統購買額外的容量許可證，以分配超過 BYOL 系統許可證提供的 368 TiB 的容量。例如，您可以購買一個額外的許可證容量，為Cloud Volumes ONTAP分配最多 736 TiB 的容量。或者您可以購買三個額外的容量許可證以獲得高達 1.4 PiB。</block>
+  <block id="5e26587c8f074cc4f0455ff005cb744c" category="paragraph">您可以為單節點系統或 HA 對購買的許可證數量不受限制。</block>
+  <block id="6e869ff6c9fd5eb76baa394c52e2ef18" category="section-title">新增容量許可證</block>
+  <block id="41a0a4fe38c3f00a9fae3056955c9f80" category="paragraph">透過控制台右下角的聊天圖示聯絡我們，購買額外容量許可證。購買許可證後，您可以將其套用至Cloud Volumes ONTAP系統。</block>
+  <block id="423cdc57679399d47229e2f74dfc102b" category="list-text">按一下「新增容量許可證」。</block>
+  <block id="b0bfc70f0e7f3f10c4334bd53c2c2a27" category="list-text">輸入序號或上傳許可證文件（如果您有 HA 對，則上傳文件）。</block>
+  <block id="c4e9cc48e592b9354b10b9d54e14525c" category="section-title">更新容量許可證</block>
+  <block id="2526a0404b7268bca72e19dd834baa1e" category="paragraph">如果您延長了額外容量許可證的期限，則需要在控制台中更新許可證。</block>
+  <block id="555efdea73381bcd8582646f75b68253" category="list-text">按一下容量許可證旁的操作選單，然後選擇*更新許可證*。</block>
+  <block id="df478b8a8dcb38cfbba69a02ff5cae20" category="section-title">刪除容量許可證</block>
+  <block id="9906134ee224bc081497b19c4269cc34" category="paragraph">如果額外容量許可證已過期且不再使用，那麼您可以隨時將其刪除。</block>
+  <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">點擊容量許可證旁邊的操作選單，然後選擇*刪除許可證*。</block>
+  <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">按一下“*刪除*”。</block>
+  <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">PAYGO 與 BYOL 之間的變化</block>
+  <block id="a704128156d562fe5860508e9584ee34" category="paragraph">不支援將系統從 PAYGO 按節點授權轉換為 BYOL 按節點授權（反之亦然）。如果您想在按使用量付費訂閱和 BYOL 訂閱之間切換，那麼您需要部署一個新系統並將資料從現有系統複製到新系統。</block>
+  <block id="c019dbada10848ba4363bd4710a34f6b" category="list-text">建立一個新的Cloud Volumes ONTAP系統。</block>
+  <block id="9bd20ffd5e91ec2bb61bc593be38bb13" category="list-text">對於需要複製的每個卷，在系統之間設定一次性資料複製。</block>
+  <block id="95b10ad2ca24b4c8bd5673b7383531a2" category="inline-link">了解如何在系統之間複製數據</block>
+  <block id="882d5f98206dd8157654127073c920f2" category="paragraph"><block ref="882d5f98206dd8157654127073c920f2" category="inline-link-rx"></block></block>
+  <block id="ebf88a96d90d43fcac8c0ab5a9fda0dd" category="list-text">透過刪除原始系統來終止不再需要的Cloud Volumes ONTAP系統。</block>
+  <block id="f979ec1d84a4416797fae20cc61f839b" category="inline-link">了解如何刪除Cloud Volumes ONTAP系統</block>
+  <block id="0d0947c9b1ebe3ee650df057f8192855" category="paragraph"><block ref="87175a08736eca79154ad91c69792fcd" category="inline-link-rx"></block> 。</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">相關連結</block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">基於節點的許可證的可用性終止</block>
+  <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">將基於節點的許可證轉換為基於容量的許可證</block>
+  <block id="cb90b48918ed9cd8ea355c04c171177b" category="paragraph">關聯：<block ref="7f9a8649ca2d86db235ba56502d14f92" category="inline-link-macro-rx"></block> <block ref="431f655d5a9ac309b561fc62a4c619ea" category="inline-link-macro-rx"></block></block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp控制台</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp資料服務</block>
+  <block id="c19e034a7ae60fb90287c5050a076d5a" category="sidebar">許可證和訂閱文檔</block>
 </blocks>

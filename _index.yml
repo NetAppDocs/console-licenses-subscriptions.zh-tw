@@ -8,7 +8,7 @@ indexpage:
   - title: 開始
     links:
     - title: 了解許可證和訂閱
-      url: concept-digital-wallet.html
+      url: concept-licenses-subscriptions.html
   - title: 管理您的許可證
     links:
     - title: 管理Cloud Volumes ONTAP 的基於容量的許可證
@@ -23,9 +23,9 @@ indexpage:
       url: task-manage-keystone.html
   - title: 部落格和社區
     links:
+    - title: NetApp控制台
+      url: https://wwww.netapp.com/console
+    - title: NetApp資料服務
+      url: https://wwww.netapp.com/data-services/
     - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP博客
-      url: https://bluexp.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
+      url: https://community.netapp.com/

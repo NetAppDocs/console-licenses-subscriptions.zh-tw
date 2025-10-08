@@ -21,30 +21,113 @@ NOTE: *直接許可*頁面列出了所有許可證。如果您想要特定資料
 
 此頁面上的說明提供了適用於每項服務的資訊。有關這些服務許可的更多具體信息，請參閱以下頁面：
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["設定BlueXP backup and recovery的許可"^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定BlueXP disaster recovery的許可"^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定BlueXP ransomware protection的許可"^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["設定BlueXP tiering許可"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["設定Cloud Volumes ONTAP許可"^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["設定NetApp Backup and Recovery 的許可"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["設定NetApp災難復原許可"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["設定NetApp勒索軟體復原能力的許可"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["設定NetApp Cloud Tiering 許可"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["設定Cloud Volumes ONTAP許可"^]
 
 
 
 
 == 取得許可證文件
 
-<stdin> 中未解析的指令 - include::_include/task-obtain-license.adoc[]
+如果控制台無法存取網路（私人模式安裝），您應該取得NetApp授權檔案進行上傳。
+
+當您從NetApp銷售代表處購買授權時，您會收到一封包含序號和授權詳細資訊的電子郵件。如果許可證未自動出現在控制台中，請使用序號取得許可證文件。
+
+.步驟
+. 尋找您的控制台帳戶 ID：
++
+.. 在控制台的右上角，選擇image:icon-settings-option.png["顯示在 Web 控制台右上角的設定圖示。"]> *身分和存取管理*。
+.. 在組織頁面上，尋找您的帳戶 ID 並複製它。
++
+如果沒有列出帳戶 ID，而您只有組織 ID，請複製組織 ID 的前八個字元並將其附加到 *account-*
+
++
+例如，如果這是您的組織 ID：
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+您的帳號 ID 為：
+
++
+帳戶-ea10e1c6
+
+
+
+. Sign in https://mysupport.netapp.com["NetApp支援站點"^]並選擇*系統 > 軟體許可證*。
+. 輸入您的許可證序號。
+. 在*許可證金鑰*欄位中，選擇*取得NetApp許可證文件*。
+. 輸入您的控制台帳戶 ID（在支援網站上稱為租戶 ID）並選擇 *提交* 以下載許可證文件。
+
 
 
 
 == 新增許可證
 
-<stdin> 中未解析的指令 - include::_include/task-add-license.adoc[]
+當與許可證關聯的NetApp控制台帳戶也是NetApp支援網站帳戶並且可以存取網際網路時，授權資訊會自動顯示在**許可證和訂閱**部分。如果您使用的控制台帳戶未與您的 NSS 帳戶關聯，則需要手動新增許可證。
+
+您可以在控制台中透過輸入序號和關聯的 NSS 帳戶或上傳NetApp許可證文件 (NLF) 來新增許可證。如果控制台無法存取網路（私人模式安裝），您應該取得NetApp授權檔案進行上傳。
+
+從NetApp銷售代表處購買許可證後， NetApp會向您發送一封電子郵件，其中包含序號和其他許可詳細資訊。您需要該序號才能在控制台中新增或更新相應的授權。
+
+
+NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將您的NetApp支援網站帳戶新增至控制台"^]。這是有權存取序號的NetApp支援網站帳戶。
+
+.步驟
+. 從NetApp控制台選單中，選擇 *治理 > 授權和訂閱*，然後選擇 *直接授權* 標籤。
+. 選擇*新增許可證*。
+. 在*新增許可證*對話方塊中，輸入許可證資訊並選擇*新增許可證*：
++
+** 如果您有序號並且知道您的 NSS 帳戶，請選擇*輸入序號*並輸入該資訊。
++
+如果您輸入了序號，您還需要選擇有權存取該序號的NetApp支援網站帳戶。
+
++
+如果您的NetApp支援網站帳號未從下拉清單中找到， https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將 NSS 帳戶新增至控制台"^]
+
+** 如果您有許可證文件（在私人模式下使用NetApp控制台時需要），請選擇 *上傳許可證文件* 選項並按照提示附加文件。
+
+
+
 
 
 
 == 更新許可證
 
-<stdin> 中未解析的指令 - include::_include/task-update-license.adoc[]
+當您的許可期限即將到期或許可容量接近限制時，控制台會通知您。在許可證到期之前進行更新，以避免NetApp資料服務或Cloud Volumes ONTAP中斷。
+
+從NetApp購買額外容量或延長許可證期限後，控制台會在滿足以下兩個條件時自動更新許可證：
+
+* 您的控制台帳戶與NetApp支援網站帳戶相關聯
+* 控制台可以存取互聯網
+
+
+如果您的控制台帳戶未與您的 NSS 帳戶關聯，或者控制台在沒有網路存取的情況下以私人模式運行，則必須手動更新許可證。
+
+您可以使用下列任一方法手動更新許可證：
+
+* 輸入序號和關聯的NSS帳戶
+* 上傳NetApp許可證檔案（或Cloud Volumes ONTAP HA 對的檔案）
+
+
+當您從NetApp銷售代表處購買授權時，您會收到一封包含序號和授權詳細資訊的電子郵件。使用此序號來更新許可證。
+
+
+NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將您的NetApp支援網站帳戶新增至控制台"^]。此 NSS 帳戶必須被授權存取序號。
+
+.步驟
+. 聯絡您的NetApp代表購買新許可證。
++
+完成付款並且許可證在NetApp支援網站註冊後，控制台會自動更新許可證。  *直接許可*頁面會在 5 到 10 分鐘內反映出變更。
+
+. 如果控制台無法自動更新許可證（例如，在私人模式下執行時），請從支援處取得NetApp許可證檔案並手動上傳。<<obtain-license,了解如何取得許可證文件。>>
+. 在「直接授權」標籤上，選擇image:icon-action.png["更多圖標"]輸入您要更新的序號，然後選擇*更新許可證*。
+. 在*更新許可證*頁面，上傳許可證文件並選擇*更新許可證*。
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concept-digital-wallet.html 
+permalink: concept-licenses-subscriptions.html 
 keywords: license, licensing, licenses, subscriptions, 
 summary: 透過授權和訂閱，您可以管理和監控NetApp控制台授權、 NetApp市場訂閱和NetApp Keystone。 
 ---
