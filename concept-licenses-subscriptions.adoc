@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-licenses-subscriptions.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: 透過授權和訂閱，您可以管理和監控NetApp控制台授權、 NetApp市場訂閱和NetApp Keystone。 
+summary: 透過授權和訂閱，您可以管理和監控NetApp Console授權、 NetApp市場訂閱和NetApp Keystone。 
 ---
 = 了解許可證和訂閱
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 透過授權和訂閱，您可以管理和監控NetApp控制台授權�
 
 
 [role="lead"]
-您可以在 NetApp 控制台中管理和監控從NetApp購買的授權 (BYOL)、 NetApp資料服務 (包括Cloud Volumes ONTAP ) 的市場訂閱以及NetApp NetApp Keystone訂閱。
+您可以在 NetAppNetApp Console中管理和監控從NetApp購買的授權 (BYOL)、 NetApp資料服務 (包括Cloud Volumes ONTAP) 的市場訂閱以及NetApp Keystone訂閱。
 
 
 

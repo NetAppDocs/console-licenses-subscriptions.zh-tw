@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-當與許可證關聯的NetApp控制台帳戶也是NetApp支援網站帳戶並且可以存取網際網路時，授權資訊會自動顯示在**許可證和訂閱**部分。如果您使用的控制台帳戶未與您的 NSS 帳戶關聯，則需要手動新增許可證。
+當與許可證關聯的NetApp Console帳戶也是NetApp支援網站帳戶且具有網路存取權限時，授權資訊會自動顯示在**Licenses and subscriptions**部分。如果您使用的控制台帳戶未與您的 NSS 帳戶關聯，則需要手動新增許可證。
 
 您可以在控制台中透過輸入序號和關聯的 NSS 帳戶或上傳NetApp許可證文件 (NLF) 來新增許可證。如果控制台無法存取網路（私人模式安裝），您應該取得NetApp授權檔案進行上傳。
 
@@ -12,7 +12,7 @@
 NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將您的NetApp支援網站帳戶新增至控制台"^]。這是有權存取序號的NetApp支援網站帳戶。
 
 .步驟
-. 從NetApp控制台選單中，選擇 *治理 > 授權和訂閱*，然後選擇 *直接授權* 標籤。
+. 從NetApp Console選單中，選擇 *治理 >Licenses and subscriptions*，然後選擇 *直接授權* 標籤。
 . 選擇*新增許可證*。
 . 在*新增許可證*對話方塊中，輸入許可證資訊並選擇*新增許可證*：
 +
@@ -23,7 +23,7 @@ NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin
 +
 如果您的NetApp支援網站帳號未從下拉清單中找到， https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將 NSS 帳戶新增至控制台"^]
 
-** 如果您有許可證文件（在私人模式下使用NetApp控制台時需要），請選擇 *上傳許可證文件* 選項並按照提示附加文件。
+** 如果您有許可證文件（在私人模式下使用NetApp Console時需要），請選擇 *上傳許可證文件* 選項並按照提示附加文件。
 
 
 

@@ -22,9 +22,9 @@ NOTE: *直接許可*頁面列出了所有許可證。如果您想要特定資料
 此頁面上的說明提供了適用於每項服務的資訊。有關這些服務許可的更多具體信息，請參閱以下頁面：
 
 * https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["設定NetApp Backup and Recovery 的許可"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["設定NetApp災難復原許可"^]
-* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["設定NetApp勒索軟體復原能力的許可"^]
-* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["設定NetApp Cloud Tiering 許可"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["設定NetApp Disaster Recovery許可"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["設定NetApp Ransomware Resilience的許可"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["設定NetApp Cloud Tiering許可"^]
 * https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["設定Cloud Volumes ONTAP許可"^]
 
 
@@ -68,7 +68,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 
 == 新增許可證
 
-當與許可證關聯的NetApp控制台帳戶也是NetApp支援網站帳戶並且可以存取網際網路時，授權資訊會自動顯示在**許可證和訂閱**部分。如果您使用的控制台帳戶未與您的 NSS 帳戶關聯，則需要手動新增許可證。
+當與許可證關聯的NetApp Console帳戶也是NetApp支援網站帳戶且具有網路存取權限時，授權資訊會自動顯示在**Licenses and subscriptions**部分。如果您使用的控制台帳戶未與您的 NSS 帳戶關聯，則需要手動新增許可證。
 
 您可以在控制台中透過輸入序號和關聯的 NSS 帳戶或上傳NetApp許可證文件 (NLF) 來新增許可證。如果控制台無法存取網路（私人模式安裝），您應該取得NetApp授權檔案進行上傳。
 
@@ -78,7 +78,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將您的NetApp支援網站帳戶新增至控制台"^]。這是有權存取序號的NetApp支援網站帳戶。
 
 .步驟
-. 從NetApp控制台選單中，選擇 *治理 > 授權和訂閱*，然後選擇 *直接授權* 標籤。
+. 從NetApp Console選單中，選擇 *治理 >Licenses and subscriptions*，然後選擇 *直接授權* 標籤。
 . 選擇*新增許可證*。
 . 在*新增許可證*對話方塊中，輸入許可證資訊並選擇*新增許可證*：
 +
@@ -89,7 +89,7 @@ NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin
 +
 如果您的NetApp支援網站帳號未從下拉清單中找到， https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["將 NSS 帳戶新增至控制台"^]
 
-** 如果您有許可證文件（在私人模式下使用NetApp控制台時需要），請選擇 *上傳許可證文件* 選項並按照提示附加文件。
+** 如果您有許可證文件（在私人模式下使用NetApp Console時需要），請選擇 *上傳許可證文件* 選項並按照提示附加文件。
 
 
 
@@ -125,7 +125,7 @@ NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin
 完成付款並且許可證在NetApp支援網站註冊後，控制台會自動更新許可證。  *直接許可*頁面會在 5 到 10 分鐘內反映出變更。
 
 . 如果控制台無法自動更新許可證（例如，在私人模式下執行時），請從支援處取得NetApp許可證檔案並手動上傳。<<obtain-license,了解如何取得許可證文件。>>
-. 在「直接授權」標籤上，選擇image:icon-action.png["更多圖標"]輸入您要更新的序號，然後選擇*更新許可證*。
+. 在「直接授權」標籤上，選擇image:icon-action.png["更多圖標"]您要更新的序號，然後選擇*更新許可證*。
 . 在*更新許可證*頁面，上傳許可證文件並選擇*更新許可證*。
 
 
