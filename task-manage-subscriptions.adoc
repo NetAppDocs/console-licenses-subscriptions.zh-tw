@@ -29,30 +29,6 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 您可以直接從控制台訂閱市場訂閱。
 
-[role="tabbed-block"]
-====
-.AWS
---
-以下影片展示了從 AWS Marketplace 訂閱NetApp Console 的步驟：
-
-.從 AWS Marketplace 訂閱NetApp Console
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
---
-.Azure
---
-以下影片展示了從 Azure 市場訂閱NetApp Console的步驟：
-
-.從 Azure Marketplace 訂閱NetApp Console
-video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
---
-.Google雲
---
-以下影片展示了從 Google Cloud Marketplace 訂閱NetApp Console 的步驟：
-
-.從 Google Cloud Marketplace 訂閱NetApp Console
-video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
---
-====
 .步驟
 . 從NetApp Console選單中，選擇 *治理 >Licenses and subscriptions*。
 . 選擇*市場訂閱*。
