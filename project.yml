@@ -45,6 +45,14 @@ sidebar:
       url: "/task-manage-subscriptions.html"
     - title: 管理Keystone訂閱
       url: "/task-manage-keystone.html"
+    - title: 帳單偏好
+      entries:
+      - title: 了解帳單偏好設定
+        url: "/concept-billing-preferences.html"
+      - title: 管理帳單偏好設定
+        url: "/task-manage-billing-preferences.html"
+      - title: 術語和定義
+        url: "/concept-billing-preferences-terms.html"
     - title: 知識和支持
       entries:
       - title: 註冊以獲得支持
