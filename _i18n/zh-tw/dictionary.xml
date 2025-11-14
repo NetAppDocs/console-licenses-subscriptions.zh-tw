@@ -7,7 +7,6 @@
   <block id="64c3bf191a7a3aa11f89d25d0284c2a4" category="inline-link">將您的NetApp支援網站帳戶新增至控制台</block>
   <block id="c0d26ee72011a383155a1ac972516b07" category="admonition">要輸入序號，首先<block ref="cd0ca1d0032a534b9da0eebdd3e962e6" category="inline-link-rx"></block>。這是有權存取序號的NetApp支援網站帳戶。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
-  <block id="1e287a793773a0dc0c78e536804c43e1" category="list-text">從NetApp Console選單中，選擇 *治理 &gt;Licenses and subscriptions*，然後選擇 *直接授權* 標籤。</block>
   <block id="37fcb8e7d30cc5903f7318cd979d8ae4" category="list-text">選擇*新增許可證*。</block>
   <block id="5b0603de038451942370226099e5125d" category="list-text">在*新增許可證*對話方塊中，輸入許可證資訊並選擇*新增許可證*：</block>
   <block id="b20365c7ce019b6e1f4c2c98af493327" category="list-text">如果您有序號並且知道您的 NSS 帳戶，請選擇*輸入序號*並輸入該資訊。</block>
@@ -218,7 +217,6 @@
   <block id="5e61525870b8ecb7cda0015f4b7208db" category="inline-link-macro">了解有關管理許可證的詳細信息</block>
   <block id="0bfbd2ad670f16ca87b68145ca0b64cf" category="inline-link-macro">了解有關管理訂閱的更多信息</block>
   <block id="483b8e46eb21b512550083b13a6ba1de" category="paragraph"><block ref="f5d9875e96b8ed7153bab8f22c840330" category="inline-link-macro-rx"></block> 。<block ref="f050330f0428b7d1c9a33b47b1e41be1" category="inline-link-macro-rx"></block> 。</block>
-  <block id="0aa8bceb217782b5e4390aefe60d271f" category="list-text">從NetApp Console選單中，選擇 *治理 &gt;Licenses and subscriptions*。</block>
   <block id="32790cf377a1a575eece70f624d64118" category="list-text">選擇*概覽*。</block>
   <block id="de9c819c70af50797f21116704502cee" category="list-text">選擇對應資料服務（包括Cloud Volumes ONTAP）的「檢視」以查看詳細資訊並管理授權和訂閱。</block>
   <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">每個圖塊都提供了容量的圖形概覽。您可以查看詳細資訊頁面以查看和管理該容量的付款方式。</block>
@@ -612,9 +610,7 @@
   <block id="b01b1be092b95233172f870dc729234b" category="doc">管理 PAYGO 訂閱和合約</block>
   <block id="67902908617b3450355aaa46279af065" category="paragraph">當您從雲端提供者的市場訂閱NetApp資料服務（包括Cloud Volumes ONTAP）時，您將被重定向到控制台網站，您可以在其中儲存訂閱並將其與您的控制台組織關聯。訂閱後，您可以在控制台中管理每個訂閱。</block>
   <block id="8d667715a159d86d1b904662382ebd14" category="inline-link">了解如何訂閱NetApp資料服務（標準模式）</block>
-  <block id="2d1664e9c561a4d8448ca272b632b070" category="list-text"><block ref="2d1664e9c561a4d8448ca272b632b070" category="inline-link-rx"></block></block>
   <block id="f2de349fa0961a04852f2d19e9ef3ef8" category="inline-link">了解如何訂閱NetApp資料服務（受限模式）</block>
-  <block id="857eda0579a011309e9d26f062d34f8d" category="list-text"><block ref="857eda0579a011309e9d26f062d34f8d" category="inline-link-rx"></block></block>
   <block id="85bb8fe222d28237b7a61c8962355819" category="admonition">*市場訂閱*頁面列出了所有許可證。有關特定資料服務的許可證詳細信息，請使用「概覽」儀表板上的資料服務圖塊。<block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> 。</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">新增新的市場訂閱</block>
   <block id="2739fe5739941e5e38c954a74ec97f61" category="paragraph">您可以直接從控制台訂閱市場訂閱。</block>
@@ -668,7 +664,6 @@
   <block id="54a532ed5b57b0751dc3bc4333f738c5" category="list-text">在包含要查看其憑證的訂閱的行上，選擇「檢視」。如果多個憑證與一個訂閱相關聯，則可能不會顯示任何憑證，並且會直接讓您選擇其他代理程式。</block>
   <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">取消配置訂閱</block>
   <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">您必須先取消配置，然後才能刪除訂閱。這將清除所有相關數據和設定。</block>
-  <block id="459fb716cff28b2c01ce618e81f58770" category="list-text">在NetApp Console選單中，選擇 *治理 &gt;Licenses and subscriptions*。</block>
   <block id="8f401d09de150d1b370bd812c149ef02" category="list-text">在您想要取消配置的訂閱行中，按一下操作選單並選擇*取消配置*。</block>
   <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">依照指示刪除或重設任何相關設定或資料。</block>
   <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">等待狀態更新為*未配置*。</block>
@@ -830,7 +825,6 @@
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理帳單偏好設定</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">帳單偏好文檔</block>
-  <block id="2b2febbc6e70870b1335116227b6f5da" category="paragraph">欲了解更多信息，請參閱<block ref="a04f7fc8553e4925fecf791dbfbbad42" category="inline-link-macro-rx"></block>。</block>
   <block id="ece16d101819a0a984bc19dd31e93766" category="paragraph">側邊欄：側邊欄永久連結：concept-billing-preferences-terms.html 關鍵字：許可證、許可、訂閱、摘要：“許可證和訂閱使您能夠管理和監控NetApp Console許可證、 NetApp Marketplace 訂閱和NetApp Keystone。”---</block>
   <block id="5b64210d3d0fdd140a4a300b82341072" category="paragraph">= 術語和定義 :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/</block>
   <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">計費首選項控制NetApp Console如何處理您的授權和訂閱的付款、發票和續約行為。您可以在以下兩個層級之一設定偏好：</block>
@@ -853,7 +847,6 @@
   <block id="599c9b0b724ff40d712e8b1a323b8f8d" category="paragraph">計費偏好設定決定了您如何處理組織內有效許可證和訂閱的付款、發票和續約行為。您可以全域套用這些首選項，使其影響您組織內的所有計費關係；或者，當特定合約需要自己的設定時，也可以在單一訂閱層級套用這些首選項。</block>
   <block id="8dc8efc61c3e8d351d2761bd0cd8d331" category="list-text">*市場訂閱* 對應於雲端市場合約（AWS、Azure 或 Google Cloud），使用費透過超大規模帳戶收取。</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*直接許可證* 指的是直接從NetApp購買的許可證，透過許可證金鑰、發票接收人和續約選項在NetApp Console中進行管理。</block>
-  <block id="4deefbe09cfc76181afc6762b7b6d4c4" category="list-text">* Keystone訂閱* 在您的Keystone協議下進行管理，發票接收人和成本中心標籤透過相同介面進行處理。</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">您可以根據採購模式配置組織如何分配和支付服務費用。</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">權限</block>
   <block id="6e70716fedade61a999818a444a40c58" category="paragraph">只有擁有「帳戶管理員」或「帳單管理員」角色的使用者才能修改帳單偏好設定。這些角色確保只有授權使用者才能更改影響組織帳單資料的發票聯絡人、成本中心或續約設定。具有 *操作員* 角色的使用者可以查看現有偏好設置，但沒有編輯權限。</block>
@@ -885,7 +878,6 @@
   <block id="33208471678e93cf28f2247670d0909f" category="list-text">*年度合約*——鎖定固定的訂閱期限。</block>
   <block id="ad877409cd2ed77740e023a10d0724cd" category="list-text">*自動續約* — 允許許可證或市場合約到期時自動續約。停用此選項需要手動續訂，以防止服務中斷。</block>
   <block id="2cac16fed84c2d4fd5dd6777759dfad7" category="list-text">*自訂 CVO 配置* — 允許將多個市場訂閱對應到單一超大規模資料中心。當不同的業務部門或專案需要在同一雲端環境中擁有不同的計費帳戶時，這可能會很有用。</block>
-  <block id="9309fae135034fbc99491b93dd395820" category="list-text">*確認變更對話方塊* — 在套用計費更新之前顯示，允許管理員檢視和確認修改。這項安全措施有助於防止意外的配置更改，從而避免費用被重定向到錯誤的帳戶。</block>
   <block id="6ed4edc7faa33c9719cd01e4b40f2483" category="section-title">典型配置路徑</block>
   <block id="ad3f68cadbc36ae20d3c338318c7e9c0" category="paragraph">以下範例說明了不同的計費方式如何與常見情況相對應：</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">設想</block>
@@ -901,13 +893,11 @@
   <block id="5435d0c2ab2affaf5e146abe5dcdf92d" category="paragraph">例如，考慮一個同時擁有NetApp直接授權和市場訂閱的組織。典型的配置會將「NetApp許可證優先」設定為預設計費模式，以便在市場計費之前使用預付費容量。然後，在*自訂 CVO 配置*下，每個超大規模雲端服務供應商（AWS、Azure、Google Cloud）都會被指派其對應的訂閱 ID。</block>
   <block id="a3bc016aa80a8b7ecc67c3ff4f3f16a7" category="paragraph">儲存這些設定後，管理員可以在「Licenses and subscriptions」下查看映射，以驗證每個服務是否指向正確的帳戶。為了進一步驗證，他們可以將NetApp Console中的使用情況資料與雲端計費儀表板進行比較，並根據需要調整成本中心標籤或聯絡人，以保持報告的一致性。</block>
   <block id="e6f95da84fc231235869778f84686fab" category="summary">在NetApp Console中設定計費首選項，以控制授權、市集訂閱和Keystone協議的計費和續約方式。</block>
-  <block id="a06290c2e517b18ed98c41f83e5896b1" category="paragraph">您可以在NetApp Console中設定和管理計費首選項，以控制容量使用情況、續約和發票如何套用至您組織的帳戶。計費方式決定了使用費是來自NetApp授權、雲端市場合約或Keystone協定。</block>
   <block id="531f703ee6ea7df16c5a41c3d86dbca1" category="list-text">您擁有*帳單管理員*或*組織管理員*角色。</block>
   <block id="9b5b2baaae7db459fd9d75d10938da0d" category="list-text">所有相關的市場訂閱都與您的組織關聯。</block>
   <block id="501d44233b9d81f23f07411ed57f5152" category="list-text">您已在「Licenses and subscriptions」中查看了現有配置。</block>
   <block id="0b2612372a98d97a0ca0b61bdbdea261" category="section-title">設定帳單偏好</block>
   <block id="142c2c7e22727e1a1c35317131d3de9b" category="paragraph">您可以選擇控制台如何將使用費用套用至不同的計費來源。這決定了哪些帳戶優先收費以及續費方式。</block>
-  <block id="6e0519d84190875b19782474cade4a6d" category="list-text">在NetApp Console中，選擇「管理 &gt;Licenses and subscriptions」。</block>
   <block id="f40ec4f154501ac20f03c9cbaae03f9e" category="list-text">選擇*帳單偏好設定*。</block>
   <block id="0a6726bc9108e08ebb13bc6fe5a55e5b" category="list-text">請選擇以下計費方式之一：</block>
   <block id="18dd1fddbff47223752aa7cbe0ce2d30" category="list-text">*優先使用NetApp許可證* – 先使用NetApp許可證，然後再透過市場訂閱來獲得額外的使用量。</block>
@@ -931,7 +921,6 @@
   <block id="5d4b73c76a591653e1df0169162ac88d" category="list-text">開放*Licenses and subscriptions*。</block>
   <block id="019059e6fc62772ce7ae07627cfdaf67" category="list-text">請選擇以下視圖：</block>
   <block id="0d5509b5bd172a3b0a7f80b76ebd40e6" category="list-text">*市場訂閱名稱*</block>
-  <block id="66f86ba858d315676f13c08fec98b41c" category="list-text">*雲端項目*（僅限Google雲端）</block>
   <block id="b32c11687b0957c71696f4c5be82f283" category="list-text">訂閱類型（年付或按需付費）</block>
   <block id="cf5991e7f4b5f0e6a9f125d69ae38f54" category="paragraph">新配置立即生效，計費資料與雲端供應商同步。</block>
   <block id="8b2a47a9c8b0859b03b33fc6110b32ae" category="admonition">若要將一個訂閱對應到多個雲端項目，請先確保啟用*自訂 CVO 配置*。</block>
@@ -946,14 +935,23 @@
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">停用*自訂 CVO 配置*。</block>
   <block id="f44a159781425e53cf2e7e568e18930f" category="list-text">出現提示時，請確認是否要恢復至標準配置。</block>
   <block id="5b6bd15b73cadb42962618d3ebd1dc68" category="paragraph">CVO 執行個體將恢復為與其他資料服務相同的預設標準計費方式。</block>
-  <block id="56504a2ccf6872b888cb88cdba810cce" category="list-text">從控制台選單中，選擇“治理”&gt;“數位錢包”，然後選擇“直接許可證”標籤。</block>
   <block id="a56efbb0b90cd4068ca8a8992f33400e" category="list-text">點選**關聯**。</block>
   <block id="cd674dd3286e68276bf76f6117b9d5be" category="list-text">填寫此表格，將訂閱與您的 Console 組織關聯起來。然後，點選**關聯**。</block>
   <block id="07b5c65992e18ea1f96d4431ed697e21" category="list-text">關聯訂閱後，導覽並選擇「帳單首選項」標籤。</block>
   <block id="c405cb4ee0a4475b96f30fb0962daa3e" category="list-text">查看應用程式商店的訂閱選項。</block>
   <block id="c0ab08cc5546a8c99ef8010e4cb766a0" category="list-text">選擇您要計費的商城訂閱服務。這僅適用於存在多個選項的情況。</block>
-  <block id="1fa9daf5fe59e57211e856c6726cfadd" category="list-text">如果需要跨多個超大規模資料中心進行多個子訂閱，請重複這些步驟。</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">了解帳單偏好設定</block>
-  <block id="bd37aa06c2029c58b0902884ca934e5e" category="sidebar">術語和定義</block>
+  <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">從NetApp Console選單中，選擇“管理 &gt;Licenses and subscriptions”，然後選擇“直接許可證”標籤。</block>
+  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">更多資訊請參閱。<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
+  <block id="9ef810f213faea9695f8494f68387049" category="list-text">從NetApp Console選單中，選擇「管理 &gt;Licenses and subscriptions」。</block>
+  <block id="bb6a3f5790fd10ced1f6845ea4d3ba04" category="paragraph">您可以在NetApp Console中設定和管理計費首選項，以控制容量使用情況、續約和發票如何套用至您組織的帳戶。計費方式決定了使用費是來自NetApp授權、雲端市場合約或Keystone協定。</block>
+  <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">在NetApp Console中，選擇「管理 &gt;Licenses and subscriptions」。</block>
+  <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*雲端專案*</block>
+  <block id="7122970c90188deca8583df3506aa39c" category="list-text">從控制台選單中，選擇“管理”&gt;“Licenses and subscriptions”，然後選擇“直接許可證”標籤。</block>
+  <block id="13ad11ec7b9bd0fe7c52fc12e83f93d4" category="list-text">如果需要跨多個超大規模資料中心進行多個訂閱，請重複這些步驟。</block>
+  <block id="652e4824afa6b50187425c72ff981fe6" category="paragraph">有關市場訂閱和直接許可計費的更多信息，請參閱<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>。</block>
+  <block id="dce3a4835fb0cd80cf119820cc31f008" category="list-text"><block ref="dce3a4835fb0cd80cf119820cc31f008" category="inline-link-rx"></block></block>
+  <block id="ba181f9b0a33d0306573d0de387efad4" category="list-text"><block ref="ba181f9b0a33d0306573d0de387efad4" category="inline-link-rx"></block></block>
+  <block id="7effa26776dad56a362038eae76fd1d8" category="list-text">在NetApp Console選單中，選擇「管理 &gt;Licenses and subscriptions」。</block>
 </blocks>

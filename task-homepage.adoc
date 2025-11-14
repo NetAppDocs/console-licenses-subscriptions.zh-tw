@@ -40,7 +40,7 @@ NOTE: 雖然您可以從儀表板更新和刪除許可證，但您不能新增�
 link:task-manage-data-services-licenses.html["了解有關管理許可證的詳細信息"^] 。link:task-manage-subscriptions.html["了解有關管理訂閱的更多信息"^] 。
 
 .步驟
-. 從NetApp Console選單中，選擇 *治理 >Licenses and subscriptions*。
+. 從NetApp Console選單中，選擇「管理 >Licenses and subscriptions」。
 . 選擇*概覽*。
 . 選擇對應資料服務（包括Cloud Volumes ONTAP）的「檢視」以查看詳細資訊並管理授權和訂閱。
 +
@@ -65,7 +65,7 @@ link:task-data-services-licenses.html["了解有關管理許可證的更多資�
 
 您可以查看需要解決的授權和訂閱問題。問題包括許可證和訂閱即將到期或達到容量上限。
 
-. 從NetApp Console選單中，選擇 *治理 >Licenses and subscriptions*。
+. 從NetApp Console選單中，選擇「管理 >Licenses and subscriptions」。
 . 選擇*概覽*。
 . 選擇「需要操作」圖塊的「解決」來查看需要調整的問題。如果沒有顯示“*解決*”，則表示此時沒有需要採取措施的問題。
 . 從「需要操作」頁面中，選擇「授權」標籤或「訂閱」標籤。
