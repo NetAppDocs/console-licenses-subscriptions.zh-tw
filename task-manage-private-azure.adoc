@@ -106,4 +106,4 @@ Azure 端自動化可能需要 30 秒到 5 分鐘才能完成。如果在按一�
 . 如果需要跨多個超大規模資料中心進行多個訂閱，請重複這些步驟。
 
 
-有關市場訂閱和直接許可計費的更多信息，請參閱link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]。
+有關市場訂閱和直接許可計費的更多信息，請參閱 link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]。

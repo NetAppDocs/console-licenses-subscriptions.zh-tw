@@ -844,7 +844,6 @@
   <block id="9fd469469f54b4e3870fda1513aae9b4" category="paragraph">== 典型配置路徑 | 場景 | 建議計費選項 | |-----------|-----------------------------| | 使用購買的NetApp容量 | 優先使用NetApp許可證 | | 僅使用 Marketplace 合約 | 僅使用 Marketplace 訂閱 | | 在同一雲端提供者下為多個項目計費 | 啟用自訂 CVO 配置 | | 恢復恢復預設計費 |</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">了解授權和訂閱如何定義NetApp Console如何管理直接授權、雲端市場合約和NetApp Keystone的使用情況、計費和續約。</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">了解授權和訂閱的計費方式</block>
-  <block id="599c9b0b724ff40d712e8b1a323b8f8d" category="paragraph">計費偏好設定決定了您如何處理組織內有效許可證和訂閱的付款、發票和續約行為。您可以全域套用這些首選項，使其影響您組織內的所有計費關係；或者，當特定合約需要自己的設定時，也可以在單一訂閱層級套用這些首選項。</block>
   <block id="8dc8efc61c3e8d351d2761bd0cd8d331" category="list-text">*市場訂閱* 對應於雲端市場合約（AWS、Azure 或 Google Cloud），使用費透過超大規模帳戶收取。</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*直接許可證* 指的是直接從NetApp購買的許可證，透過許可證金鑰、發票接收人和續約選項在NetApp Console中進行管理。</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">您可以根據採購模式配置組織如何分配和支付服務費用。</block>
@@ -854,7 +853,6 @@
   <block id="16595df5a4605390cff6c818f3223d5e" category="paragraph">計費偏好設定可確保正確套用使用費和續費。正確配置可以減少計費糾紛，並更容易管理結合了NetApp自有容量和市場購買容量的混合授權模式。</block>
   <block id="6da4e5f2a97800c29881b3e6f807c9f9" category="paragraph">例如，全域計費偏好設定可以統一您的發票聯絡人列表，以便所有服務共用一個計費管理員。您也可以使用成本中心標籤來統一跨部門或地區的用量，並啟用自動續約以防止服務中斷。新的Cloud Volumes ONTAP (CVO) 部署會自動繼承您在此處定義的計費模式，從而在新增系統時保持您組織的計費模式的一致性。</block>
   <block id="6b5482849442a1db8a7dc9641fdb0267" category="paragraph">計費首選項在NetApp Console的「Licenses and subscriptions」部分中進行設定。</block>
-  <block id="26529241099f54472cd2ec577f895a28" category="paragraph">您可以在此處執行以下操作：- 設定組織的計費偏好 - 啟用自訂 CVO 配置以進行進階映射 - 編輯或更新市場訂閱詳情</block>
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="section-title">欄位</block>
   <block id="e662217eb22f6b7b966f1ed07411a3dd" category="paragraph">計費欄位儲存有關每個授權或訂閱計費方式的元資料。它們描述了誰需要付費、續費方式以及每項服務所屬的帳戶或成本中心。</block>
   <block id="5ea0317322a30367980e8c9bc0ba1526" category="section-title">市場領域</block>
@@ -943,15 +941,20 @@
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">了解帳單偏好設定</block>
   <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">從NetApp Console選單中，選擇“管理 &gt;Licenses and subscriptions”，然後選擇“直接許可證”標籤。</block>
-  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">更多資訊請參閱。<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
   <block id="9ef810f213faea9695f8494f68387049" category="list-text">從NetApp Console選單中，選擇「管理 &gt;Licenses and subscriptions」。</block>
   <block id="bb6a3f5790fd10ced1f6845ea4d3ba04" category="paragraph">您可以在NetApp Console中設定和管理計費首選項，以控制容量使用情況、續約和發票如何套用至您組織的帳戶。計費方式決定了使用費是來自NetApp授權、雲端市場合約或Keystone協定。</block>
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">在NetApp Console中，選擇「管理 &gt;Licenses and subscriptions」。</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*雲端專案*</block>
   <block id="7122970c90188deca8583df3506aa39c" category="list-text">從控制台選單中，選擇“管理”&gt;“Licenses and subscriptions”，然後選擇“直接許可證”標籤。</block>
   <block id="13ad11ec7b9bd0fe7c52fc12e83f93d4" category="list-text">如果需要跨多個超大規模資料中心進行多個訂閱，請重複這些步驟。</block>
-  <block id="652e4824afa6b50187425c72ff981fe6" category="paragraph">有關市場訂閱和直接許可計費的更多信息，請參閱<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>。</block>
   <block id="dce3a4835fb0cd80cf119820cc31f008" category="list-text"><block ref="dce3a4835fb0cd80cf119820cc31f008" category="inline-link-rx"></block></block>
   <block id="ba181f9b0a33d0306573d0de387efad4" category="list-text"><block ref="ba181f9b0a33d0306573d0de387efad4" category="inline-link-rx"></block></block>
   <block id="7effa26776dad56a362038eae76fd1d8" category="list-text">在NetApp Console選單中，選擇「管理 &gt;Licenses and subscriptions」。</block>
+  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">欲了解更多信息，請參閱<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block>。</block>
+  <block id="0bbe14145d06970fb76480d91f62735d" category="paragraph">計費偏好設定可讓您確定如何處理有效許可證和訂閱的付款和續訂行為。您可以全域套用這些偏好設置，使其影響所有計費關係；或者，當特定合約需要單獨配置時，也可以在單一訂閱層級套用這些偏好設定。</block>
+  <block id="7167322ea9975145e470debb0dd9682c" category="paragraph">從那裡，您可以：</block>
+  <block id="c612120099cf9dd3f393ed9419ca02db" category="list-text">為您的組織設定帳單偏好</block>
+  <block id="2d71cedb2928350b6ef9e9d588d51e0d" category="list-text">啟用自訂 CVO 配置以進行進階映射</block>
+  <block id="65bc511f5575c8f9267c515646eb9fa8" category="list-text">編輯或更新市集訂閱詳情</block>
+  <block id="821825341ee77cae5e1bfc15788cb576" category="paragraph">有關市場訂閱和直接許可計費的更多信息，請參閱 <block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>。</block>
 </blocks>

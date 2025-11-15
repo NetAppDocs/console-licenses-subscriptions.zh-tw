@@ -119,4 +119,4 @@ summary: 管理您的通用和超大規模特定、端到端私人優惠流程�
 . 如果需要跨多個超大規模資料中心進行多個訂閱，請重複這些步驟。
 
 
-有關市場訂閱和直接許可計費的更多信息，請參閱link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]。
+有關市場訂閱和直接許可計費的更多信息，請參閱 link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]。
