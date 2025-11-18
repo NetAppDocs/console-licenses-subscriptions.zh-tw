@@ -848,7 +848,6 @@
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*直接許可證* 指的是直接從NetApp購買的許可證，透過許可證金鑰、發票接收人和續約選項在NetApp Console中進行管理。</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">您可以根據採購模式配置組織如何分配和支付服務費用。</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">權限</block>
-  <block id="6e70716fedade61a999818a444a40c58" category="paragraph">只有擁有「帳戶管理員」或「帳單管理員」角色的使用者才能修改帳單偏好設定。這些角色確保只有授權使用者才能更改影響組織帳單資料的發票聯絡人、成本中心或續約設定。具有 *操作員* 角色的使用者可以查看現有偏好設置，但沒有編輯權限。</block>
   <block id="0429b17ec8c6088185487126a1732401" category="section-title">帳單偏好</block>
   <block id="16595df5a4605390cff6c818f3223d5e" category="paragraph">計費偏好設定可確保正確套用使用費和續費。正確配置可以減少計費糾紛，並更容易管理結合了NetApp自有容量和市場購買容量的混合授權模式。</block>
   <block id="6da4e5f2a97800c29881b3e6f807c9f9" category="paragraph">例如，全域計費偏好設定可以統一您的發票聯絡人列表，以便所有服務共用一個計費管理員。您也可以使用成本中心標籤來統一跨部門或地區的用量，並啟用自動續約以防止服務中斷。新的Cloud Volumes ONTAP (CVO) 部署會自動繼承您在此處定義的計費模式，從而在新增系統時保持您組織的計費模式的一致性。</block>
@@ -891,9 +890,7 @@
   <block id="5435d0c2ab2affaf5e146abe5dcdf92d" category="paragraph">例如，考慮一個同時擁有NetApp直接授權和市場訂閱的組織。典型的配置會將「NetApp許可證優先」設定為預設計費模式，以便在市場計費之前使用預付費容量。然後，在*自訂 CVO 配置*下，每個超大規模雲端服務供應商（AWS、Azure、Google Cloud）都會被指派其對應的訂閱 ID。</block>
   <block id="a3bc016aa80a8b7ecc67c3ff4f3f16a7" category="paragraph">儲存這些設定後，管理員可以在「Licenses and subscriptions」下查看映射，以驗證每個服務是否指向正確的帳戶。為了進一步驗證，他們可以將NetApp Console中的使用情況資料與雲端計費儀表板進行比較，並根據需要調整成本中心標籤或聯絡人，以保持報告的一致性。</block>
   <block id="e6f95da84fc231235869778f84686fab" category="summary">在NetApp Console中設定計費首選項，以控制授權、市集訂閱和Keystone協議的計費和續約方式。</block>
-  <block id="531f703ee6ea7df16c5a41c3d86dbca1" category="list-text">您擁有*帳單管理員*或*組織管理員*角色。</block>
   <block id="9b5b2baaae7db459fd9d75d10938da0d" category="list-text">所有相關的市場訂閱都與您的組織關聯。</block>
-  <block id="501d44233b9d81f23f07411ed57f5152" category="list-text">您已在「Licenses and subscriptions」中查看了現有配置。</block>
   <block id="0b2612372a98d97a0ca0b61bdbdea261" category="section-title">設定帳單偏好</block>
   <block id="142c2c7e22727e1a1c35317131d3de9b" category="paragraph">您可以選擇控制台如何將使用費用套用至不同的計費來源。這決定了哪些帳戶優先收費以及續費方式。</block>
   <block id="f40ec4f154501ac20f03c9cbaae03f9e" category="list-text">選擇*帳單偏好設定*。</block>
@@ -913,7 +910,6 @@
   <block id="40d30756ab89016fe82ba2526a295213" category="list-text">在**市場訂閱**下，啟用*自訂 CVO 配置*。</block>
   <block id="77e323811c3d488cfff7cab6c2087d26" category="list-text">選擇**儲存變更**。</block>
   <block id="9e7b72435a33e4f2cf071cb9b2cb1ce1" category="paragraph">現在您可以將特定的市場訂閱指派給同一超大規模雲端服務商下的各個Cloud Volumes ONTAP實例。</block>
-  <block id="f983fe6e123240e077e710d661147ac1" category="admonition">啟用此功能後，無法從「計費首選項」標籤還原自訂 CVO 配置。停用此功能會將所有 CVO 計費重設為資料服務的標準計費配置。</block>
   <block id="c81a2ae0cc1277c522901ce2c6a4e502" category="section-title">編輯市場配置</block>
   <block id="69476e8919a2f56846d34ab0189304c4" category="paragraph">您可以編輯市場配置詳細信息，將訂閱與雲端項目關聯，或更新合約資訊。</block>
   <block id="5d4b73c76a591653e1df0169162ac88d" category="list-text">開放*Licenses and subscriptions*。</block>
@@ -927,7 +923,6 @@
   <block id="6d507b9a707831f7702af21fa5dec071" category="list-title">確認更改</block>
   <block id="c2fd1f7e9fbe57dd7fddc94ac994a253" category="list-text">編輯完帳單偏好設定後，選擇「儲存變更」。</block>
   <block id="7a0f40b79bbec07585e819a33e79611f" category="list-text">請查看確認對話方塊中的摘要。</block>
-  <block id="71ce628e30f571d756dcdccac67b7723" category="list-text">選擇「儲存」以套用更新，或選擇「取消」以放棄更新。</block>
   <block id="7ef695122371dc395ee3d5f854afa853" category="list-title">恢復標準計費方式</block>
   <block id="fb76b0a0d9556954b60d57166a9a58ff" category="list-text">開啟*帳單偏好設定*。</block>
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">停用*自訂 CVO 配置*。</block>
@@ -957,4 +952,20 @@
   <block id="2d71cedb2928350b6ef9e9d588d51e0d" category="list-text">啟用自訂 CVO 配置以進行進階映射</block>
   <block id="65bc511f5575c8f9267c515646eb9fa8" category="list-text">編輯或更新市集訂閱詳情</block>
   <block id="821825341ee77cae5e1bfc15788cb576" category="paragraph">有關市場訂閱和直接許可計費的更多信息，請參閱 <block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>。</block>
+  <block id="33386a34a14a0561eb19403a93d36f22" category="paragraph">NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。這些角色提供不同的存取級別，啟用或限制使用者對此功能可執行的特定操作。</block>
+  <block id="bbbabdbe1b262f75d99d62880b953be1" category="cell">角色</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">描述</block>
+  <block id="fd7f09ef8e9a718e2777848cae52843e" category="cell">*行政*</block>
+  <block id="8663bf4ff50df0909a72d5d0e9ff05b6" category="paragraph">擁有此角色的使用者對許可證和訂閱擁有完全控制權。管理員使用者可以：</block>
+  <block id="8eddc1c41914000db0ea3e11251b3da3" category="list-text">查看所有授權和訂閱。</block>
+  <block id="d83bb310069e6251f666fe2f1f1a246a" category="list-text">新增許可證。</block>
+  <block id="54749d73ae5158a2c45dcfb6350f783e" category="list-text">將訂閱與帳戶關聯。</block>
+  <block id="7c684c44eac747e0de059ae4dd1fa549" category="list-text">修改現有許可證詳情。</block>
+  <block id="cd2f258cff7669557a87899fd098b8d4" category="list-text">刪除許可證或取消訂閱。</block>
+  <block id="db4280836d027a94bc5834b179386124" category="cell">*檢視器*</block>
+  <block id="1d2f900fae86a6b1fedf8da639320914" category="paragraph">擁有此角色的使用者只有唯讀權限。查看器用戶可以：</block>
+  <block id="eecec32a54a34e2a72e8e5f9f7f4f254" category="list-text">您擁有*管理員*角色權限。</block>
+  <block id="0d598f94fd99fabd7c4e6f69c91456f9" category="list-text">您已審核了現有授權和訂閱的配置。</block>
+  <block id="d82371f41195b8bd95134fdb4b66488e" category="admonition">啟用此功能後，無法從**計費首選項**還原自訂 CVO 配置。停用此功能會將所有 CVO 計費重設為資料服務的標準計費配置。</block>
+  <block id="f1396f3668b9ac6ec69042ebd868ed35" category="list-text">選擇「儲存」以套用更新，或選擇「取消」以放棄更新。</block>
 </blocks>
