@@ -47,9 +47,9 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 您可以在控制台中管理以下服務的授權和訂閱：
 
-* https://docs.netapp.com/us-en/console-backup-recovery/index.html["備份和復原"^]
-* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["災難復原"^]（限 BYOL）
-* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["勒索軟體抵禦能力"^]
-* https://docs.netapp.com/us-en/console-tiering/index.html["雲端分層"^]
+* https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["備份和復原"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/index.html["災難復原"^]（僅限 BYOL）
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/index.html["勒索軟體抵禦能力"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/index.html["雲端分層"^]
 

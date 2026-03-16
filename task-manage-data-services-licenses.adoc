@@ -21,11 +21,11 @@ NOTE: *直接許可*頁面列出了所有許可證。如果您想要特定資料
 
 此頁面上的說明提供了適用於每項服務的資訊。有關這些服務許可的更多具體信息，請參閱以下頁面：
 
-* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["設定NetApp Backup and Recovery 的許可"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["設定NetApp Disaster Recovery許可"^]
-* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["設定NetApp Ransomware Resilience的許可"^]
-* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["設定NetApp Cloud Tiering許可"^]
-* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["設定Cloud Volumes ONTAP許可"^]
+* https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-licensing.html["設定NetApp Backup and Recovery 的許可"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-licensing.html["設定NetApp Disaster Recovery許可"^]
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-licenses.html["設定NetApp Ransomware Resilience的許可"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/task-licensing-cloud-tiering.html["設定NetApp Cloud Tiering許可"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["設定Cloud Volumes ONTAP許可"^]
 
 
 

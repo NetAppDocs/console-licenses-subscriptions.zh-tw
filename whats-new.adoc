@@ -38,7 +38,7 @@ summary: 了解NetApp Console授權和訂閱的新功能。
 
 NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
 
-有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console發行說明"]。
+有關具體變更內容，請參閱 link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console發行說明"]。
 
 
 
@@ -154,7 +154,7 @@ BlueXP digital wallet現在支援電子郵件通知。
 
 如果您配置了通知設置，當您的 BYOL 授權即將到期（「警告」通知）或已到期（「錯誤」通知）時，您會收到電子郵件通知。
 
-https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["了解如何設定電子郵件通知"^]
+https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["了解如何設定電子郵件通知"^]
 
 
 
