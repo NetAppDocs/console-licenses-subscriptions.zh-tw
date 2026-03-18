@@ -481,14 +481,12 @@
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">了解如何管理直接發現的集群</block>
   <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
   <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">接受並配置NetApp Console的 AWS Marketplace 專屬優惠</block>
-  <block id="ff13fa6d7bc903be5ecf4d041ce5aa5c" category="paragraph">在 AWS 主控台中接受NetApp Console的 Marketplace 私人優惠，並在控制台中設定 AWS 憑證。</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">與NetApp銷售人員合作創建私人優惠並取得啟動連結。</block>
   <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">確保您擁有所需的 AWS Marketplace 權限：</block>
   <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">查看並訂閱專屬優惠</block>
   <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
   <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">買家權限驗證</block>
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
-  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">在 AWS 主控台中接受私人優惠</block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">需要在控制台中完成訂閱分配才能啟動購買並套用折扣價格。</block>
   <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">您必須完成所有步驟才能啟動您的私人優惠。跳過步驟可能會導致計費錯誤。多次接受並啟動該優惠將導致雙重收費。</block>
   <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">點擊NetApp銷售團隊提供的私人優惠啟動連結。該連結應類似於以下內容：<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
@@ -513,11 +511,8 @@
   <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">接受後，橫幅會確認訂閱並提供註冊說明。</block>
   <block id="9a964a2e84212b282e85422fa8a70544" category="list-text">點擊“設定您的帳戶”。這將重定向到NetApp Console來配置訂閱。</block>
   <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">如果您接受了報價但未完成註冊，請返回產品頁面。對於合約列表，按一下「查看購買選項」以顯示報價，然後選擇「設定您的帳戶」。</block>
-  <block id="2e64edfe7c5204394d8441cd657b2892" category="list-text">Sign in<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block>使用您的控制台帳戶。</block>
   <block id="5e1b8f033801f9e6066729a408b4da2f" category="list-text">登入後，導航至<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block>。系統將提示您：</block>
   <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">輸入 Marketplace 訂閱的「顯示名稱」。</block>
-  <block id="2cd221344150a3626a43e90a5a658fe9" category="list-text">選擇具有訂閱存取權限的控制台*帳戶*。</block>
-  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[可選] 啟用「替換現有訂閱」以覆蓋一個帳戶的現有訂閱。</block>
   <block id="75593b03eb6aef440911b04a96cd04dc" category="list-text">替換僅適用於一個控制台帳戶。</block>
   <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">若要將多個帳戶與相同訂閱關聯，請手動設定其他帳戶。</block>
   <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">如果憑證從未與訂閱關聯，請按下一節所述手動關聯它們。</block>
@@ -555,8 +550,6 @@
   <block id="28aeb99ad7fa714f50ee0dba31b74247" category="list-text">您將被重新導向至<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block>並提示登入。</block>
   <block id="f0456057cee7cc1dd8dba0eea97afb99" category="list-text">登入後，您將被重新導向至<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block>。系統將提示您：</block>
   <block id="39adb4da3012b43be809229537dd4480" category="list-text">輸入市場訂閱的*顯示名稱*。</block>
-  <block id="08203a12c0659c3a962694a2bedabdd2" category="list-text">選擇應該有權存取此訂閱的控制台*帳戶*。</block>
-  <block id="c971675f678da35b74e0d7fcf448705b" category="list-text">或者，您可以啟用*取代現有訂閱*來自動取代一個控制台帳戶中現有的 Marketplace 訂閱。</block>
   <block id="bdd177ac7c3a61f270d7d1424cc6bf1f" category="list-text">此替換選項僅限於單一控制台帳戶。</block>
   <block id="d939375aaed073b9eac9e5beb4ba0a3b" category="list-text">若要將多個控制台帳戶與同一個 Marketplace 訂閱關聯，請手動設定其他帳戶。</block>
   <block id="c9ca68f69753eaca0ec0228921c617fa" category="doc">接受並配置NetApp Console的 Google Cloud 專屬優惠</block>
@@ -588,8 +581,6 @@
   <block id="e58b6bbe6eb23bea3dd1681ec6a9af11" category="list-text">您將被重新導向至<block ref="7c376aef5250afe71efcebf7a7a3f4b9" prefix=" " category="inline-code"></block>並提示登入。</block>
   <block id="58fd0c4f67d67b5379d45ee8a3db553f" category="list-text">登入後，您將被重新導向至<block ref="24d15e59be383cd22c6b17c55af710c1" prefix=" " category="inline-code"></block>。將顯示一個彈出窗口，您必須執行以下操作：</block>
   <block id="109deb83c524752969863db2154396e3" category="list-text">輸入「SaaS 市場訂閱」的顯示名稱。</block>
-  <block id="98a69ff93ac7f606e9ffc0f0ad3c2be6" category="list-text">選擇應該有權存取訂閱的控制台**帳戶**。</block>
-  <block id="f42189975a0067b88050cff9b07f38b3" category="list-text">或者，如果您想在一個控制台帳戶中自動替換現有的 Marketplace 訂閱，您可以啟用**替換現有訂閱**。</block>
   <block id="35a234d8ec57d77057c7e83dd833a391" category="list-text">如果您需要將多個控制台帳戶與同一個 Marketplace 訂閱關聯，則必須手動設定其他帳戶。</block>
   <block id="c38a5b5bc8ce7c5e70620128d5b70df7" category="summary">從雲端供應商的市場訂閱NetApp資料服務（包括Cloud Volumes ONTAP）。</block>
   <block id="b01b1be092b95233172f870dc729234b" category="doc">管理 PAYGO 訂閱和合約</block>
@@ -974,4 +965,13 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
   <block id="3ac14e8b0ff8be035f2bf4d15b62a698" category="paragraph"><block ref="3ac14e8b0ff8be035f2bf4d15b62a698" category="inline-link-rx"></block></block>
+  <block id="b14c8f714ab9df1d8bf0b8e0b5be9075" category="summary">在 AWS Marketplace 入口網站中接受 NetApp Console 的 Marketplace 私有報價，並在 Console 中設定 AWS 憑證。</block>
+  <block id="e3edb6d6eefa6e26fd7d233d36622506" category="section-title">接受 AWS Marketplace Portal 中的私有優惠</block>
+  <block id="539df6295a1f72f1a6ce9c01b447ccfd" category="list-text">Sign in 於 <block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block>。</block>
+  <block id="2ef69aab27aad02b09bd9c1e01dfe293" category="list-text">選擇擁有訂閱存取權限的 Console *組織*。</block>
+  <block id="aa9da6403204546dcd3c3b41bda594eb" category="list-text">[可選] 啟用 *Replace existing subscription* 以覆蓋組織的現有訂閱。</block>
+  <block id="7df82bbcc877cc7b0ae3f358c7acd1ee" category="list-text">選擇應該有權存取此訂閱的 Console *組織*。</block>
+  <block id="6b19be00318068639bb55171c38824da" category="list-text">您也可以選擇啟用 *Replace existing subscription* 功能，以自動取代一個 Console 組織中現有的 Marketplace 訂閱。</block>
+  <block id="f6a3d6466a9b3dd0a42a2d2b4b3377a6" category="list-text">選擇應該有權存取訂閱的 Console *Organizations*。</block>
+  <block id="abd213f6c87bacca6bcd08de8ac36571" category="list-text">您也可以選擇啟用 **Replace existing subscription** 功能，以便在一個 Console 組織中自動替換現有的 Marketplace 訂閱。</block>
 </blocks>

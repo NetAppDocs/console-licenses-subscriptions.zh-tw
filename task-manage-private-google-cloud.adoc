@@ -76,8 +76,8 @@ summary: 接受 Google Cloud 控制台中NetApp Console清單的 Marketplace 私
 . 登入後，您將被重新導向至 `https://console.netapp.com/licenses/overview`。將顯示一個彈出窗口，您必須執行以下操作：
 +
 .. 輸入「SaaS 市場訂閱」的顯示名稱。
-.. 選擇應該有權存取訂閱的控制台**帳戶**。
-.. 或者，如果您想在一個控制台帳戶中自動替換現有的 Marketplace 訂閱，您可以啟用**替換現有訂閱**。
+.. 選擇應該有權存取訂閱的 Console *Organizations*。
+.. 您也可以選擇啟用 **Replace existing subscription** 功能，以便在一個 Console 組織中自動替換現有的 Marketplace 訂閱。
 +
 [NOTE]
 ====
