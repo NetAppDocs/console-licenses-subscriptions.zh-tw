@@ -14,7 +14,7 @@ summary: 在NetApp Console中設定計費首選項，以控制授權、市集訂
 
 
 [role="lead"]
-您可以在NetApp Console中設定和管理計費首選項，以控制容量使用情況、續約和發票如何套用至您組織的帳戶。計費方式決定了使用費是來自NetApp授權、雲端市場合約或Keystone協定。
+您可以在 NetApp Console 中設定及管理帳單偏好設定，以控制容量使用、續約及發票如何套用至您組織的帳戶。帳單偏好設定決定使用費用是來自 NetApp 授權、雲端市集合約，還是 Keystone 協議。
 
 .開始之前
 * 您擁有*管理員*角色權限。
@@ -49,7 +49,7 @@ summary: 在NetApp Console中設定計費首選項，以控制授權、市集訂
 NetApp Console更新計費對應。未來的服務費用和續費將採用所選配置。
 
 
-NOTE: 改變計費方式會重新分配服務費用。新的Cloud Volumes ONTAP (CVO) 實例會自動繼承所選配置。
+NOTE: 更改計費模式會重新分配服務費用的套用方式。新的 Cloud Volumes ONTAP 執行個體會自動繼承所選配置。
 
 
 
