@@ -32,16 +32,17 @@ summary: 在 AWS Marketplace 入口網站中接受 NetApp Console 的 Marketplac
 
 需要在控制台中完成訂閱分配才能啟動購買並套用折扣價格。
 
-[NOTE]
-====
-您必須完成所有步驟才能啟動您的私人優惠。跳過步驟可能會導致計費錯誤。多次接受並啟動該優惠將導致雙重收費。
 
-====
+NOTE: 您必須完成所有步驟才能啟動您的專屬優惠。跳過任何步驟都可能導致帳單錯誤。多次接受並啟動優惠可能會導致重複收費。
+
 .步驟
-. 從您的 NetApp 銷售團隊選取私人優惠啟動連結。該連結應類似於以下內容：
-`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+. 從您的 NetApp 銷售團隊選取私人優惠啟動連結。
 +
- If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
+該連結應類似於以下內容： `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+
++
+如果您未收到連結，請在 AWS Marketplace 主控台中檢視私有優惠。需要下列權限：
+
 +
 ** 使用 AWS 託管策略：*AWSMarketplaceRead-only*、*AWSMarketplaceManageSubscriptions* 或 *AWSMarketplaceFullAccess*
 ** 使用自訂 IAM 策略： `aws-marketplace:ListPrivateListings`和 `aws-marketplace:ViewSubscriptions`
@@ -49,11 +50,9 @@ summary: 在 AWS Marketplace 入口網站中接受 NetApp Console 的 Marketplac
 
 . 您將被重定向到 AWS Marketplace 來查看專屬優惠。
 +
-[NOTE]
-====
-私人報價是在公開清單的基礎上建立的。使用「*優惠選擇*」下拉式選單在公開優惠和私人優惠之間切換。
 
-====
+NOTE: 私人報價是在公開清單的基礎上建立的。使用「*優惠選擇*」下拉式選單在公開優惠和私人優惠之間切換。
+
 . 查看私人優惠詳情並確認其符合您的協議。如果不正確，請不要接受。聯絡您的NetApp客戶團隊。
 +
 [NOTE]
@@ -112,11 +111,11 @@ summary: 在 AWS Marketplace 入口網站中接受 NetApp Console 的 Marketplac
 
 . 選擇 **Associate**。
 . 填寫表格，將訂閱與您的 Console 組織建立關聯。選擇 **Associate** 。
-. 關聯訂閱後，導覽並選擇「帳單首選項」標籤。
+. 關聯訂閱後，請選取 **Billing preferences** 標籤。
 . 查看應用程式商店的訂閱選項。
 . 選擇您要計費的商城訂閱服務。這僅適用於存在多個選項的情況。
 . 選擇**儲存變更**。
-. 如有需要，如果跨多個雲端供應商有多個訂閱，請重複這些步驟。
+. 如果有多個雲端供應商的多個訂閱，請視需要重複這些步驟。
 
 
 有關市場訂閱和直接許可計費的更多信息，請參閱 link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]。

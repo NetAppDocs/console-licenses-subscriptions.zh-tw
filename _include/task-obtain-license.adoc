@@ -9,7 +9,7 @@
 .步驟
 . 尋找您的控制台帳戶 ID：
 +
-.. 在控制台的右上角，選擇image:icon-settings-option.png["顯示在 Web 控制台右上角的設定圖示。"]> *身分和存取管理*。
+.. 在 Console 的導覽功能表中、選取 *Administration* > *Identity and access* 。
 .. 在組織頁面上，尋找您的帳戶 ID 並複製它。
 +
 如果沒有列出帳戶 ID，而您只有組織 ID，請複製組織 ID 的前八個字元並將其附加到 *account-*

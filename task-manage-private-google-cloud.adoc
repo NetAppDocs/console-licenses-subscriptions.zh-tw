@@ -90,11 +90,11 @@ summary: 接受 Google Cloud 控制台中NetApp Console清單的 Marketplace 私
 
 . 選擇 **Associate**。
 . 填寫表格，將訂閱與您的 Console 組織建立關聯。選擇 **Associate** 。
-. 關聯訂閱後，導覽並選擇「帳單首選項」標籤。
+. 關聯訂閱後，請選取 **Billing preferences** 標籤。
 . 查看應用程式商店的訂閱選項。
 . 選擇您要計費的商城訂閱服務。這僅適用於存在多個選項的情況。
 . 選擇**儲存變更**。
-. 如有需要，如果跨多個雲端供應商有多個訂閱，請重複這些步驟。
+. 如果有多個雲端供應商的多個訂閱，請視需要重複這些步驟。
 
 
 有關市場訂閱和直接許可計費的更多信息，請參閱 link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"]。

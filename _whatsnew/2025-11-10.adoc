@@ -6,6 +6,6 @@
 
 === 管理帳單偏好設定
 
-現在可以直接在NetApp Console中設定和管理*計費首選項*。這項增強功能使管理員能夠定義和查看如何對NetApp直接授權、雲端市場訂閱和Keystone協議中的容量使用情況、續約和成本進行計費。
+您現在可以直接在 NetApp Console 中設定及管理 *Billing preferences*。此項強化功能讓管理員能夠定義並檢視直接 NetApp Licenses、雲端市集訂閱，以及 Keystone 合約中的容量使用、續約與成本的計費方式。
 
 欲了解更多信息，請參閱link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["帳單偏好文檔"^]。

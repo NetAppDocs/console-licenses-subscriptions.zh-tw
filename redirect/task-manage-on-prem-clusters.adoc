@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-on-prem-clusters.html 
 keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
-summary: 查看每個本地ONTAP集群的合約詳細資訊。如果您尚未在控制台中發現集群，您也可以發現它們。 
+summary: 檢視每個內部部署 ONTAP 叢集的合約詳細資料。 
 ---
 = 管理本地ONTAP 的許可證
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 查看每個本地ONTAP集群的合約詳細資訊。如果您尚未在
 
 
 [role="lead"]
-您可以在控制台中查看每個本地ONTAP叢集的合約詳細資訊。如果您尚未發現集群，您也可以發現它們。
+在 NetApp Console 中，您可以探索 ONTAP 叢集，並檢視您已探索的每個本地端 ONTAP 叢集的合約詳細資料。
 
 .開始之前
 控制台顯示您作為系統發現的本機 ONTAP 叢集或與您新增至控制台的NetApp支援網站帳戶關聯的本機ONTAP叢集的詳細資訊。

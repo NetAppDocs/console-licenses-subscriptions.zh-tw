@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+*所需 Console 角色* 要執行此任務，您需要 Licenses and subscriptions 管理員角色link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["了解 NetApp Console 的 Licenses and subscriptions 角色"^]。
