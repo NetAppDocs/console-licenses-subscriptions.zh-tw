@@ -17,10 +17,11 @@ summary: 在NetApp Console中設定計費首選項，以控制授權、市集訂
 您可以在 NetApp Console 中設定及管理帳單偏好設定，以控制容量使用、續約及發票如何套用至您組織的帳戶。帳單偏好設定決定使用費用是來自 NetApp 授權、雲端市集合約，還是 Keystone 協議。
 
 .開始之前
-* 您擁有*管理員*角色權限。
 * 所有相關的市場訂閱都與您的組織關聯。
 * 您已審核了現有授權和訂閱的配置。
 
+
+*所需 Console 角色* 要執行此任務，您需要 Licenses and subscriptions 管理員角色link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["了解 NetApp Console 的 Licenses and subscriptions 角色"^]。
 
 
 
@@ -39,10 +40,10 @@ summary: 在NetApp Console中設定計費首選項，以控制授權、市集訂
 
 . 在 *Marketplace subscriptions* 下，選擇每個雲端供應商（AWS、Azure 和 Google Cloud）的訂閱。
 . 如果您在單一雲端提供者下使用多個訂閱、請啟用 *Custom CVO configuration* 。
-. （可選）更新*發票聯絡人*和*通知聯絡人*。
-. （可選）輸入*成本中心標籤*，將帳單與內部會計代碼關聯起來。
+. （選用）更新 *Invoice contacts* 和 *Notification contacts*。
+. （選用）輸入 *Cost center tag*，將帳單與內部會計代碼建立關聯。
 . 選擇“儲存變更”。
-. 出現提示時，請查看確認對話方塊並選擇「確認」。
+. 出現提示時，請檢閱確認對話方塊，然後選取 *Confirm* 。
 
 
 .結果

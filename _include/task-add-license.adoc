@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-如果與授權相關聯的 NetApp Console 帳戶同時也是 NetApp 支援網站帳戶，則授權資訊會自動顯示在 **Licenses and subscriptions** 區段中。如果您使用的 Console 帳戶未與 NSS 帳戶相關聯，則需要手動新增授權。
+如果與授權相關聯的 NetApp Console 帳戶同時也是 NetApp 支援網站帳戶且具有網際網路存取權限，則授權資訊會自動顯示在 **Licenses and subscriptions** 區段中。如果您使用的 Console 帳戶未與您的 NSS 帳戶相關聯，則需要手動新增授權。
 
 您可以在控制台中透過輸入序號和關聯的 NSS 帳戶或上傳NetApp許可證文件 (NLF) 來新增許可證。如果控制台無法存取網路（私人模式安裝），您應該取得NetApp授權檔案進行上傳。
 

@@ -594,10 +594,6 @@
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">查看與訂閱關聯的憑證</block>
   <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">您可以從*市場訂閱*頁面查看特定訂閱的憑證。這使您可以驗證訂閱的計費方式。由於憑證與您正在使用的代理程式綁定，因此您必須選擇與要查看的訂閱相關聯的代理程式。</block>
   <block id="305572f28aa8e98572395f6c22011dee" category="admonition">如果需要，請使用頂部導覽列中的代理下拉式功能表切換代理程式。</block>
-  <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">取消配置訂閱</block>
-  <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">您必須先取消配置，然後才能刪除訂閱。這將清除所有相關數據和設定。</block>
-  <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">依照指示刪除或重設任何相關設定或資料。</block>
-  <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">等待狀態更新為*未配置*。</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">刪除訂閱</block>
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">在您要刪除的訂閱的行中，開啟操作選單並選擇*刪除*。</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">在向NetApp技術支援部門提交支援案例之前，您需要將NetApp支援網站帳戶新增至NetApp Console，然後註冊以取得支援。</block>
@@ -745,7 +741,6 @@
   <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*市場訂閱* — 計費透過 AWS Marketplace、Azure Marketplace 或 Google Cloud Marketplace 進行。您可以選擇雲端市場提供的計費帳戶、地區和續約選項。</block>
   <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*直接許可* — 計費透過NetApp。您可以在NetApp Console中管理許可證金鑰、發票聯絡人和自動續訂。</block>
   <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">* Keystone訂閱* — 帳單將透過您的Keystone協議進行結算。您可以在NetApp Console中管理發票收件者和成本中心標籤。</block>
-  <block id="6cf13260cfd390e66379c0ccf1393abc" category="paragraph">計費偏好設定可讓您： - 在所有服務中強制使用單一發票聯絡人列表， - 將使用情況與成本中心對齊， - 管理自動續訂和到期通知， - 確保新的Cloud Volumes ONTAP (CVO) 系統繼承正確的計費帳戶。</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">了解授權和訂閱如何定義NetApp Console如何管理直接授權、雲端市場合約和NetApp Keystone的使用情況、計費和續約。</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">了解授權和訂閱的計費方式</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*直接許可證* 指的是直接從NetApp購買的許可證，透過許可證金鑰、發票接收人和續約選項在NetApp Console中進行管理。</block>
@@ -795,10 +790,7 @@
   <block id="0a6726bc9108e08ebb13bc6fe5a55e5b" category="list-text">請選擇以下計費方式之一：</block>
   <block id="18dd1fddbff47223752aa7cbe0ce2d30" category="list-text">*優先使用NetApp許可證* – 先使用NetApp許可證，然後再透過市場訂閱來獲得額外的使用量。</block>
   <block id="d25910c477ea028d9255a48945715553" category="list-text">*僅限市場訂閱* – 所有使用費用均透過市場訂閱直接計費。</block>
-  <block id="529449d891dd58043109a5fd2c03e18e" category="list-text">（可選）更新*發票聯絡人*和*通知聯絡人*。</block>
-  <block id="645717e077f5e3230fa79efe02fcea05" category="list-text">（可選）輸入*成本中心標籤*，將帳單與內部會計代碼關聯起來。</block>
   <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">選擇“儲存變更”。</block>
-  <block id="108c7e8f13bbc93814f67368581b2ce0" category="list-text">出現提示時，請查看確認對話方塊並選擇「確認」。</block>
   <block id="17741aaf0ce5304ce281496e14f3c373" category="paragraph">NetApp Console更新計費對應。未來的服務費用和續費將採用所選配置。</block>
   <block id="77e323811c3d488cfff7cab6c2087d26" category="list-text">選擇**儲存變更**。</block>
   <block id="c81a2ae0cc1277c522901ce2c6a4e502" category="section-title">編輯市場配置</block>
@@ -847,7 +839,6 @@
   <block id="cd2f258cff7669557a87899fd098b8d4" category="list-text">刪除許可證或取消訂閱。</block>
   <block id="db4280836d027a94bc5834b179386124" category="cell">*檢視器*</block>
   <block id="1d2f900fae86a6b1fedf8da639320914" category="paragraph">擁有此角色的使用者只有唯讀權限。查看器用戶可以：</block>
-  <block id="eecec32a54a34e2a72e8e5f9f7f4f254" category="list-text">您擁有*管理員*角色權限。</block>
   <block id="0d598f94fd99fabd7c4e6f69c91456f9" category="list-text">您已審核了現有授權和訂閱的配置。</block>
   <block id="f1396f3668b9ac6ec69042ebd868ed35" category="list-text">選擇「儲存」以套用更新，或選擇「取消」以放棄更新。</block>
   <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">有關具體變更內容，請參閱 <block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>。</block>
@@ -940,11 +931,9 @@
   <block id="57f1a9c697c3336df2c3c56d7ed47d29" category="list-text">選擇 **REGISTER WITH NETAPP, Inc.**。您將被重新導向至 NetApp Console 以完成訂閱設定。如果私人優惠已由貴組織中的其他人接受：</block>
   <block id="ff7bbf6dcffb4b3f08c291a764f18dfe" category="list-text">選擇三點選單，然後選擇 **向 NetApp, Inc. 註冊**</block>
   <block id="69c9db700e88e13fa6be2001b38dfd08" category="list-text">在要關聯的訂閱列中，開啟動作功能表，然後選取 *Associate* 。</block>
-  <block id="b3cdc96c2b7de37edaa1cdfe112925ae" category="list-text">在要取消設定的訂閱列中，選取動作功能表，然後選取 *取消設定* 。</block>
   <block id="b36ceccfff88f5d9c684c4fec0f54c19" category="paragraph">Digital Wallet 現在會顯示您帳戶中已使用容量的總和以及按授權套件劃分的已使用容量。這有助於您了解收費方式以及是否需要購買額外容量。</block>
   <block id="8af1ad3469dad38ef46da37595e3b758" category="inline-link-macro">了解 NetApp Console 的 Licenses and subscriptions 角色</block>
   <block id="1ccb85040042290f711464fbb5e06609" category="paragraph">*所需 Console 角色* 要執行此任務，您需要 Licenses and subscriptions 管理員角色<block ref="f7bfd1d1e66654a9d76ee2fffeede42a" category="inline-link-macro-rx"></block>。</block>
-  <block id="458dbbe908598c035d40c809863c56e8" category="paragraph">如果與授權相關聯的 NetApp Console 帳戶同時也是 NetApp 支援網站帳戶，則授權資訊會自動顯示在 **Licenses and subscriptions** 區段中。如果您使用的 Console 帳戶未與 NSS 帳戶相關聯，則需要手動新增授權。</block>
   <block id="e8287c7448cfd8625359581b1cb6deb2" category="list-text">選取 *Direct licenses* 分頁。</block>
   <block id="9c3e0ea557f19f47fe25dfd585312f43" category="list-text">在 Console 的導覽功能表中、選取 *Administration* &gt; *Identity and access* 。</block>
   <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">管理 Cloud Volumes ONTAP 授權</block>
@@ -983,4 +972,15 @@
   <block id="9475bf1acf4a7e43280f6718d685e866" category="list-text">您只能移除狀態為 *Unsubscribed* 的訂閱。移除前，必須清除或重設所有相關設定、資料和配置。</block>
   <block id="c4a1705a6991448825c6ef6ad86fa41a" category="paragraph">如果訂閱仍處於設定狀態，則 * 移除 * 選項不可用。</block>
   <block id="792b1ad41ebb8947d008af5826897289" category="list-text">在 *Remove subscription* 對話方塊中，選取 *Remove* 以確認您要移除訂閱。</block>
+  <block id="e1173ed8259895238ff1719be2f592d9" category="paragraph">如果與授權相關聯的 NetApp Console 帳戶同時也是 NetApp 支援網站帳戶且具有網際網路存取權限，則授權資訊會自動顯示在 **Licenses and subscriptions** 區段中。如果您使用的 Console 帳戶未與您的 NSS 帳戶相關聯，則需要手動新增授權。</block>
+  <block id="0b4c468a31ec1cc5bcf0295ee7207fbe" category="paragraph">帳單偏好設定可讓您：</block>
+  <block id="646cb6fbd19fdc7e05aa499e55fae69f" category="list-text">在所有服務中強制使用單一發票聯絡人清單、</block>
+  <block id="0c2e72ed135dc2fc54e1e457add77dd3" category="list-text">將使用情況與成本中心保持一致，</block>
+  <block id="22524c2dd89ad7b3b2a7bbcfe12be88f" category="list-text">管理自動續訂和到期通知、</block>
+  <block id="99036810fbb5c064007679128c501df5" category="list-text">確保新的 Cloud Volumes ONTAP（CVO）系統繼承正確的計費帳戶。</block>
+  <block id="343b348d71ccb62dd010813fc2a13a5e" category="list-text"><block ref="6002f1f030715bc59708cf8f1b924fe3" category="inline-link-macro-rx"></block>。</block>
+  <block id="259a94c9a9a486a09c1bd02fe5b547df" category="list-text"><block ref="9d10c472e1675ca6fce5c4e74a4b8028" category="inline-link-macro-rx"></block>。</block>
+  <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">（選用）更新 *Invoice contacts* 和 *Notification contacts*。</block>
+  <block id="c574b540cd92e579d0adb2549eb5e6ad" category="list-text">（選用）輸入 *Cost center tag*，將帳單與內部會計代碼建立關聯。</block>
+  <block id="d1aa6173b8b0f269bcc23f11e54d8e9f" category="list-text">出現提示時，請檢閱確認對話方塊，然後選取 *Confirm* 。</block>
 </blocks>
