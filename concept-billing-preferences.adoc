@@ -24,6 +24,7 @@ summary: 了解授權和訂閱如何定義NetApp Console如何管理直接授權
 
 
 
+[[permissions]]
 == 權限
 
 NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。這些角色提供不同的存取級別，啟用或限制使用者對此功能可執行的特定操作。
@@ -54,6 +55,7 @@ NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。
 |===
 
 
+[[billing-preferences]]
 == 帳單偏好
 
 計費偏好設定可確保正確套用使用費和續費。正確配置可以減少計費糾紛，並更容易管理結合了NetApp自有容量和市場購買容量的混合授權模式。
@@ -71,12 +73,14 @@ NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。
 
 
 
+[[fields]]
 == 欄位
 
 計費欄位儲存有關每個授權或訂閱計費方式的元資料。它們描述了誰需要付費、續費方式以及每項服務所屬的帳戶或成本中心。
 
 
 
+[[marketplace-fields]]
 === 市場領域
 
 Marketplace 欄位描述了源自雲端服務供應商（例如 AWS、Azure 或 Google Cloud）的合約。這些欄位定義了 NetApp Console 如何將您的訂閱與儲存在提供者 marketplace 中的計費資訊關聯起來。它們還控制著續約、區域分配和計費帳戶的管理方式。
@@ -88,12 +92,14 @@ Marketplace 欄位描述了源自雲端服務供應商（例如 AWS、Azure 或 
 
 
 
+[[direct-license-fields]]
 === 直接許可字段
 
 直接許可欄位適用於直接購買的NetApp管理合同，而不是透過雲端市場購買的合約。它們定義了NetApp如何向您開立發票、費用發送到哪裡以及發票上顯示的法律實體。這些欄位對於使用採購訂單或集中式公司帳單的組織至關重要。
 
 
 
+[[keystone-fields]]
 === Keystone田
 
 Keystone欄位適用於NetApp Keystone訂閱協議涵蓋的使用情況。它們允許您將按計量服務使用情況與您的Keystone計費設定檔連接起來，使訂閱資料與其他基於容量的授權模式保持一致。
@@ -104,12 +110,14 @@ Keystone欄位適用於NetApp Keystone訂閱協議涵蓋的使用情況。它們
 
 
 
+[[billing-options-and-definitions]]
 == 計費選項和定義
 
 計費選項定義了當連接多個計費來源時， NetApp Console如何決定使用費用的優先順序並套用這些費用。它們控制哪個帳戶先收費，以及在達到容量限制時如何在NetApp授權和市場訂閱之間切換計費方式。
 
 
 
+[[terms-and-options]]
 === 條款和選項
 
 您可以根據貴組織的採購策略，在計費模式之間進行選擇：
@@ -124,6 +132,7 @@ Keystone欄位適用於NetApp Keystone訂閱協議涵蓋的使用情況。它們
 
 
 
+[[typical-configuration-paths]]
 === 典型配置路徑
 
 以下範例說明了不同的計費方式如何與常見情況相對應：

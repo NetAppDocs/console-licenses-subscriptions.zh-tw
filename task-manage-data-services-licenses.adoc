@@ -32,6 +32,7 @@ NOTE: *直接許可*頁面列出了所有許可證。如果您想要特定資料
 
 
 
+[[obtain-a-license-file]]
 == 取得許可證文件
 
 如果控制台無法存取網路（私人模式安裝），您應該取得NetApp授權檔案進行上傳。
@@ -68,6 +69,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 
 
 
+[[add-a-license]]
 == 新增許可證
 
 如果與授權相關聯的 NetApp Console 帳戶同時也是 NetApp 支援網站帳戶且具有網際網路存取權限，則授權資訊會自動顯示在 **Licenses and subscriptions** 區段中。如果您使用的 Console 帳戶未與您的 NSS 帳戶相關聯，則需要手動新增授權。
@@ -99,6 +101,7 @@ NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin
 
 
 
+[[update-a-license]]
 == 更新許可證
 
 當您的許可期限即將到期或許可容量接近限制時，控制台會通知您。在許可證到期之前進行更新，以避免NetApp資料服務或Cloud Volumes ONTAP中斷。
@@ -134,6 +137,7 @@ NOTE: 要輸入序號，首先 https://docs.netapp.com/us-en/console-setup-admin
 
 
 
+[[view-license-status]]
 == 查看許可證狀態
 
 若要管理許可證，您可以根據服務名稱對許可證進行分組。這使您可以查看與特定服務相關的所有許可證。您可以展開一行來查看與該服務相關的每個許可證的詳細資訊。每個服務的根行顯示服務名稱和該服務的已使用容量。許可證自動按服務名稱分組。每個服務的根行顯示服務名稱和該服務的已使用容量。

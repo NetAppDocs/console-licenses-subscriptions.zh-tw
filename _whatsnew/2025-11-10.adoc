@@ -4,6 +4,7 @@
 
 
 
+[[manage-billing-preferences]]
 === 管理帳單偏好設定
 
 您現在可以直接在 NetApp Console 中設定及管理 *Billing preferences*。此項強化功能讓管理員能夠定義並檢視直接 NetApp Licenses、雲端市集訂閱，以及 Keystone 合約中的容量使用、續約與成本的計費方式。

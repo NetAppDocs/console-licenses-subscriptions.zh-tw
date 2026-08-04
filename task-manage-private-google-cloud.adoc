@@ -29,6 +29,7 @@ summary: 接受 Google Cloud 控制台中NetApp Console清單的 Marketplace 私
 
 
 
+[[accept-the-private-offer-in-google-cloud]]
 == 接受 Google Cloud 中的私人優惠
 
 一個 Google Cloud 專案只能與一個 Marketplace 訂閱關聯。如果您想要對同一個 Google Cloud 專案中的工作負載使用兩個不同的訂閱，則必須建立兩個單獨的控制台帳戶 - 每個訂閱一個。

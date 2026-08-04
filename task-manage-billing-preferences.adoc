@@ -25,6 +25,7 @@ summary: 在NetApp Console中設定計費首選項，以控制授權、市集訂
 
 
 
+[[set-billing-preferences]]
 == 設定帳單偏好
 
 您可以選擇控制台如何將使用費用套用至不同的計費來源。這決定了哪些帳戶優先收費以及續費方式。
@@ -54,6 +55,7 @@ NOTE: 更改計費模式會重新分配服務費用的套用方式。新的 Clou
 
 
 
+[[enable-custom-cloud-volumes-ontap-configuration]]
 == 啟用自訂 Cloud Volumes ONTAP 組態
 
 現在，您可以將特定的市場訂閱指派給同一雲端提供者下的各個 Cloud Volumes ONTAP 執行個體。如果您的組織為不同的業務部門或環境維護不同的計費帳戶，請使用此模式。
@@ -73,6 +75,7 @@ WARNING: 啟用此功能後，自訂的 Cloud Volumes ONTAP 設定將無法從 *
 
 
 
+[[edit-marketplace-configuration]]
 == 編輯市場配置
 
 您可以編輯市場配置詳細信息，將訂閱與雲端項目關聯，或更新合約資訊。
@@ -98,6 +101,7 @@ TIP: 若要將一個訂閱對應到多個雲端項目，請先確保啟用*自�
 
 
 
+[[confirm-or-revert-billing-changes]]
 == 確認或撤銷帳單變更
 
 每次更新帳單設定都需要確認，以防止意外更改。

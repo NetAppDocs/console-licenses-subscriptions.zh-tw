@@ -27,6 +27,7 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 
 
+[[add-a-new-marketplace-subscription]]
 == 新增新的市場訂閱
 
 您可以直接從控制台訂閱市場訂閱。
@@ -46,6 +47,7 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 
 
+[[view-your-subscriptions]]
 == 查看您的訂閱
 
 您可以查看與您的控制台組織或帳戶相關的每個 PAYGO 訂閱和年度合約的詳細資訊。
@@ -91,6 +93,7 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 
 
+[[rename-a-subscription]]
 == 重新命名訂閱
 
 您可以重新命名訂閱以更好地識別您的組織如何使用它。
@@ -103,6 +106,7 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 
 
+[[configure-a-subscription-with-a-provider-credential]]
 == 使用提供者憑證配置訂閱
 
 訂閱通常會使用您在訂閱時建立的提供者憑證進行設定。在某些情況下，您可能需要重新配置訂閱以使用不同的憑證來變更收費方式。與訂閱關聯的憑證也必須與代理人關聯。
@@ -120,6 +124,7 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 
 
+[[associate-a-subscription-with-a-console-organization]]
 == 將訂閱與控制台組織關聯
 
 將訂閱與組織關聯可確保組織的成員可以使用該訂閱進行充電。
@@ -141,6 +146,7 @@ NOTE: 控制台支援標準模式下的身分和存取管理 (IAM)，使用組�
 
 
 
+[[view-credentials-associated-with-a-subscription]]
 == 查看與訂閱關聯的憑證
 
 您可以從*市場訂閱*頁面查看特定訂閱的憑證。這使您可以驗證訂閱的計費方式。由於憑證與您正在使用的代理程式綁定，因此您必須選擇與要查看的訂閱相關聯的代理程式。
@@ -156,6 +162,7 @@ NOTE: 如果需要，請使用頂部導覽列中的代理下拉式功能表切�
 
 
 
+[[remove-a-subscription]]
 === 刪除訂閱
 
 當您從雲端供應商（AWS、Google Cloud 或 Azure）取消訂閱時，Console 會將訂閱狀態顯示為 *Unsubscribed*。當您取消訂閱後，您也可以將其從 Licenses and subscriptions 中移除。

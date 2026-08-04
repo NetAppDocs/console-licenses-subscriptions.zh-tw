@@ -34,6 +34,7 @@ summary: 在 Azure 入口網站中接受並訂閱NetApp Console的 Marketplace �
 
 
 
+[[accept-and-subscribe-to-the-private-offer-in-the-azure-portal]]
 == 在 Azure 入口網站中接受並訂閱專屬優惠
 
 一個 Azure 訂閱只能與一個 Marketplace 訂閱關聯。如果要對相同 Azure 訂閱中的工作負載使用兩個不同的 Marketplace 訂閱，則必須建立兩個單獨的控制台帳戶 - 每個訂閱一個。如果您有多個Cloud Volumes ONTAP實例並希望在不同的訂閱之間分割帳單，請為每個訂閱建立單獨的控制台帳戶。

@@ -28,6 +28,7 @@ summary: 在 AWS Marketplace 入口網站中接受 NetApp Console 的 Marketplac
 
 
 
+[[accept-the-private-offer-in-the-aws-marketplace-portal]]
 == 接受 AWS Marketplace Portal 中的私有優惠
 
 需要在控制台中完成訂閱分配才能啟動購買並套用折扣價格。

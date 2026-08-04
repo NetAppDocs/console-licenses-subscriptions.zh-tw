@@ -25,6 +25,7 @@ summary: 檢視每個內部部署 ONTAP 叢集的合約詳細資料。
 
 
 
+[[view-cluster-information-and-contract-details]]
 == 查看集群資訊和合約詳情
 
 查看本地ONTAP叢集的硬體和軟體合約的狀態，以便在合約到期之前進行續約。
@@ -44,6 +45,7 @@ summary: 檢視每個內部部署 ONTAP 叢集的合約詳細資料。
 
 
 
+[[discover-clusters]]
 == 發現集群
 
 如果您尚未發現本機ONTAP叢集作為系統，則可以從控制台進行發現。發現之後，集群即可作為一個系統使用，以便您對其進行管理。

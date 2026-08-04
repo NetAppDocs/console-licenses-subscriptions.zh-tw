@@ -29,12 +29,14 @@ summary: Licenses and subscriptions 可讓您管理和監控 NetApp Console 授�
 
 
 
+[[permissions]]
 == 權限
 
 您需要擁有 *Account Admin* 或 *Billing Admin* 角色才能變更帳單偏好設定。操作員可以檢視偏好設定，但無法修改。
 
 
 
+[[set-billing-preferences]]
 == 設定帳單偏好
 
 帳單偏好設定可讓您：
@@ -47,10 +49,12 @@ summary: Licenses and subscriptions 可讓您管理和監控 NetApp Console 授�
 
 
 
+[[billing-fields]]
 == 計費欄位
 
 
 
+[[marketplace-fields]]
 == 市場領域
 
 * *Marketplace 供應商* — AWS、Azure 或 Google Cloud。
@@ -60,10 +64,12 @@ summary: Licenses and subscriptions 可讓您管理和監控 NetApp Console 授�
 
 
 
+[[billing-options-and-definitions]]
 == 計費選項和定義
 
 
 
+[[terms-and-options]]
 == 條款和選項
 
 * **NetApp 授權優先** — 根據有效的 NetApp 授權計費。額外使用量將移至市場結算。
@@ -79,6 +85,7 @@ summary: Licenses and subscriptions 可讓您管理和監控 NetApp Console 授�
 
 
 
+[[typical-configuration-paths]]
 == 典型配置路徑
 
 |===

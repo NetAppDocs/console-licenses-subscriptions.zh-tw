@@ -10,6 +10,8 @@ summary: 在控制台的概覽儀表板上取得您組織的所有訂閱和許�
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == 使用儀表板概覽
 
 [role="lead"]
@@ -21,6 +23,7 @@ Licenses and subscriptions 儀表板會在容量限制或到期時發出警報�
 
 
 
+[[view-details-about-a-specific-data-service]]
 === 查看特定數據服務的詳細信息
 
 *Overview* 儀表板提供以下服務的詳細資訊：
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["了解有關管理許可證的更�
 
 
 
+[[resolve-license-or-subscription-issues]]
 === 解決授權或訂閱問題
 
 在概覽儀表板中，您可以查看需要解決的 Licenses and subscriptions 問題。這些問題包括即將到期或已達到容量上限的 Licenses and subscriptions。
