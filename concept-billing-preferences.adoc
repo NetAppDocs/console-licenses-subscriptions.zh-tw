@@ -73,6 +73,34 @@ NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。
 
 
 
+[[flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws]]
+== AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費
+
+在 AWS 中，Cloud Volumes ONTAP 容量和 NetApp 資料服務可以透過不同的 AWS 市場訂閱進行計費。有關 AWS 企業折扣計劃 （EDP） 變更和建議的詳細資訊，請參閱 link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Cloud Volumes ONTAP 版本說明"]。
+
+如果您的 AWS 帳戶同時擁有獨立式 Cloud Volumes ONTAP 訂閱和 NetApp Intelligent Services （NIS） 訂閱，您可以使用 *Billing preferences* 來選擇哪個訂閱用於 Cloud Volumes ONTAP 容量計費。
+
+
+NOTE: 計費方式取決於您是否已有透過 NIS 運作並計費的 Cloud Volumes ONTAP 系統，或者您是否在新增獨立式 Cloud Volumes ONTAP 訂閱後部署新系統。對於現有系統，除非您更新 *Billing preferences*，否則新增獨立式訂閱不會變更計費方式。對於在獨立式訂閱可用後建立的新部署，預設情況下，Cloud Volumes ONTAP 容量計費（Essentials/Freemium）將使用獨立式訂閱，除非您在 *Billing preferences* 中置換。
+
+* 獨立式 Cloud Volumes ONTAP 訂閱（建議）：Cloud Volumes ONTAP 容量（Essentials/Freemium）
+* NetApp Intelligent Services （NIS） 訂閱：NetApp 資料服務（以及 Cloud Volumes ONTAP Professional）
+
+
+獨立式 Cloud Volumes ONTAP 訂閱僅支援基於容量的 Essentials 和 Freemium 套件。Professional 套件不受支援，仍透過 NIS 計費。如果您只擁有獨立式訂閱，則可以使用 Essentials 套件部署 Cloud Volumes ONTAP，但設定備份與還原需要不同的訂閱。
+
+
+
+[[where-to-configure-it]]
+=== 在哪裡設定
+
+您可以在「管理 > Licenses and subscriptions > Marketplace 訂閱」下關聯 AWS 市場訂閱，並在「管理 > Licenses and subscriptions > 計費偏好設定」下選擇用於 Cloud Volumes ONTAP 容量計費的市場訂閱。您可以使用 Cloud Volumes ONTAP 使用情況報告來驗證計費詳情。
+
+
+NOTE: 使用多種訂閱類型或在清單之間遷移時，不會發生重複計量。
+
+
+
 [[fields]]
 == 欄位
 
@@ -85,7 +113,7 @@ NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。
 
 Marketplace 欄位描述了源自雲端服務供應商（例如 AWS、Azure 或 Google Cloud）的合約。這些欄位定義了 NetApp Console 如何將您的訂閱與儲存在提供者 marketplace 中的計費資訊關聯起來。它們還控制著續約、區域分配和計費帳戶的管理方式。
 
-* *市場提供者* — 標識處理計費的雲端平台。服務提供者決定支援的功能、合約類型和續約規則。例如，AWS Marketplace 訂閱採用基於帳戶的計費方式，而 Azure 可能同時支援基於帳戶和基於租用戶的計費模式。
+* *Marketplace provider* — 識別處理計費的雲端平台。供應商決定支援的功能、合約類型和續約規則。例如，AWS marketplace 訂閱採用基於帳戶的計費方式，而 Azure 可能同時支援帳戶和基於租用戶的計費模式。
 * *帳單帳戶或訂閱 ID* — 指定用於處理費用的帳戶的唯一識別碼。這樣可以確保使用資料計入正確的雲端計費方案。
 * *合約期限* — 定義訂閱期限和續約設定。
 

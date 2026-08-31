@@ -418,36 +418,7 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">相關連結</block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">基於節點的許可證的可用性終止</block>
   <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">將基於節點的許可證轉換為基於容量的許可證</block>
-  <block id="7b157739a85d3d5c67c903118518835e" category="doc">管理本地ONTAP 的許可證</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
-  <block id="857f422578a1e03dfc3a054866eabaeb" category="paragraph">控制台顯示您作為系統發現的本機 ONTAP 叢集或與您新增至控制台的NetApp支援網站帳戶關聯的本機ONTAP叢集的詳細資訊。</block>
-  <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">了解如何發現本地ONTAP集群</block>
-  <block id="b23696557397783ca9c44bd2c80b335d" category="list-text"><block ref="b23696557397783ca9c44bd2c80b335d" category="inline-link-rx"></block></block>
-  <block id="c627ab41d97c61821845349a4880080b" category="inline-link">了解如何管理與您的控制台組織或帳戶關聯的 NSS 憑證</block>
-  <block id="f8969c7525255a4701b49192dd720200" category="list-text"><block ref="f8969c7525255a4701b49192dd720200" category="inline-link-rx"></block></block>
-  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="section-title">查看集群資訊和合約詳情</block>
-  <block id="dfaa8df1d6444411a1429b0866742025" category="paragraph">查看本地ONTAP叢集的硬體和軟體合約的狀態，以便在合約到期之前進行續約。</block>
-  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">選擇 *On-Premises ONTAP*。</block>
-  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">軟體合約和硬體合約的到期日會出現在每個集群的行上。</block>
-  <block id="6723aa6a44348a3e74720156abb41f28" category="paragraph">如果系統提示您先輸入NetApp支援網站 (NSS) 帳戶憑證，請選擇 *新增 NSS 帳戶*。新增帳戶後，將顯示與該 NSS 帳戶關聯的群集。</block>
-  <block id="1c962c716cf9d1c072d4252a94056d5a" category="list-text">如果合約接近到期日或已經到期，您可以選擇控制台右下角的聊天圖示來申請延長合約。</block>
-  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">向下插入符號圖標</block>
-  <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">要查看更多詳細信息，請選擇<block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block>擴展集群資訊。</block>
-  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">發現集群</block>
-  <block id="1cf9d33301fa4cb07a99ed5ba256d866" category="paragraph">如果您尚未發現本機ONTAP叢集作為系統，則可以從控制台進行發現。發現之後，集群即可作為一個系統使用，以便您對其進行管理。</block>
-  <block id="92421df1db7978a6de6c77c10608c02a" category="paragraph">您應該了解您的發現和管理選項（使用控制台代理的發現或不使用代理的直接發現）以及發現要求。</block>
-  <block id="01b0421859ec2fed2ce4dff333e190ee" category="inline-link">了解發現選項和要求</block>
-  <block id="da810fa51a2b9119147838a70412015f" category="paragraph"><block ref="a07feb0a336d59a2369adfa9ca88e728" category="inline-link-rx"></block> 。</block>
-  <block id="f6cecdb846b23a4aac2b02906d51d210" category="paragraph">您的ONTAP叢集將顯示其是否已在控制台中被發現的狀態。</block>
-  <block id="49d43c2b09f782977f5c343a450651ae" category="list-text">選擇您想要透過控制台管理的叢集的「*發現*」。</block>
-  <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">在「發現ONTAP集群」頁面上，輸入管理員使用者帳戶的密碼並選擇「發現」。</block>
-  <block id="b2d17e7f9f19a98eddebda3400555598" category="admonition">叢集管理 IP 位址會根據您的NetApp支援網站帳戶中的資訊填入。</block>
-  <block id="145be65ce972b71bb40e463e2bf3acbd" category="paragraph">控制台發現叢集並將其作為系統新增至系統頁面。在「On-Premises ONTAP」頁面中，叢集的狀態變成「*已發現*」。請注意，系統名稱是叢集的名稱。</block>
-  <block id="d123a6bdeb75e456b3adf0e79646234d" category="paragraph">現在您可以開始管理叢集。</block>
-  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link">了解如何管理使用控制台代理發現的集群</block>
-  <block id="43c3be2707abdedd2af74a90af5871ba" category="list-text"><block ref="43c3be2707abdedd2af74a90af5871ba" category="inline-link-rx"></block></block>
-  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">了解如何管理直接發現的集群</block>
-  <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
   <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">接受並配置NetApp Console的 AWS Marketplace 專屬優惠</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">與NetApp銷售人員合作創建私人優惠並取得啟動連結。</block>
   <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">確保您擁有所需的 AWS Marketplace 權限：</block>
@@ -725,12 +696,6 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理帳單偏好設定</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">帳單偏好文檔</block>
-  <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">計費首選項控制NetApp Console如何處理您的授權和訂閱的付款、發票和續約行為。您可以在以下兩個層級之一設定偏好：</block>
-  <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*全球* — 適用於直接授權、市場訂閱和Keystone訂閱。</block>
-  <block id="0d92132a500b2b420133d918adb91673" category="list-text">*按訂閱計費* — 僅適用於特定市場或直接許可合約。</block>
-  <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*市場訂閱* — 計費透過 AWS Marketplace、Azure Marketplace 或 Google Cloud Marketplace 進行。您可以選擇雲端市場提供的計費帳戶、地區和續約選項。</block>
-  <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*直接許可* — 計費透過NetApp。您可以在NetApp Console中管理許可證金鑰、發票聯絡人和自動續訂。</block>
-  <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">* Keystone訂閱* — 帳單將透過您的Keystone協議進行結算。您可以在NetApp Console中管理發票收件者和成本中心標籤。</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">了解授權和訂閱如何定義NetApp Console如何管理直接授權、雲端市場合約和NetApp Keystone的使用情況、計費和續約。</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">了解授權和訂閱的計費方式</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*直接許可證* 指的是直接從NetApp購買的許可證，透過許可證金鑰、發票接收人和續約選項在NetApp Console中進行管理。</block>
@@ -742,7 +707,6 @@
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="section-title">欄位</block>
   <block id="e662217eb22f6b7b966f1ed07411a3dd" category="paragraph">計費欄位儲存有關每個授權或訂閱計費方式的元資料。它們描述了誰需要付費、續費方式以及每項服務所屬的帳戶或成本中心。</block>
   <block id="5ea0317322a30367980e8c9bc0ba1526" category="section-title">市場領域</block>
-  <block id="1ec20092f022395f6a3fb48cc89d2712" category="list-text">*市場提供者* — 標識處理計費的雲端平台。服務提供者決定支援的功能、合約類型和續約規則。例如，AWS Marketplace 訂閱採用基於帳戶的計費方式，而 Azure 可能同時支援基於帳戶和基於租用戶的計費模式。</block>
   <block id="76a83c6a538f170af8f3199778ab5d20" category="list-text">*帳單帳戶或訂閱 ID* — 指定用於處理費用的帳戶的唯一識別碼。這樣可以確保使用資料計入正確的雲端計費方案。</block>
   <block id="40edb4d9db39c885c8f287955a205dd9" category="list-text">*合約期限* — 定義訂閱期限和續約設定。</block>
   <block id="3e23b3a3660269002b39b5f96e0ca69d" category="section-title">直接許可字段</block>
@@ -832,21 +796,6 @@
   <block id="0d598f94fd99fabd7c4e6f69c91456f9" category="list-text">您已審核了現有授權和訂閱的配置。</block>
   <block id="f1396f3668b9ac6ec69042ebd868ed35" category="list-text">選擇「儲存」以套用更新，或選擇「取消」以放棄更新。</block>
   <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">有關具體變更內容，請參閱 <block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>。</block>
-  <block id="bd37aa06c2029c58b0902884ca934e5e" category="doc">術語和定義</block>
-  <block id="2efdddb631a543a2ad67578e037161a3" category="paragraph">您需要擁有 *Account Admin* 或 *Billing Admin* 角色才能變更帳單偏好設定。操作員可以檢視偏好設定，但無法修改。</block>
-  <block id="4ea81f8a69139787ca61e7697fd2ae4f" category="section-title">計費欄位</block>
-  <block id="de5d6535f02a78de89a948f550f51d76" category="list-text">*Marketplace 供應商* — AWS、Azure 或 Google Cloud。</block>
-  <block id="6c213a0f6bfaa832c881a7e6dd442cc3" category="list-text">*結算帳號 / 訂閱 ID* — 用於收費的雲端結算帳戶。</block>
-  <block id="a49cb6e70cf0f2e7f8ba373daf3f4d25" category="list-text">*合約期限* — 期限長度和續約行為。</block>
-  <block id="dc93a0f9fbcf2f1dddd61cf3655b0681" category="list-text">**NetApp 授權優先** — 根據有效的 NetApp 授權計費。額外使用量將移至市場結算。</block>
-  <block id="79b82eff65449f7600af5836e03e48c3" category="list-text">**僅限 Marketplace 訂閱** — 所有使用量均透過 Marketplace 合約計費。</block>
-  <block id="c53e706d7c692386152c58cd70e0ac2d" category="list-text">**PAYGO（Pay-As-You-Go）** — 按實際使用量計費的彈性訂閱模式。</block>
-  <block id="783ffa0d9dc6178367739c0826aafde8" category="list-text">**年度合約** — 固定期限的市場訂閱。</block>
-  <block id="367c4d3c9a7f8e521868f134ebea90e7" category="list-text">**自動續約** — 合約到期後自動續約。</block>
-  <block id="75d1799660dc5ad8fb212c2db059f014" category="list-text">**自訂 CVO 設定** — 進階模式，可針對每個雲端供應商對應多個訂閱。</block>
-  <block id="11732b5b63a7e4369465ad45e7b2f8d1" category="list-text">**直接授權** — 在市場容量之前使用的 NetApp 託管授權。</block>
-  <block id="ad32f0863d6f14e2d9551805e23ae323" category="list-text">**超大規模雲端服務供應商** — AWS、Azure 或 Google Cloud 供應商。</block>
-  <block id="e2499bfbea70502da5b64d43bb910c91" category="list-text">**確認變更對話方塊** — 在套用更新之前顯示，以防止意外的帳單變更。</block>
   <block id="1f53fda1033a98943930c3ec2b8523bf" category="list-text">*Marketplace 訂閱*對應於雲端市場合約（AWS、Azure 或 Google Cloud），其使用費用透過雲端供應商帳戶收取</block>
   <block id="f0d4e9a62cff20e37439e08114cc3a6e" category="list-text">啟用 Cloud Volumes ONTAP 執行個體到市場訂閱的進階對應</block>
   <block id="fc8cec049cd357fc6adde025d9d97c4d" category="list-text">*自訂 Cloud Volumes ONTAP 組態* — 允許將多個市場訂閱對應至雲端供應商。當不同的業務單位或專案需要在同一雲端環境中使用不同的計費帳戶時，這可能很有用。</block>
@@ -929,18 +878,6 @@
   <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">管理 Cloud Volumes ONTAP 授權</block>
   <block id="9429e7a2e486548a79c3122d6c6e17e5" category="paragraph">現在您可以透過主頁或 *Direct licenses* 標籤管理 Cloud Volumes ONTAP 授權。使用 *Marketplace subscriptions* 標籤檢視您的訂閱資訊。</block>
   <block id="26d95a9677f28d9a6e340c69085c4cdb" category="paragraph">您現在可以直接在 NetApp Console 中設定及管理 *Billing preferences*。此項強化功能讓管理員能夠定義並檢視直接 NetApp Licenses、雲端市集訂閱，以及 Keystone 合約中的容量使用、續約與成本的計費方式。</block>
-  <block id="994c93e3e8dbb5133d0b3a075bdac953" category="summary">Licenses and subscriptions 可讓您管理和監控 NetApp Console 授權、NetApp 市場訂閱和 NetApp Keystone。</block>
-  <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">計費來源可以是：</block>
-  <block id="4034ad2bb1e8e26399eef6531403fda6" category="cell">使用購買的 NetApp 容量</block>
-  <block id="3c214db1e9b5df7d24325803b44aa5aa" category="cell">NetApp 授權優先</block>
-  <block id="2cd14b556325088d14b61eb426ad2d2a" category="cell">僅使用市場合約</block>
-  <block id="f34a8dd98169c2ffb5c475fca10bf726" category="cell">僅限 Marketplace 訂閱</block>
-  <block id="cd9f8fe965cb669b5f7780d601f2a068" category="cell">在同一雲端供應商下對多個專案進行計費</block>
-  <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">啟用自訂 CVO 組態</block>
-  <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">恢復為預設計費方式</block>
-  <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">停用自訂 CVO 組態</block>
-  <block id="64b2682858b322421bcf1271f43d5958" category="summary">檢視每個內部部署 ONTAP 叢集的合約詳細資料。</block>
-  <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">在 NetApp Console 中，您可以探索 ONTAP 叢集，並檢視您已探索的每個本地端 ONTAP 叢集的合約詳細資料。</block>
   <block id="c874b53d36cb039f81fc4117963fe03f" category="paragraph">NetApp Console 中的 *Overview* 儀表板可協助您監控 Licenses and subscriptions 的狀態，確保您能在訂閱到期日或容量限制時管理成本並維持服務。</block>
   <block id="bda8ae7ab8a8500998773e4eb67456f7" category="paragraph">您無法從特定服務的 *Overview* 頁面新增新的 licenses 或 subscriptions。您只能從 *Direct licenses* 標籤新增 licenses，或從 *Marketplace subscriptions* 標籤新增 subscriptions。</block>
   <block id="7a65ea1273f42ee6be596842e800d703" category="summary">管理您直接從 NetApp 購買的授權（BYOL），以便與 NetApp 資料服務搭配使用。您可以檢視已使用的授權容量、容量使用量及即將到期的授權。</block>
@@ -962,11 +899,6 @@
   <block id="c4a1705a6991448825c6ef6ad86fa41a" category="paragraph">如果訂閱仍處於設定狀態，則 * 移除 * 選項不可用。</block>
   <block id="792b1ad41ebb8947d008af5826897289" category="list-text">在 *Remove subscription* 對話方塊中，選取 *Remove* 以確認您要移除訂閱。</block>
   <block id="e1173ed8259895238ff1719be2f592d9" category="paragraph">如果與授權相關聯的 NetApp Console 帳戶同時也是 NetApp 支援網站帳戶且具有網際網路存取權限，則授權資訊會自動顯示在 **Licenses and subscriptions** 區段中。如果您使用的 Console 帳戶未與您的 NSS 帳戶相關聯，則需要手動新增授權。</block>
-  <block id="0b4c468a31ec1cc5bcf0295ee7207fbe" category="paragraph">帳單偏好設定可讓您：</block>
-  <block id="646cb6fbd19fdc7e05aa499e55fae69f" category="list-text">在所有服務中強制使用單一發票聯絡人清單、</block>
-  <block id="0c2e72ed135dc2fc54e1e457add77dd3" category="list-text">將使用情況與成本中心保持一致，</block>
-  <block id="22524c2dd89ad7b3b2a7bbcfe12be88f" category="list-text">管理自動續訂和到期通知、</block>
-  <block id="99036810fbb5c064007679128c501df5" category="list-text">確保新的 Cloud Volumes ONTAP（CVO）系統繼承正確的計費帳戶。</block>
   <block id="343b348d71ccb62dd010813fc2a13a5e" category="list-text"><block ref="6002f1f030715bc59708cf8f1b924fe3" category="inline-link-macro-rx"></block>。</block>
   <block id="259a94c9a9a486a09c1bd02fe5b547df" category="list-text"><block ref="9d10c472e1675ca6fce5c4e74a4b8028" category="inline-link-macro-rx"></block>。</block>
   <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">（選用）更新 *Invoice contacts* 和 *Notification contacts*。</block>
@@ -1009,4 +941,18 @@
   <block id="6e1a9790b199742bec95dea2070e2f3f" category="summary">在 NetApp Console 中管理節點型授權，以確保每個 Cloud Volumes ONTAP 系統都具有所需容量的有效授權。</block>
   <block id="160221c1e99e53b72af8a65c2440852b" category="doc">管理 Cloud Volumes ONTAP 的節點型授權</block>
   <block id="ffc60ab0361bc3c2ef3b3728cce5a231" category="paragraph"><block ref="ac0e83bff3dad475c8103a64904a607a" category="inline-link-rx"></block>。</block>
+  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="section-title">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
+  <block id="3d44d36eec8c18ebcfe6e7df6a18f232" category="inline-link-macro">Cloud Volumes ONTAP 版本說明</block>
+  <block id="1248d5014ab39f00f176398e4dc459dd" category="paragraph">在 AWS 中，Cloud Volumes ONTAP 容量和 NetApp 資料服務可以透過不同的 AWS 市場訂閱進行計費。有關 AWS 企業折扣計劃 （EDP） 變更和建議的詳細資訊，請參閱 <block ref="c708501d41f6c7c2b393d4e8c20c8b78" category="inline-link-macro-rx"></block>。</block>
+  <block id="55d4964721d8399c5c67100bdaa60f41" category="paragraph">如果您的 AWS 帳戶同時擁有獨立式 Cloud Volumes ONTAP 訂閱和 NetApp Intelligent Services （NIS） 訂閱，您可以使用 *Billing preferences* 來選擇哪個訂閱用於 Cloud Volumes ONTAP 容量計費。</block>
+  <block id="5d31e1e7f8f8f7f232818d9271eaa736" category="admonition">計費方式取決於您是否已有透過 NIS 運作並計費的 Cloud Volumes ONTAP 系統，或者您是否在新增獨立式 Cloud Volumes ONTAP 訂閱後部署新系統。對於現有系統，除非您更新 *Billing preferences*，否則新增獨立式訂閱不會變更計費方式。對於在獨立式訂閱可用後建立的新部署，預設情況下，Cloud Volumes ONTAP 容量計費（Essentials/Freemium）將使用獨立式訂閱，除非您在 *Billing preferences* 中置換。</block>
+  <block id="e6d41b6ffe1a3ac4ac6f49198a9d0e97" category="list-text">獨立式 Cloud Volumes ONTAP 訂閱（建議）：Cloud Volumes ONTAP 容量（Essentials/Freemium）</block>
+  <block id="4b7bf84649d39c27ca19dff9239bed8b" category="list-text">NetApp Intelligent Services （NIS） 訂閱：NetApp 資料服務（以及 Cloud Volumes ONTAP Professional）</block>
+  <block id="d7d1942005392b35e5cbe164e61598f5" category="paragraph">獨立式 Cloud Volumes ONTAP 訂閱僅支援基於容量的 Essentials 和 Freemium 套件。Professional 套件不受支援，仍透過 NIS 計費。如果您只擁有獨立式訂閱，則可以使用 Essentials 套件部署 Cloud Volumes ONTAP，但設定備份與還原需要不同的訂閱。</block>
+  <block id="eb93ecbd8fdefaf3fdba89c22f5eb489" category="section-title">在哪裡設定</block>
+  <block id="79422b968987cdd0a06fc1bfb81eff7e" category="paragraph">您可以在「管理 &gt; Licenses and subscriptions &gt; Marketplace 訂閱」下關聯 AWS 市場訂閱，並在「管理 &gt; Licenses and subscriptions &gt; 計費偏好設定」下選擇用於 Cloud Volumes ONTAP 容量計費的市場訂閱。您可以使用 Cloud Volumes ONTAP 使用情況報告來驗證計費詳情。</block>
+  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">使用多種訂閱類型或在清單之間遷移時，不會發生重複計量。</block>
+  <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Marketplace provider* — 識別處理計費的雲端平台。供應商決定支援的功能、合約類型和續約規則。例如，AWS marketplace 訂閱採用基於帳戶的計費方式，而 Azure 可能同時支援帳戶和基於租用戶的計費模式。</block>
+  <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">如果您打算透過 AWS 市場中的獨立式 Cloud Volumes ONTAP 訂閱對 Cloud Volumes ONTAP 容量進行計費，則 Cloud Volumes ONTAP 系統必須使用受支援的容量型套件（Essentials 或 Freemium）。Professional 套件不支援獨立式清單，仍將透過 NIS 訂閱進行計費。選擇所需的套件後，請使用 NetApp Console 中的 *Billing preferences* 選擇用於 Cloud Volumes ONTAP 計費的市場訂閱。</block>
+  <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">對於 AWS，您的帳戶可能擁有多個 NetApp 市場訂閱。如果您僅關聯獨立式 Cloud Volumes ONTAP 訂閱，則可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與還原功能需要不同的訂閱。若要選擇用於 Cloud Volumes ONTAP 容量計費的訂閱（包括變更現有系統的計費方式），請前往 *Administration &gt; Licenses and subscriptions &gt; Billing preferences*。</block>
 </blocks>

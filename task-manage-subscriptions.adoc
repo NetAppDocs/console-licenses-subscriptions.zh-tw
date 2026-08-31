@@ -32,6 +32,9 @@ NOTE: *市場訂閱*頁面列出了所有許可證。有關特定資料服務的
 
 您可以直接從控制台訂閱市場訂閱。
 
+
+NOTE: 對於 AWS，您的帳戶可能擁有多個 NetApp 市場訂閱。如果您僅關聯獨立式 Cloud Volumes ONTAP 訂閱，則可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與還原功能需要不同的訂閱。若要選擇用於 Cloud Volumes ONTAP 容量計費的訂閱（包括變更現有系統的計費方式），請前往 *Administration > Licenses and subscriptions > Billing preferences*。
+
 .步驟
 . 從NetApp Console選單中，選擇「管理 >Licenses and subscriptions」。
 . 選擇*市場訂閱*。
