@@ -2,7 +2,78 @@
 permalink: task-manage-on-prem-clusters.html 
 redirect: 'https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html' 
 ---
-= 
+= 管理內部部署 ONTAP 的授權
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
+
+[role="lead"]
+在 NetApp Console 中，您可以探索 ONTAP 叢集，並檢視您已探索的每個本地端 ONTAP 叢集的合約詳細資料。
+
+.開始之前
+Console 會顯示您探索為系統的內部部署 ONTAP 叢集，或是與您新增至 Console 的 NetApp 支援網站帳戶相關聯之叢集的詳細資料。
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["了解如何探索內部部署 ONTAP 叢集"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["了解如何管理與您的 Console 組織或帳戶關聯的 NSS 憑證"^]
+
+
+
+
+[[view-cluster-information-and-contract-details]]
+== 檢視叢集資訊和合約詳細資料
+
+檢視內部部署 ONTAP 叢集的硬體和軟體合約狀態，以便在合約到期前續約。
+
+.步驟
+. 從NetApp Console選單中，選擇「管理 >Licenses and subscriptions」。
+. 選擇 *On-Premises ONTAP*。
++
+軟體合約和硬體合約的到期日會顯示在每個叢集的相應行中。
+
++
+如果系統提示您先輸入 NetApp 支援網站 （NSS） 帳戶憑證，請選擇「新增 NSS 帳戶」。新增帳戶後，與該 NSS 帳戶關聯的叢集將會顯示出來。
+
+. 如果合約即將到期或已經到期，您可以選擇 Console 右下角的聊天圖示來申請合約延期。
+. 若要檢視更多詳細資訊，請選擇 image:button_down_caret.png["向下插入符號圖示"] 以擴充叢集資訊。
+
+
+
+
+[[discover-clusters]]
+== 探索叢集
+
+如果您尚未將內部部署的 ONTAP 叢集探索為系統，可以從 Console 進行探索。探索後，該叢集即可作為系統使用，以便您對其進行管理。
+
+.開始之前
+您應該了解您的探索和管理選項（使用 Console 代理程式探索或不使用代理程式直接探索）以及探索要求。
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["了解探索選項和要求"^]。
+
+.步驟
+. 從NetApp Console選單中，選擇「管理 >Licenses and subscriptions」。
+. 選擇 *On-Premises ONTAP*。
++
+您的 ONTAP 叢集會顯示其是否已在 Console 中探索的狀態。
+
++
+如果系統提示您先輸入 NetApp 支援網站 （NSS） 帳戶憑證，請選擇「新增 NSS 帳戶」。新增帳戶後，與該 NSS 帳戶關聯的叢集將會顯示出來。
+
+. 針對您要透過 Console 管理的叢集，選取*探索*。
+. 在「探索 ONTAP 叢集」頁面上，輸入管理員使用者帳戶的密碼，然後選取 *探索*。
+
+
+
+NOTE: 叢集管理 IP 位址是根據您的 NetApp 支援網站帳戶中的資訊填入。
+
+.結果
+Console 會探索叢集，並將其作為系統新增至「系統」頁面。叢集狀態在「本機部署 ONTAP」頁面中變成 *Discovered*。請注意，系統名稱即為叢集名稱。
+
+現在您可以開始管理叢集了。
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["了解如何管理使用 Console 代理程式探索的叢集"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["了解如何管理直接探索的叢集"^]
 

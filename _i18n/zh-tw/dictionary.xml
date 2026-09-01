@@ -955,4 +955,69 @@
   <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Marketplace provider* — 識別處理計費的雲端平台。供應商決定支援的功能、合約類型和續約規則。例如，AWS marketplace 訂閱採用基於帳戶的計費方式，而 Azure 可能同時支援帳戶和基於租用戶的計費模式。</block>
   <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">如果您打算透過 AWS 市場中的獨立式 Cloud Volumes ONTAP 訂閱對 Cloud Volumes ONTAP 容量進行計費，則 Cloud Volumes ONTAP 系統必須使用受支援的容量型套件（Essentials 或 Freemium）。Professional 套件不支援獨立式清單，仍將透過 NIS 訂閱進行計費。選擇所需的套件後，請使用 NetApp Console 中的 *Billing preferences* 選擇用於 Cloud Volumes ONTAP 計費的市場訂閱。</block>
   <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">對於 AWS，您的帳戶可能擁有多個 NetApp 市場訂閱。如果您僅關聯獨立式 Cloud Volumes ONTAP 訂閱，則可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與還原功能需要不同的訂閱。若要選擇用於 Cloud Volumes ONTAP 容量計費的訂閱（包括變更現有系統的計費方式），請前往 *Administration &gt; Licenses and subscriptions &gt; Billing preferences*。</block>
+  <block id="bd37aa06c2029c58b0902884ca934e5e" category="doc">術語和定義</block>
+  <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">計費偏好設定控制 NetApp Console 如何處理您的授權和訂閱的付款、發票和續約行為。您可以在以下兩個層級之一設定偏好設定：</block>
+  <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*全球* — 適用於直接授權、市場訂閱和 Keystone 訂閱。</block>
+  <block id="0d92132a500b2b420133d918adb91673" category="list-text">*按訂閱* — 僅適用於特定市場或直接授權合約。</block>
+  <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">計費來源可以是：</block>
+  <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*市場訂閱* — 計費透過 AWS Marketplace、Azure Marketplace 或 Google Cloud Marketplace 進行。您可以選擇雲端市場提供的計費帳戶、區域和續約選項。</block>
+  <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*直接授權* — 計費透過 NetApp 進行。您可以在 NetApp Console 中管理授權金鑰、發票聯絡人和自動續約。</block>
+  <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">*Keystone 訂閱* — 帳單將根據您的 Keystone 協議進行結算。您可以在 NetApp Console 中管理發票收件者和成本中心標籤。</block>
+  <block id="2efdddb631a543a2ad67578e037161a3" category="paragraph">您需要擁有 *Account Admin* 或 *Billing Admin* 角色才能變更帳單偏好設定。操作員可以檢視偏好設定，但無法修改。</block>
+  <block id="0b4c468a31ec1cc5bcf0295ee7207fbe" category="paragraph">帳單偏好設定可讓您：</block>
+  <block id="646cb6fbd19fdc7e05aa499e55fae69f" category="list-text">在所有服務中強制使用單一發票聯絡人清單、</block>
+  <block id="0c2e72ed135dc2fc54e1e457add77dd3" category="list-text">將使用情況與成本中心保持一致，</block>
+  <block id="22524c2dd89ad7b3b2a7bbcfe12be88f" category="list-text">管理自動續訂和到期通知、</block>
+  <block id="99036810fbb5c064007679128c501df5" category="list-text">確保新的 Cloud Volumes ONTAP（CVO）系統繼承正確的計費帳戶。</block>
+  <block id="4ea81f8a69139787ca61e7697fd2ae4f" category="section-title">計費欄位</block>
+  <block id="de5d6535f02a78de89a948f550f51d76" category="list-text">*Marketplace 供應商* — AWS、Azure 或 Google Cloud。</block>
+  <block id="6c213a0f6bfaa832c881a7e6dd442cc3" category="list-text">*結算帳號 / 訂閱 ID* — 用於收費的雲端結算帳戶。</block>
+  <block id="a49cb6e70cf0f2e7f8ba373daf3f4d25" category="list-text">*合約期限* — 期限長度和續約行為。</block>
+  <block id="dc93a0f9fbcf2f1dddd61cf3655b0681" category="list-text">**NetApp 授權優先** — 根據有效的 NetApp 授權計費。額外使用量將移至市場結算。</block>
+  <block id="79b82eff65449f7600af5836e03e48c3" category="list-text">**僅限 Marketplace 訂閱** — 所有使用量均透過 Marketplace 合約計費。</block>
+  <block id="c53e706d7c692386152c58cd70e0ac2d" category="list-text">**PAYGO（Pay-As-You-Go）** — 按實際使用量計費的彈性訂閱模式。</block>
+  <block id="783ffa0d9dc6178367739c0826aafde8" category="list-text">**年度合約** — 固定期限的市場訂閱。</block>
+  <block id="367c4d3c9a7f8e521868f134ebea90e7" category="list-text">**自動續約** — 合約到期後自動續約。</block>
+  <block id="75d1799660dc5ad8fb212c2db059f014" category="list-text">**自訂 CVO 設定** — 進階模式，可針對每個雲端供應商對應多個訂閱。</block>
+  <block id="11732b5b63a7e4369465ad45e7b2f8d1" category="list-text">**直接授權** — 在市場容量之前使用的 NetApp 託管授權。</block>
+  <block id="ad32f0863d6f14e2d9551805e23ae323" category="list-text">**超大規模雲端服務供應商** — AWS、Azure 或 Google Cloud 供應商。</block>
+  <block id="e2499bfbea70502da5b64d43bb910c91" category="list-text">**確認變更對話方塊** — 在套用更新之前顯示，以防止意外的帳單變更。</block>
+  <block id="4034ad2bb1e8e26399eef6531403fda6" category="cell">使用購買的 NetApp 容量</block>
+  <block id="3c214db1e9b5df7d24325803b44aa5aa" category="cell">NetApp 授權優先</block>
+  <block id="2cd14b556325088d14b61eb426ad2d2a" category="cell">僅使用市場合約</block>
+  <block id="f34a8dd98169c2ffb5c475fca10bf726" category="cell">僅限 Marketplace 訂閱</block>
+  <block id="cd9f8fe965cb669b5f7780d601f2a068" category="cell">在同一雲端供應商下對多個專案進行計費</block>
+  <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">啟用自訂 CVO 組態</block>
+  <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">恢復為預設計費方式</block>
+  <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">停用自訂 CVO 組態</block>
+  <block id="7b157739a85d3d5c67c903118518835e" category="doc">管理內部部署 ONTAP 的授權</block>
+  <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">在 NetApp Console 中，您可以探索 ONTAP 叢集，並檢視您已探索的每個本地端 ONTAP 叢集的合約詳細資料。</block>
+  <block id="857f422578a1e03dfc3a054866eabaeb" category="paragraph">Console 會顯示您探索為系統的內部部署 ONTAP 叢集，或是與您新增至 Console 的 NetApp 支援網站帳戶相關聯之叢集的詳細資料。</block>
+  <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">了解如何探索內部部署 ONTAP 叢集</block>
+  <block id="b23696557397783ca9c44bd2c80b335d" category="list-text"><block ref="b23696557397783ca9c44bd2c80b335d" category="inline-link-rx"></block></block>
+  <block id="c627ab41d97c61821845349a4880080b" category="inline-link">了解如何管理與您的 Console 組織或帳戶關聯的 NSS 憑證</block>
+  <block id="f8969c7525255a4701b49192dd720200" category="list-text"><block ref="f8969c7525255a4701b49192dd720200" category="inline-link-rx"></block></block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="section-title">檢視叢集資訊和合約詳細資料</block>
+  <block id="dfaa8df1d6444411a1429b0866742025" category="paragraph">檢視內部部署 ONTAP 叢集的硬體和軟體合約狀態，以便在合約到期前續約。</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">選擇 *On-Premises ONTAP*。</block>
+  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">軟體合約和硬體合約的到期日會顯示在每個叢集的相應行中。</block>
+  <block id="6723aa6a44348a3e74720156abb41f28" category="paragraph">如果系統提示您先輸入 NetApp 支援網站 （NSS） 帳戶憑證，請選擇「新增 NSS 帳戶」。新增帳戶後，與該 NSS 帳戶關聯的叢集將會顯示出來。</block>
+  <block id="1c962c716cf9d1c072d4252a94056d5a" category="list-text">如果合約即將到期或已經到期，您可以選擇 Console 右下角的聊天圖示來申請合約延期。</block>
+  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">向下插入符號圖示</block>
+  <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">若要檢視更多詳細資訊，請選擇 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以擴充叢集資訊。</block>
+  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">探索叢集</block>
+  <block id="1cf9d33301fa4cb07a99ed5ba256d866" category="paragraph">如果您尚未將內部部署的 ONTAP 叢集探索為系統，可以從 Console 進行探索。探索後，該叢集即可作為系統使用，以便您對其進行管理。</block>
+  <block id="92421df1db7978a6de6c77c10608c02a" category="paragraph">您應該了解您的探索和管理選項（使用 Console 代理程式探索或不使用代理程式直接探索）以及探索要求。</block>
+  <block id="01b0421859ec2fed2ce4dff333e190ee" category="inline-link">了解探索選項和要求</block>
+  <block id="da810fa51a2b9119147838a70412015f" category="paragraph"><block ref="a07feb0a336d59a2369adfa9ca88e728" category="inline-link-rx"></block>。</block>
+  <block id="f6cecdb846b23a4aac2b02906d51d210" category="paragraph">您的 ONTAP 叢集會顯示其是否已在 Console 中探索的狀態。</block>
+  <block id="49d43c2b09f782977f5c343a450651ae" category="list-text">針對您要透過 Console 管理的叢集，選取*探索*。</block>
+  <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">在「探索 ONTAP 叢集」頁面上，輸入管理員使用者帳戶的密碼，然後選取 *探索*。</block>
+  <block id="b2d17e7f9f19a98eddebda3400555598" category="admonition">叢集管理 IP 位址是根據您的 NetApp 支援網站帳戶中的資訊填入。</block>
+  <block id="145be65ce972b71bb40e463e2bf3acbd" category="paragraph">Console 會探索叢集，並將其作為系統新增至「系統」頁面。叢集狀態在「本機部署 ONTAP」頁面中變成 *Discovered*。請注意，系統名稱即為叢集名稱。</block>
+  <block id="d123a6bdeb75e456b3adf0e79646234d" category="paragraph">現在您可以開始管理叢集了。</block>
+  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link">了解如何管理使用 Console 代理程式探索的叢集</block>
+  <block id="43c3be2707abdedd2af74a90af5871ba" category="list-text"><block ref="43c3be2707abdedd2af74a90af5871ba" category="inline-link-rx"></block></block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">了解如何管理直接探索的叢集</block>
+  <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
 </blocks>
