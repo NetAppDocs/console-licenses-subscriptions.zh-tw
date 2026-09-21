@@ -73,8 +73,8 @@ image:screenshot_cvo_licensing_card.png["width=300 顯示您的Cloud Volumes ONT
 
 
 
-[[viewing-package-details]]
-== 查看包裹詳情
+[[view-package-details]]
+== 檢視套件詳細資料
 
 您可以透過在Cloud Volumes ONTAP頁面上切換到傳統模式來查看每個套件使用的容量的詳細資訊。
 
