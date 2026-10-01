@@ -1003,7 +1003,6 @@
   <block id="847e45a642e11ad647bc1b931aa93b6f" category="paragraph">NetApp 建議所有新部署均採用基於容量的授權。如果您有使用上一代基於節點模式的現有授權，則必須將其轉換為基於容量的授權。如需相關指示，請參閱<block ref="6c9714235e53a411b3b31b5a9d910769" category="inline-link-rx"></block>。</block>
   <block id="6eb61ba1a2f61db4d9f72f3888890463" category="admonition">來自雲端供應商市場的 PAYGO（隨用隨付）訂閱不適用於私有模式部署。在私有模式下，NetApp 直接提供 BYOL 授權。基於節點的授權僅適用於現有的私有模式部署，無法新部署。NetApp 自 2025 年 6 月 25 日起，已限制在私有模式下購買、延期和續訂基於節點的授權。如果您已有基於節點的授權，則必須將其轉換為基於容量的授權。</block>
   <block id="0814f25d2fb19660c0f5a17f5faecd5b" category="inline-link">以私有模式部署 Cloud Volumes ONTAP</block>
-  <block id="993fca3d74b4e0c45a0b63335fff4fc2" category="paragraph">對於新的私有模式部署，請改用基於容量的授權。請參閱<block ref="a830c5764652e2ca74bb3dce260e01c7" category="inline-link-rx"></block>。</block>
   <block id="63a4063cbdde53629f056f26faa6a46b" category="section-title">管理隨用隨付訂閱</block>
   <block id="27d6a6ca8e88ba1cb467019b29f60d17" category="paragraph">「Licenses and subscriptions」選單可讓您檢視每個 PAYGO Cloud Volumes ONTAP 系統的詳細資訊，包括序號和 PAYGO 訂閱類型。您雲端供應商市場上的 PAYGO 訂閱僅適用於以容量為基礎的授權。</block>
   <block id="13cd5e1a4f18ae48c4acaf913e719713" category="list-text">從左側導覽窗格中，選取 *Administration &gt; Licenses and subscriptions*。</block>
@@ -1025,4 +1024,5 @@
   <block id="9013cda65f4f0c57c44bcdefc6feb154" category="admonition">這僅適用於標準模式部署，因為私有模式下無法使用 PAYGO。</block>
   <block id="5eb5d5752efd31fd46b0201cfca01e77" category="paragraph">不支援將系統從 PAYGO 轉換為 BYOL 授權（反之亦然）。如果您想在 PAYGO 訂閱和 BYOL 訂閱之間交換器，則需要部署新系統，並將資料從現有系統複寫到新系統。</block>
   <block id="8c7bfac6e491e33091d317e6d08f0751" category="sidebar">Cloud Volumes ONTAP 的 BYOL 授權</block>
+  <block id="c04205f36d58d2d1ec62c2899d062abf" category="paragraph">對於新的私有模式部署，請改用基於容量的授權。請參閱<block ref="e18a894e162de115535720d8609168d7" category="inline-link-rx"></block>。</block>
 </blocks>
