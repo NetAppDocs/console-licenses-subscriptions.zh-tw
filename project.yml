@@ -53,6 +53,8 @@ sidebar:
         url: "/task-manage-billing-preferences.html"
   - title: 知識和支持
     entries:
+    - title: 常見問題
+      url: "/faq-licenses-subscriptions.html"
     - title: 註冊以獲得支持
       url: "/task-support-registration.html"
     - title: 獲取協助

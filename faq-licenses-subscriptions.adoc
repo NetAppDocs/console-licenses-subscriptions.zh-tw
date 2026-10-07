@@ -1,0 +1,154 @@
+---
+sidebar: sidebar 
+permalink: faq-licenses-subscriptions.html 
+keywords: faq, frequently asked questions, frequently asked questions about licenses and subscriptions, direct licenses, byol, marketplace subscriptions, private offer, keystone, billing preferences, cloud volumes ontap, paygo, nss, capacity-based licensing, node-based licensing 
+summary: 關於 NetApp Console 中 Licenses and subscriptions 的常見問題。 
+---
+= Licenses and subscriptions 常見問題解答
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+本頁面提供有關 NetApp Console 中 Licenses and subscriptions 的常見問題解答。它重點介紹在管理直接授權、Marketplace 訂閱、私人優惠、Keystone 訂閱和計費偏好設定時有用的概念、決策和限制。
+
+
+
+[[overview-and-access]]
+== 概述和存取
+
+.在 NetApp Console 中，直接授權、Marketplace 訂閱和 Keystone 訂閱之間有什麼區別？
+* *直接授權*是向 NetApp 購買，通常使用授權檔案、序號或容量授權來管理。它通常被稱為自帶授權（BYOL）。
+* *Marketplace 訂閱*可透過 AWS Marketplace、Azure Marketplace 或 Google Cloud Marketplace 購買或啟用。費用由雲端供應商收取。
+* *Keystone 訂閱*是一種 NetApp 消費協議。在 NetApp 授權您的 Console 帳戶後，符合資格的 Cloud Volumes ONTAP 部署可以使用 Keystone 作為其計費方式。
+
+
+.為什麼我的 Licenses and subscriptions 沒有自動顯示在 NetApp Console 中？
+只有當您的 Console 帳戶同時與 NetApp 支援網站（NSS）帳戶關聯時，才會自動顯示授權和訂閱資訊。如果您的 Console 帳戶未與 NSS 帳戶關聯，您需要手動新增授權。使用量、容量和其他詳細資訊也不會自動更新 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["了解如何將您的NetApp支援網站帳戶新增至控制台憑證"^]。
+
+.我需要 Console 代理程式才能檢視我的授權和訂閱嗎？
+您需要部署 Console 代理程式才能檢視訂閱資訊。此外，還需要代理程式才能檢視 Cloud Volumes ONTAP 的直接授權。
+
+.我可以在 NetApp Console 中管理哪些服務的授權和訂閱？
+您可以管理 Backup and Recovery、Cloud Tiering、Cloud Volumes ONTAP、Disaster Recovery（僅限 BYOL）和 Ransomware Resilience 的授權和訂閱。
+
+.哪些角色可以在 NetApp Console 中管理 licenses and subscriptions？
+擁有 Licenses and subscriptions 管理員角色的使用者可以新增、編輯和移除直接授權，以及關聯或取消關聯 Marketplace 和 Keystone 訂閱。
+
+擁有相應檢視者權限的使用者可以檢視 Licenses and subscriptions，但無法進行變更。
+
+.為什麼我無法從概覽儀表板新增新的授權或訂閱？
+概覽儀表板用於檢視和解決現有的授權問題。若要新增直接授權，請前往 *直接授權*。若要新增或關聯 Marketplace 訂閱，請前往 *Marketplace 訂閱*。
+
+.如何判斷授權或訂閱是否需要注意？
+「概覽」儀表板上的 *需要行動* 動態磚會提醒您哪些 Licenses and subscriptions 即將到期或達到容量限制。如果 *解決* 未顯示，則表示沒有需要行動的問題。選擇 *解決* 將帶您前往一個頁面，您可以在該頁面中從 *授權* 或 *訂閱* 標籤檢視和解決問題。
+
+
+
+[[direct-licenses-byol]]
+== 直接授權（BYOL）
+
+.關聯 NSS 帳戶和手動上傳授權檔案有什麼區別？
+將您的 Console 帳戶與 NSS 帳戶關聯，即可讓 Console 自動偵測並更新您的授權。此外，當您輸入序號以新增或更新授權時，也需要進行此操作。
+
+當控制台無法存取網際網路，或是您的控制台帳戶未與 NSS 帳戶建立關聯時，您需要手動取得並上傳 NetApp 授權檔案。在這些情況下，控制台無法自動查詢或更新您的授權。
+
+.Cloud Volumes ONTAP 的以容量為基礎的 BYOL 授權和以節點為基礎的 BYOL 授權有什麼不同？
+* 對於*基於容量的 BYOL 授權*，授權與您的 Console 帳戶關聯，而不是與單一系統關聯；每個系統都有自己的序號，但同一帳戶下的多個系統會使用共享的容量資源池。
+* 對於 *以節點為基礎的 BYOL 授權*，資源池化並不適用：每個 Cloud Volumes ONTAP 系統都需要自己的專用系統授權，不過如果您刪除原始系統，則可以將授權轉移到新系統。
+
+
+基於節點的授權是上一代模式。NetApp 建議所有新部署都採用基於容量的授權，現有的基於節點的授權必須進行轉換 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html["了解如何將以節點為基礎的授權轉換為以容量為基礎的授權"^]。
+
+.當我將未指派的 Cloud Volumes ONTAP 授權更換為其他服務時會發生什麼事？
+交換未指派的 Cloud Volumes ONTAP 授權會撤銷該授權，並為新服務（NetApp Backup and Recovery、資料分類或雲端分層）建立等值的授權。
+
+* HA 配對的授權會轉換為 51 TiB 的直接授權。
+* 單一節點授權轉換為 32 TiB 直接授權。
+
+
+轉換後的授權與原 Cloud Volumes ONTAP 授權保持相同的到期日。
+
+.我如何知道我是依據 BYOL 授權還是 PAYGO Marketplace 訂閱來計費？
+主控台會先嘗試從可用的 NetApp 授權中收取使用費。如果沒有足夠的授權容量，則會從連結的 Marketplace PAYGO 訂閱中收取使用費。
+
+變更以容量為基礎的授權方案不會改變使用量是透過 NetApp 購買的授權（BYOL）還是 Marketplace PAYGO 訂閱來計費。您不需要將 BYOL 授權轉換為 Marketplace 訂閱，反之亦然。
+
+.如果我選擇的收費方式不在我的 Marketplace 合約範圍內，會發生什麼事？
+如果您選擇的計費方式未包含在您的 Marketplace 私有報價或合約中，則該 Marketplace 套件將無法使用。使用費用將根據 NetApp 授權（如有）收取，否則將透過 PAYGO 收費。
+
+
+
+[[marketplace-subscriptions-and-private-offers]]
+== 市集訂閱及私人優惠
+
+.單一 Azure 訂閱或 Google Cloud 專案最多可以關聯多少個 Marketplace 訂閱？
+一個 Azure 訂閱或 Google Cloud 專案只能關聯一個 Marketplace 訂閱。如果想要在同一個 Azure 訂閱或 Google Cloud 專案下使用兩個不同的 Marketplace 訂閱來執行工作負載，則必須建立兩個分隔的 Console 帳戶，每個訂閱對應一個帳戶。
+
+.我何時可以從「Licenses and subscriptions」中移除 Marketplace 訂閱？
+您只能移除狀態為 *已取消訂閱* 的訂閱，且移除前必須清除或重設所有相關設定、資料和組態。如果訂閱仍處於設定狀態，則 *移除* 選項無法使用。link:task-manage-subscriptions.html#remove-a-subscription["了解如何移除訂閱"^]。
+
+.多次接受或啟動私人優惠的風險是什麼？
+多次接受並啟動私人優惠可能會導致重複收費。跳過驗收流程中的必要步驟也可能導致計費錯誤或啟動問題。
+
+.如果私人優惠的條款、價格或細節看起來有誤，我該怎麼辦？
+如果您發現報價條款、價格或細節有任何出入，或不確定應該接受哪份報價，請不要接受。請聯絡您的 NetApp 銷售或帳戶團隊進行確認後再進行下一步操作。
+
+.如果我接受修改後的 Google Cloud 私人報價，或者已經擁有作用中的 PAYGO 訂閱，會發生什麼情況？
+如果您已有作用中的 PAYGO 訂閱或已修改的專屬優惠，則只需執行驗收步驟。在這種情況下，Google Cloud Marketplace 會在相同商品資訊中更新方案，並保留相同的訂閱 ID，因此 Console 中的訂閱關聯保持不變。
+
+.我可以使用免費試用結算帳戶接受 Google Cloud 私人報價嗎？
+否。您的 Google Cloud 帳單帳戶不得處於免費試用狀態，因為免費試用帳戶無法接受私人優惠。嘗試使用試用帳單帳戶會導致錯誤，需要 NetApp 雲端團隊的協助。
+
+.如果我使用多種 AWS 訂閱類型或在清單之間移轉，會重複收費嗎？
+使用多種訂閱類型或在清單之間遷移時，不會發生重複計量。
+
+
+
+[[keystone-subscriptions]]
+== Keystone 訂閱
+
+.為什麼 NetApp 必須先授權我的 Console 帳戶，我才能使用 Keystone 訂閱？
+在您可以使用或管理 Keystone 訂閱之前，NetApp 必須先授權您的 Console 帳戶。此授權可讓符合資格的 Keystone 訂閱在 NetApp Console 中使用。如果出現 *Welcome to NetApp Keystone* 頁面，請依照該頁面上的聯絡指示要求授權。link:task-manage-keystone.html#authorize-your-account["了解更多關於授權您的帳戶以進行 Keystone 訂閱的資訊"^]。
+
+.關聯 Keystone 訂閱有什麼作用？
+連結 Keystone 訂閱會將其與您的 Console 組織或帳戶建立關聯，並在您建立新的 Cloud Volumes ONTAP 工作環境時，使其成為可用的計費方式。
+
+.什麼時候可以取消連結 Keystone 訂閱？
+只有當 Keystone 訂閱未附加到現有的 Cloud Volumes ONTAP 訂閱時，才能取消其連結。
+
+.如何申請更改 Keystone 訂閱的承諾容量？
+您可以直接從 Console 向 NetApp 傳送要求，只需輸入一個或多個訂閱的要求承諾容量並提交其他詳細資訊即可。這會在 NetApp 的系統中建立工單以供處理。
+
+
+
+[[billing-preferences]]
+== 帳單偏好
+
+.「NetApp 授權優先」和「僅 Marketplace 訂閱」計費模式有何不同？
+「NetApp 授權優先」優先透過您作用中的 NetApp 授權進行計費，一旦該容量用盡，使用量將轉至連結的 Marketplace 訂閱。「僅限 Marketplace 訂閱」將所有計費透過 Marketplace 合約進行，完全繞過 NetApp 授權；這在透過雲端供應商計費來標準化採購的組織中很常見。
+
+.我應該何時在計費偏好設定中啟用自訂 CVO 組態？
+如果您的組織需要，請啟用自訂 CVO 組態：
+
+* 將多個 Marketplace 訂閱對應到同一雲端供應商下的各個 Cloud Volumes ONTAP 實例，因為分隔的業務單位或環境維護不同的計費帳戶。
+* 將一個訂閱對應到多個雲端專案。
+
+
+例如，如果業務單位 A 向一個 Azure 訂閱計費，而業務單位 B 向另一個計費，則自訂 CVO 組態可讓您將每個業務單位的 Cloud Volumes ONTAP 個體對應至其自己的訂閱。
+
+.啟用自訂 CVO 組態後，如果將其停用會發生什麼情況？
+停用自訂 CVO 組態會將所有 Cloud Volumes ONTAP 計費重設為用於您其他資料服務的全域計費模式（先使用 NetApp 授權或僅限 Marketplace 訂閱），而不是自訂 CVO 組態所允許的每個執行個體訂閱對應。
+
+.如果我同時擁有獨立式的 AWS 訂閱和 NetApp Intelligent Services （NIS） 訂閱，我該如何對 Cloud Volumes ONTAP 容量進行計費？
+如果您的 AWS 帳戶同時擁有這兩個訂閱，您可以使用帳單偏好設定來選擇哪個訂閱用於 Cloud Volumes ONTAP 容量計費。對於已透過 NIS 計費的現有 Cloud Volumes ONTAP 系統，除非您更新帳單偏好設定，否則新增獨立式訂閱不會變更計費方式。對於在獨立式訂閱可用之後建立的新部署，預設將使用獨立式訂閱進行容量計費（Essentials/Freemium），除非您將其置換 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["進一步了解 Cloud Volumes ONTAP 授權套件"^]。
+
+.我可以使用獨立式 Cloud Volumes ONTAP AWS 訂閱來為 Professional 套件或 Backup and Recovery 計費嗎？
+否。獨立式 Cloud Volumes ONTAP 訂閱僅支援以容量為基礎的 Essentials 和 Freemium 套件；不支援 Professional 套件，並繼續透過 NIS 訂閱計費。如果您僅關聯獨立式訂閱，則可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定 Backup and Recovery 需要不同的訂閱。 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["進一步了解 Cloud Volumes ONTAP 授權套件"^]。
+
+.計費偏好設定中的 Keystone 欄位有何用途？
+Keystone 欄位將計量服務使用情況與您的 Keystone 計費設定檔連結起來。*協議 ID* 是一個唯一的識別碼，它將 NetApp Console 中的計費記錄與您的 Keystone 協議連結起來，並允許同步使用情況報告。*服務範圍* 列出了 Keystone 協議涵蓋的服務或容量資源池，明確說明包含哪些工作負載或部署，並確保只有符合資格的資源才會透過 Keystone 計費。
