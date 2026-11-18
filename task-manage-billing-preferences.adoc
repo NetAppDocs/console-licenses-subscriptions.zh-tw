@@ -42,7 +42,7 @@ summary: 在NetApp Console中設定計費首選項，以控制授權、市集訂
 . 在 *Marketplace subscriptions* 下，選擇每個雲端供應商（AWS、Azure 和 Google Cloud）的訂閱。
 . 如果您在單一雲端提供者下使用多個訂閱、請啟用 *Custom CVO configuration* 。
 . （選用）更新 *Invoice contacts* 和 *Notification contacts*。
-. （選用）輸入 *Cost center tag*，將帳單與內部會計代碼建立關聯。
+. （選用）輸入 *成本中心標籤*，將帳單與內部會計代碼建立關聯。
 . 選擇“儲存變更”。
 . 出現提示時，請檢閱確認對話方塊，然後選取 *Confirm* 。
 

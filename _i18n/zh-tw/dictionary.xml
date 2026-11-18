@@ -486,10 +486,6 @@
   <block id="85bb8fe222d28237b7a61c8962355819" category="admonition">*市場訂閱*頁面列出了所有許可證。有關特定資料服務的許可證詳細信息，請使用「概覽」儀表板上的資料服務圖塊。<block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> 。</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">新增新的市場訂閱</block>
   <block id="2739fe5739941e5e38c954a74ec97f61" category="paragraph">您可以直接從控制台訂閱市場訂閱。</block>
-  <block id="2be16f237d558bd6b00788d28d21b37e" category="list-text">選擇*市場訂閱*。</block>
-  <block id="5aa066be2a651f3b22275be1f4cc2b4e" category="list-text">在*訂閱*表格上方，選擇*新增訂閱*。</block>
-  <block id="04a880965367eaf965a6ae341940ab0d" category="list-text">在新增訂閱對話框中，選擇一個雲端提供者。</block>
-  <block id="03863fd8ecb98c1d2286d087aaa70e52" category="list-text">如果選擇 AWS 訂閱，請選擇您想要年度合約還是 PAYGO 訂閱。</block>
   <block id="b3883d339b720269f1092a8f0dffcc59" category="list-text">選擇“*新增訂閱*”導航到提供者的市場並完成提供的步驟。</block>
   <block id="3b32a98dd42670af00af73ef3e4b0007" category="list-text">在雲端提供者市場完成後，返回控制台以完成該過程。</block>
   <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">查看您的訂閱</block>
@@ -529,7 +525,6 @@
   <block id="c53adc94271638b800aab67861b845fc" category="admonition">控制台支援標準模式下的身分和存取管理 (IAM)，使用組織來管理使用者和資源。如果您在私人或受限模式下使用控制台，則可以使用控制台_帳戶_來管理使用者和資源，包括訂閱。</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">選擇*關聯*。</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">查看與訂閱關聯的憑證</block>
-  <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">您可以從*市場訂閱*頁面查看特定訂閱的憑證。這使您可以驗證訂閱的計費方式。由於憑證與您正在使用的代理程式綁定，因此您必須選擇與要查看的訂閱相關聯的代理程式。</block>
   <block id="305572f28aa8e98572395f6c22011dee" category="admonition">如果需要，請使用頂部導覽列中的代理下拉式功能表切換代理程式。</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">刪除訂閱</block>
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">在您要刪除的訂閱的行中，開啟操作選單並選擇*刪除*。</block>
@@ -877,7 +872,6 @@
   <block id="343b348d71ccb62dd010813fc2a13a5e" category="list-text"><block ref="6002f1f030715bc59708cf8f1b924fe3" category="inline-link-macro-rx"></block>。</block>
   <block id="259a94c9a9a486a09c1bd02fe5b547df" category="list-text"><block ref="9d10c472e1675ca6fce5c4e74a4b8028" category="inline-link-macro-rx"></block>。</block>
   <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">（選用）更新 *Invoice contacts* 和 *Notification contacts*。</block>
-  <block id="c574b540cd92e579d0adb2549eb5e6ad" category="list-text">（選用）輸入 *Cost center tag*，將帳單與內部會計代碼建立關聯。</block>
   <block id="d1aa6173b8b0f269bcc23f11e54d8e9f" category="list-text">出現提示時，請檢閱確認對話方塊，然後選取 *Confirm* 。</block>
   <block id="05fef605ad17853dff22052e9ab0016f" category="doc">管理 Cloud Volumes ONTAP 的容量型授權</block>
   <block id="5a4b99b6fc841017a0f50698712eacbd" category="paragraph"><block ref="13c3a734f25ff867542070e2d18cd1d4" category="inline-link-rx"></block>。</block>
@@ -917,17 +911,10 @@
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="section-title">AWS 中 Cloud Volumes ONTAP 和資料服務的彈性計費</block>
   <block id="3d44d36eec8c18ebcfe6e7df6a18f232" category="inline-link-macro">Cloud Volumes ONTAP 版本說明</block>
   <block id="1248d5014ab39f00f176398e4dc459dd" category="paragraph">在 AWS 中，Cloud Volumes ONTAP 容量和 NetApp 資料服務可以透過不同的 AWS 市場訂閱進行計費。有關 AWS 企業折扣計劃 （EDP） 變更和建議的詳細資訊，請參閱 <block ref="c708501d41f6c7c2b393d4e8c20c8b78" category="inline-link-macro-rx"></block>。</block>
-  <block id="55d4964721d8399c5c67100bdaa60f41" category="paragraph">如果您的 AWS 帳戶同時擁有獨立式 Cloud Volumes ONTAP 訂閱和 NetApp Intelligent Services （NIS） 訂閱，您可以使用 *Billing preferences* 來選擇哪個訂閱用於 Cloud Volumes ONTAP 容量計費。</block>
-  <block id="5d31e1e7f8f8f7f232818d9271eaa736" category="admonition">計費方式取決於您是否已有透過 NIS 運作並計費的 Cloud Volumes ONTAP 系統，或者您是否在新增獨立式 Cloud Volumes ONTAP 訂閱後部署新系統。對於現有系統，除非您更新 *Billing preferences*，否則新增獨立式訂閱不會變更計費方式。對於在獨立式訂閱可用後建立的新部署，預設情況下，Cloud Volumes ONTAP 容量計費（Essentials/Freemium）將使用獨立式訂閱，除非您在 *Billing preferences* 中置換。</block>
-  <block id="e6d41b6ffe1a3ac4ac6f49198a9d0e97" category="list-text">獨立式 Cloud Volumes ONTAP 訂閱（建議）：Cloud Volumes ONTAP 容量（Essentials/Freemium）</block>
-  <block id="4b7bf84649d39c27ca19dff9239bed8b" category="list-text">NetApp Intelligent Services （NIS） 訂閱：NetApp 資料服務（以及 Cloud Volumes ONTAP Professional）</block>
-  <block id="d7d1942005392b35e5cbe164e61598f5" category="paragraph">獨立式 Cloud Volumes ONTAP 訂閱僅支援基於容量的 Essentials 和 Freemium 套件。Professional 套件不受支援，仍透過 NIS 計費。如果您只擁有獨立式訂閱，則可以使用 Essentials 套件部署 Cloud Volumes ONTAP，但設定備份與還原需要不同的訂閱。</block>
   <block id="eb93ecbd8fdefaf3fdba89c22f5eb489" category="section-title">在哪裡設定</block>
   <block id="79422b968987cdd0a06fc1bfb81eff7e" category="paragraph">您可以在「管理 &gt; Licenses and subscriptions &gt; Marketplace 訂閱」下關聯 AWS 市場訂閱，並在「管理 &gt; Licenses and subscriptions &gt; 計費偏好設定」下選擇用於 Cloud Volumes ONTAP 容量計費的市場訂閱。您可以使用 Cloud Volumes ONTAP 使用情況報告來驗證計費詳情。</block>
   <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">使用多種訂閱類型或在清單之間遷移時，不會發生重複計量。</block>
   <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Marketplace provider* — 識別處理計費的雲端平台。供應商決定支援的功能、合約類型和續約規則。例如，AWS marketplace 訂閱採用基於帳戶的計費方式，而 Azure 可能同時支援帳戶和基於租用戶的計費模式。</block>
-  <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">如果您打算透過 AWS 市場中的獨立式 Cloud Volumes ONTAP 訂閱對 Cloud Volumes ONTAP 容量進行計費，則 Cloud Volumes ONTAP 系統必須使用受支援的容量型套件（Essentials 或 Freemium）。Professional 套件不支援獨立式清單，仍將透過 NIS 訂閱進行計費。選擇所需的套件後，請使用 NetApp Console 中的 *Billing preferences* 選擇用於 Cloud Volumes ONTAP 計費的市場訂閱。</block>
-  <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">對於 AWS，您的帳戶可能擁有多個 NetApp 市場訂閱。如果您僅關聯獨立式 Cloud Volumes ONTAP 訂閱，則可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與還原功能需要不同的訂閱。若要選擇用於 Cloud Volumes ONTAP 容量計費的訂閱（包括變更現有系統的計費方式），請前往 *Administration &gt; Licenses and subscriptions &gt; Billing preferences*。</block>
   <block id="bd37aa06c2029c58b0902884ca934e5e" category="doc">術語和定義</block>
   <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">計費偏好設定控制 NetApp Console 如何處理您的授權和訂閱的付款、發票和續約行為。您可以在以下兩個層級之一設定偏好設定：</block>
   <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*全球* — 適用於直接授權、市場訂閱和 Keystone 訂閱。</block>
@@ -1107,4 +1094,29 @@
   <block id="d11ce840a3409047f1a6a0f11bf10453" category="paragraph-title">計費偏好設定中的 Keystone 欄位有何用途？</block>
   <block id="96805c41b51ac0c39a675d261c6a02ac" category="paragraph">Keystone 欄位將計量服務使用情況與您的 Keystone 計費設定檔連結起來。*協議 ID* 是一個唯一的識別碼，它將 NetApp Console 中的計費記錄與您的 Keystone 協議連結起來，並允許同步使用情況報告。*服務範圍* 列出了 Keystone 協議涵蓋的服務或容量資源池，明確說明包含哪些工作負載或部署，並確保只有符合資格的資源才會透過 Keystone 計費。</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常見問題</block>
+  <block id="9e74f964be832424d75d00443a02abfd" category="paragraph">透過 AWS 市場訂閱時，您可以從以下四種產品中進行選擇：</block>
+  <block id="db69c473bc9f0522c1d1e82c01240f39" category="cell">產品</block>
+  <block id="98198b44d2e1ab7fe6a5be24c488e659" category="cell">*僅限 Cloud Volumes ONTAP（年度合約）*</block>
+  <block id="1ab9338008d05cd8154f483bd90abd2f" category="cell">每年計費的獨立式 Cloud Volumes ONTAP 產品。推薦用於新的 Cloud Volumes ONTAP 部署。</block>
+  <block id="dd4a436c9beb7dcd8bf5dc5ae9f2f9d6" category="cell">*僅限 Cloud Volumes ONTAP（PAYGO）*</block>
+  <block id="09c1bb1a2812a02691d07d3c9086b724" category="cell">獨立式 Cloud Volumes ONTAP 產品，提供靈活的用量計費方式。建議用於新的 Cloud Volumes ONTAP 部署。</block>
+  <block id="6a9fd5a32f74db17ecd0194530742aa8" category="cell">*NetApp Intelligent Services（年度合約）*</block>
+  <block id="65b3785afe1903b8b021d02cacdaf6b4" category="cell">NetApp 資料服務按年計費。僅支援現有合約的 Cloud Volumes ONTAP。</block>
+  <block id="4f03c079a0ee3afb1e6a9c1ed79d4d79" category="cell">*NetApp Intelligent Services （PAYGO）*</block>
+  <block id="3edef72cedaf27c2ba4e10c912e9baf5" category="cell">NetApp 提供靈活的隨選付費資料服務。僅支援現有合約的 Cloud Volumes ONTAP。</block>
+  <block id="c920df4a89ff6330ffaa097381cd8a4f" category="paragraph">如果您的 AWS 帳戶關聯了多個此類訂閱，請使用 *計費偏好設定* 選擇用於 Cloud Volumes ONTAP 容量計費的訂閱。</block>
+  <block id="5657b1b17a5fee02b8774f6bf5a5e7a2" category="paragraph">計費行為取決於您是否已有現有的 Cloud Volumes ONTAP 系統正在執行，並透過 NetApp Intelligent Services 訂閱計費，或者您是在新增 Cloud Volumes ONTAP 專屬訂閱後部署新系統。對於現有系統，新增 Cloud Volumes ONTAP 專屬訂閱不會改變計費方式，除非您更新 *計費偏好設定*。對於新部署，預設情況下，Cloud Volumes ONTAP 專屬訂閱將用於 Cloud Volumes ONTAP 容量計費（Essentials/Freemium），除非您在 *計費偏好設定* 中將其置換。</block>
+  <block id="0410d47749298eb3edeea20578b17906" category="paragraph">Cloud Volumes ONTAP 專屬產品僅支援以容量為基礎的 Essentials 和 Freemium 套件。Professional 套件在任一 Cloud Volumes ONTAP 專屬產品上均不受支援，並繼續透過 NetApp Intelligent Services 訂閱計費。如果您只有關聯的 Cloud Volumes ONTAP 專屬訂閱，您可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與復原需要 NetApp Intelligent Services 訂閱。</block>
+  <block id="6ec7e17a566e328b2783ba5967fe8cb3" category="list-text">（選用）輸入 *成本中心標籤*，將帳單與內部會計代碼建立關聯。</block>
+  <block id="f17334f879855cf7befcf9561bf97a15" category="list-text">如果您打算透過 AWS 市場中的 Cloud Volumes ONTAP 專屬訂閱（年度合約或 PAYGO）來計費 Cloud Volumes ONTAP 容量，則 Cloud Volumes ONTAP 系統必須使用支援的以容量為基礎的套件（Essentials 或 Freemium）。Professional 套件不支援獨立式清單，並將繼續透過 NetApp Intelligent Services（NIS）訂閱計費。選擇所需的套件後，請使用 NetApp Console 中的 *Billing preferences* 來選擇用於 Cloud Volumes ONTAP 計費的市場訂閱。</block>
+  <block id="3f965d7c45cc0190b87c2becf5a471e9" category="admonition">對於 AWS，您的帳戶可能擁有多個 NetApp 市場訂閱，涵蓋四種產品類型：僅限 Cloud Volumes ONTAP（年度合約）、僅限 Cloud Volumes ONTAP（按需付費）、NetApp Intelligent Services（年度合約）和 NetApp Intelligent Services（按需付費）。如果您關聯了僅限 Cloud Volumes ONTAP 訂閱，則可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與復原需要不同的訂閱。若要選擇用於 Cloud Volumes ONTAP 容量計費的訂閱（包括變更現有系統的計費方式），請前往 *管理 &gt; Licenses and subscriptions &gt; 計費偏好設定*。</block>
+  <block id="43d2cf2ce71b8435c7a906180eb4df47" category="list-text">選擇*市場訂閱*。</block>
+  <block id="24ebc7d3fd7281fa0b500d76d5fe3e8f" category="list-text">在「訂閱」表格上方，選擇「新增訂閱」。</block>
+  <block id="91df5427a9330980edecff2e8529da59" category="list-text">在「新增訂閱」對話方塊中，選擇雲端供應商。</block>
+  <block id="8281d9827f7929a1dbe1ae8a19025c6f" category="list-text">如果選擇 AWS 訂閱，請選擇您想要的產品：</block>
+  <block id="ee229d507e42587befe7ec1f402601b6" category="list-text">僅限 Cloud Volumes ONTAP（年度合約）</block>
+  <block id="c5dba2e1bb5fa2beb5c0ca425e27217b" category="list-text">Cloud Volumes ONTAP 僅限（PAYGO）</block>
+  <block id="4ba62f564fde21087abb74a5b0fa4893" category="list-text">NetApp Intelligent Services （年度合約）</block>
+  <block id="e887dcff53cffb8d0e6690ae76695c8a" category="list-text">NetApp Intelligent Services（PAYGO）</block>
+  <block id="4e47334c9911a187f90ac8730b66533c" category="paragraph">您可以在「市場訂閱」頁面檢視特定訂閱的憑證。這樣您就可以核實訂閱的計費方式。由於憑證與您使用的代理程式綁定，因此您必須選擇與要檢視的訂閱關聯的代理程式。</block>
 </blocks>

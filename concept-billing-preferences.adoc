@@ -78,16 +78,29 @@ NetApp Console中的授權和訂閱管理是透過使用者角色來控制的。
 
 在 AWS 中，Cloud Volumes ONTAP 容量和 NetApp 資料服務可以透過不同的 AWS 市場訂閱進行計費。有關 AWS 企業折扣計劃 （EDP） 變更和建議的詳細資訊，請參閱 link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Cloud Volumes ONTAP 版本說明"]。
 
-如果您的 AWS 帳戶同時擁有獨立式 Cloud Volumes ONTAP 訂閱和 NetApp Intelligent Services （NIS） 訂閱，您可以使用 *Billing preferences* 來選擇哪個訂閱用於 Cloud Volumes ONTAP 容量計費。
+透過 AWS 市場訂閱時，您可以從以下四種產品中進行選擇：
+
+[cols="1,3"]
+|===
+| 產品 | 描述 
 
 
-NOTE: 計費方式取決於您是否已有透過 NIS 運作並計費的 Cloud Volumes ONTAP 系統，或者您是否在新增獨立式 Cloud Volumes ONTAP 訂閱後部署新系統。對於現有系統，除非您更新 *Billing preferences*，否則新增獨立式訂閱不會變更計費方式。對於在獨立式訂閱可用後建立的新部署，預設情況下，Cloud Volumes ONTAP 容量計費（Essentials/Freemium）將使用獨立式訂閱，除非您在 *Billing preferences* 中置換。
-
-* 獨立式 Cloud Volumes ONTAP 訂閱（建議）：Cloud Volumes ONTAP 容量（Essentials/Freemium）
-* NetApp Intelligent Services （NIS） 訂閱：NetApp 資料服務（以及 Cloud Volumes ONTAP Professional）
+| *僅限 Cloud Volumes ONTAP（年度合約）* | 每年計費的獨立式 Cloud Volumes ONTAP 產品。推薦用於新的 Cloud Volumes ONTAP 部署。 
 
 
-獨立式 Cloud Volumes ONTAP 訂閱僅支援基於容量的 Essentials 和 Freemium 套件。Professional 套件不受支援，仍透過 NIS 計費。如果您只擁有獨立式訂閱，則可以使用 Essentials 套件部署 Cloud Volumes ONTAP，但設定備份與還原需要不同的訂閱。
+| *僅限 Cloud Volumes ONTAP（PAYGO）* | 獨立式 Cloud Volumes ONTAP 產品，提供靈活的用量計費方式。建議用於新的 Cloud Volumes ONTAP 部署。 
+
+
+| *NetApp Intelligent Services（年度合約）* | NetApp 資料服務按年計費。僅支援現有合約的 Cloud Volumes ONTAP。 
+
+
+| *NetApp Intelligent Services （PAYGO）* | NetApp 提供靈活的隨選付費資料服務。僅支援現有合約的 Cloud Volumes ONTAP。 
+|===
+如果您的 AWS 帳戶關聯了多個此類訂閱，請使用 *計費偏好設定* 選擇用於 Cloud Volumes ONTAP 容量計費的訂閱。
+
+計費行為取決於您是否已有現有的 Cloud Volumes ONTAP 系統正在執行，並透過 NetApp Intelligent Services 訂閱計費，或者您是在新增 Cloud Volumes ONTAP 專屬訂閱後部署新系統。對於現有系統，新增 Cloud Volumes ONTAP 專屬訂閱不會改變計費方式，除非您更新 *計費偏好設定*。對於新部署，預設情況下，Cloud Volumes ONTAP 專屬訂閱將用於 Cloud Volumes ONTAP 容量計費（Essentials/Freemium），除非您在 *計費偏好設定* 中將其置換。
+
+Cloud Volumes ONTAP 專屬產品僅支援以容量為基礎的 Essentials 和 Freemium 套件。Professional 套件在任一 Cloud Volumes ONTAP 專屬產品上均不受支援，並繼續透過 NetApp Intelligent Services 訂閱計費。如果您只有關聯的 Cloud Volumes ONTAP 專屬訂閱，您可以使用 Essentials 部署 Cloud Volumes ONTAP，但設定備份與復原需要 NetApp Intelligent Services 訂閱。
 
 
 
